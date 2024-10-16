@@ -1,6 +1,0 @@
-#config_version=6
-
-show_player:
-  mode_attract_started: 
-    knife_breathe:
-      speed: 30

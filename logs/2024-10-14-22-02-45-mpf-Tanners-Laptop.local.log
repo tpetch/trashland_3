@@ -1,0 +1,229 @@
+2024-10-14 22:02:45,074 : INFO : root : Loading config.
+2024-10-14 22:02:45,077 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-10-14 22:02:45,077 : WARNING : ConfigProcessor : Config file in cache changed: /Users/tannerpetch/Documents/GitHub/trashland_4/config/config.yaml
+2024-10-14 22:02:45,077 : INFO : ConfigProcessor : Loading config from file /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/mpfconfig.yaml.
+2024-10-14 22:02:45,082 : INFO : ConfigProcessor : Loading config: /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/mpfconfig.yaml
+2024-10-14 22:02:45,082 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/trashland_4/config/config.yaml.
+2024-10-14 22:02:45,087 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/trashland_4/config/config.yaml
+2024-10-14 22:02:45,088 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/fb4db0341b09a4be02e1d6b8eab00179.mpf_cache
+2024-10-14 22:02:45,115 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/c7af4841f7c2cabb0f971746daddf284.mpf_cache
+2024-10-14 22:02:45,115 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/edcc5f1d3215b377c9faab88c62e4ce0.mpf_cache
+2024-10-14 22:02:45,116 : INFO : Machine : Mission Pinball Framework Core Engine v0.57.1.dev3
+2024-10-14 22:02:45,116 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2024-10-14-22-02-45-mpf-Tanners-Laptop.local.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2024-10-14 22:02:45,116 : INFO : Machine : MPF path: /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf
+2024-10-14 22:02:45,116 : INFO : Machine : Machine path: /Users/tannerpetch/Documents/GitHub/trashland_4
+2024-10-14 22:02:45,116 : INFO : Machine : Platform: darwin
+2024-10-14 22:02:45,116 : INFO : Machine : Python executable location: /Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9
+2024-10-14 22:02:45,116 : INFO : Machine : Python version: 3.9.13 (64-bit)
+2024-10-14 22:02:45,116 : INFO : Machine : Initializing MPF...
+2024-10-14 22:02:45,148 : INFO : FAST [NET] : Trying to connect to /dev/tty.usbmodem1401 at 921600bps
+2024-10-14 22:02:45,153 : INFO : FAST [NET] : Connected to /dev/tty.usbmodem1401 at 921600bps
+2024-10-14 22:02:45,154 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.21
+2024-10-14 22:02:45,156 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2024-10-14 22:02:45,157 : INFO : FAST [NET] : Registered I/O Board 1: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2024-10-14 22:02:45,158 : INFO : FAST [NET] : Registered I/O Board 2: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2024-10-14 22:02:45,159 : INFO : FAST [NET] : Registered I/O Board 3: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+2024-10-14 22:02:45,160 : INFO : FAST [NET] : Registered I/O Board 4: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2024-10-14 22:02:45,160 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,174 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,174 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,174 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.57.1.dev3', 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,174 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.57.1.dev3, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,174 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.9.13', 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,180 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-14.3-arm64-arm-64bit', 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,180 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,180 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '23.3.0', 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,180 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 23.3.0: Thu Dec 21 02:29:41 PST 2023; root:xnu-10002.81.5~11/RELEASE_ARM64_T8122', 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,180 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'arm64', 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,180 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2024-10-14 22:02:45,283 : WARNING : Machine : Iterating device collections directly is deprecated and will be removed. Access by value(): device_collections[switches] -> device_collections['switches'].values()
+2024-10-14 22:02:45,283 : INFO : SwitchController : <<<<<<< 's_outlane_l' active >>>>>>>
+2024-10-14 22:02:45,283 : INFO : SwitchController : <<<<<<< 's_trough_1' active >>>>>>>
+2024-10-14 22:02:45,283 : INFO : SwitchController : <<<<<<< 's_drop_m' active >>>>>>>
+2024-10-14 22:02:45,283 : INFO : SwitchController : <<<<<<< 's_drop_l' active >>>>>>>
+2024-10-14 22:02:45,283 : INFO : SwitchController : <<<<<<< 's_drop_single' active >>>>>>>
+2024-10-14 22:02:45,283 : INFO : SwitchController : <<<<<<< 's_vuk_back' active >>>>>>>
+2024-10-14 22:02:45,284 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2024-10-14 22:02:45,284 : INFO : SwitchController : Found active switch: (16, [FAST Platform Interface]) <switch.s_outlane_l>
+2024-10-14 22:02:45,284 : INFO : SwitchController : Found active switch: (30, [FAST Platform Interface]) <switch.s_trough_1>
+2024-10-14 22:02:45,284 : INFO : SwitchController : Found active switch: (50, [FAST Platform Interface]) <switch.s_drop_m>
+2024-10-14 22:02:45,284 : INFO : SwitchController : Found active switch: (51, [FAST Platform Interface]) <switch.s_drop_l>
+2024-10-14 22:02:45,284 : INFO : SwitchController : Found active switch: (57, [FAST Platform Interface]) <switch.s_drop_single>
+2024-10-14 22:02:45,284 : INFO : SwitchController : Found active switch: (66, [FAST Platform Interface]) <switch.s_vuk_back>
+2024-10-14 22:02:45,285 : INFO : ball_device.bd_middle_scoop : BCH: Initial count: 0
+2024-10-14 22:02:45,285 : INFO : ball_device.bd_middle_scoop : State: idle
+2024-10-14 22:02:45,785 : INFO : ball_device.bd_trough : BCH: Initial count: 1
+2024-10-14 22:02:45,786 : INFO : ball_device.bd_trough : State: idle
+2024-10-14 22:02:45,787 : INFO : ball_device.bd_autolauncher : BCH: Initial count: 0
+2024-10-14 22:02:45,788 : INFO : ball_device.bd_autolauncher : State: idle
+2024-10-14 22:02:45,789 : INFO : ball_device.bd_kicker_orbit : BCH: Initial count: 0
+2024-10-14 22:02:45,790 : INFO : ball_device.bd_kicker_orbit : State: idle
+2024-10-14 22:02:45,790 : INFO : ball_device.bd_lower_vuk : BCH: Initial count: 0
+2024-10-14 22:02:45,791 : INFO : ball_device.bd_lower_vuk : State: idle
+2024-10-14 22:02:45,791 : INFO : ball_device.bd_vuk_back : BCH: Initial count: 1
+2024-10-14 22:02:45,792 : INFO : ball_device.bd_vuk_back : State: idle
+2024-10-14 22:02:45,793 : INFO : ball_device.bd_vuk_upper : BCH: Initial count: 0
+2024-10-14 22:02:45,793 : INFO : ball_device.bd_vuk_upper : State: idle
+2024-10-14 22:02:45,793 : INFO : ball_device.bd_b_lock : BCH: Initial count: 0
+2024-10-14 22:02:45,794 : INFO : ball_device.bd_b_lock : State: idle
+2024-10-14 22:02:45,805 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2024-10-14 22:02:45,806 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2024-10-14 22:02:45,806 : INFO : BallController : Initial balls found: 2
+2024-10-14 22:02:45,806 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-376' coro=<BcpServer.start() done, defined at /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/core/bcp/bcp_server.py:23> exception=MpfRuntimeError('Failed to bind BCP Socket to 127.0.0.1 on port 5051. Is there another application running on that port?')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/core/bcp/bcp_server.py", line 26, in start
+    self._server = await self.machine.clock.start_server(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 94, in start_server
+    return await loop.create_server(factory, host, port, **kwds)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 1506, in create_server
+    raise OSError(err.errno, 'error while attempting '
+OSError: [Errno 48] error while attempting to bind on address ('127.0.0.1', 5051): address already in use
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/core/bcp/bcp_server.py", line 29, in start
+    raise MpfRuntimeError("Failed to bind BCP Socket to {} on port {}. "
+mpf.exceptions.runtime_error.MpfRuntimeError: Runtime Error in MPF BCP Server: Failed to bind BCP Socket to 127.0.0.1 on port 5051. Is there another application running on that port? Error Code: RE-MPF_BCP_Server-1 (https://missionpinball.org/logs)
+2024-10-14 22:02:45,808 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,808 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,808 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_b_eos'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,808 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_b_pop'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,808 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_b_rollover_interchange'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,808 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_b_rollover_loop'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,808 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_b_rollover_misc'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,808 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_b_target_left'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,808 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_b_target_right'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,808 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_bot'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,808 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_bot_mid'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,808 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_captive_l'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,809 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_captive_r'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,809 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_drop_l'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,809 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_drop_m'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,809 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_drop_r'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,809 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_drop_single'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,809 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_flipper_l'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,809 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_flipper_r'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,809 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_flipper_upper_l'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,809 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_inlane_l'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,809 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_kicking_target'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,809 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_lock_1'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,809 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_lock_2'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,809 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_lock_3'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,809 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_lower_orbit'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,809 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_lower_single'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,809 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_lower_sling'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,809 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_lower_transfer'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,809 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_lower_vuk'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,809 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_outlane_l'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,809 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_outlane_r'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,810 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_pop'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,810 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_scissor_save'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,810 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_sling_l'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,810 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_start'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,810 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_stationary_l'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,810 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_stationary_r'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,810 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_tilt'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,810 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_top'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,810 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_top_mid'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,810 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_3'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,810 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_4'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,810 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_5'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,810 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_6'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,810 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_u_lane_l'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,810 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_u_lane_r'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,811 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_u_rollover'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,811 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_u_target'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,811 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_vuk_upper'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,811 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 0, 'top': [0], 'total': 1}, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,811 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_autolauncher'====== Args={'value': 15, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,811 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_eos'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,811 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_pop'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,811 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_rollover_interchange'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,811 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_rollover_loop'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,811 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_rollover_misc'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,811 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_target_left'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,811 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_target_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,812 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bot'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,812 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bot_mid'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,812 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_captive_l'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,812 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_captive_r'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,812 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_l'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,812 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_m'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,812 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_r'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,812 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_single'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,812 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_but_l_1'====== Args={'value': 91, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,812 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_but_l_2'====== Args={'value': 86, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,812 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_but_r_1'====== Args={'value': 99, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,813 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_but_r_2'====== Args={'value': 94, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,813 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_l'====== Args={'value': 60, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,813 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_r'====== Args={'value': 70, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,813 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_upper_l'====== Args={'value': 45, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,813 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlane_l'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,813 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlane_r'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,813 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_kicker_orbit'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,813 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_kicking_target'====== Args={'value': 8, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,813 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch'====== Args={'value': 18, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,813 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lock_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,814 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lock_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,814 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lock_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,814 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_orbit'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,814 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_single'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,814 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_sling'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,814 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_transfer'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,814 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_vuk'====== Args={'value': 8, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,815 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_middle_scoop'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,815 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_orbit_small_l'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,815 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_orbit_small_r'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,815 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_outlane_l'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,815 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_outlane_r'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,815 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop'====== Args={'value': 8, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,815 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_scissor_save'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,815 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_l'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,816 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,816 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_stationary_l'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,816 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_stationary_m'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,816 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_stationary_r'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,816 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_subway'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,816 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_tilt'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,816 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_top'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,816 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_top_mid'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,817 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_1'====== Args={'value': 14, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,817 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_2'====== Args={'value': 8, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,817 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_3'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,817 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_4'====== Args={'value': 24, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,817 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_5'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,817 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_6'====== Args={'value': 14, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,817 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_jam'====== Args={'value': 15, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,817 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_u_lane_l'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,818 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_u_lane_r'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,818 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_u_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,818 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_u_target'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,818 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_vuk_back'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,818 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_vuk_upper'====== Args={'value': 23, 'prev_value': None, 'change': True}
+2024-10-14 22:02:45,818 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2024-10-14 22:02:45,826 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2024-10-14 22:02:45,826 : INFO : Machine : Starting the main run loop.
+2024-10-14 22:02:45,826 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2024-10-14 22:02:45,826 : INFO : Machine : Shutting down...
+2024-10-14 22:02:45,826 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2024-10-14 22:02:45,826 : ERROR : root : no running event loop
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/commands/game.py", line 240, in __init__
+    self.machine.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/core/machine.py", line 689, in run
+    self._run_loop()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/core/machine.py", line 789, in _run_loop
+    self._crash_shutdown()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/core/machine.py", line 734, in _crash_shutdown
+    self._do_stop()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/core/machine.py", line 724, in _do_stop
+    self.events.process_event_queue()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/core/events.py", line 842, in process_event_queue
+    self._process_queue_event(event=event[0],
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/core/events.py", line 783, in _process_queue_event
+    task = asyncio.create_task(self._run_handlers_sequential(event, callback, kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py", line 360, in create_task
+    loop = events.get_running_loop()
+RuntimeError: no running event loop

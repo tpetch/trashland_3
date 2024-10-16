@@ -1,0 +1,114 @@
+2024-10-14 08:32:51,457 : INFO : root : Loading config.
+2024-10-14 08:32:51,460 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-10-14 08:32:51,460 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/fb4db0341b09a4be02e1d6b8eab00179.mpf_cache
+2024-10-14 08:32:51,485 : INFO : ConfigProcessor : Loading config from file /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/modes/attract/config/attract.yaml.
+2024-10-14 08:32:51,486 : INFO : ConfigProcessor : Loading config: /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/modes/attract/config/attract.yaml
+2024-10-14 08:32:51,488 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/c7af4841f7c2cabb0f971746daddf284.mpf_cache
+2024-10-14 08:32:51,488 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/edcc5f1d3215b377c9faab88c62e4ce0.mpf_cache
+2024-10-14 08:32:51,488 : INFO : Machine : Mission Pinball Framework Core Engine v0.57.1.dev3
+2024-10-14 08:32:51,488 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2024-10-14-08-32-51-mpf-Tanners-Laptop.local.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2024-10-14 08:32:51,488 : INFO : Machine : MPF path: /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf
+2024-10-14 08:32:51,488 : INFO : Machine : Machine path: /Users/tannerpetch/Documents/GitHub/trashland_4
+2024-10-14 08:32:51,488 : INFO : Machine : Platform: darwin
+2024-10-14 08:32:51,488 : INFO : Machine : Python executable location: /Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9
+2024-10-14 08:32:51,488 : INFO : Machine : Python version: 3.9.13 (64-bit)
+2024-10-14 08:32:51,488 : INFO : Machine : Initializing MPF...
+2024-10-14 08:32:51,515 : INFO : FAST [NET] : Trying to connect to /dev/tty.usbmodem1401 at 921600bps
+2024-10-14 08:32:51,523 : INFO : FAST [NET] : Connected to /dev/tty.usbmodem1401 at 921600bps
+2024-10-14 08:32:51,524 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.21
+2024-10-14 08:32:51,526 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2024-10-14 08:32:51,527 : INFO : FAST [NET] : Registered I/O Board 1: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2024-10-14 08:32:51,528 : INFO : FAST [NET] : Registered I/O Board 2: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2024-10-14 08:32:51,529 : INFO : FAST [NET] : Registered I/O Board 3: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+2024-10-14 08:32:51,530 : INFO : FAST [NET] : Registered I/O Board 4: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2024-10-14 08:32:51,530 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2024-10-14 08:32:51,543 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2024-10-14 08:32:51,543 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.57.1.dev3', 'prev_value': None, 'change': True}
+2024-10-14 08:32:51,543 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.57.1.dev3, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2024-10-14 08:32:51,543 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.9.13', 'prev_value': None, 'change': True}
+2024-10-14 08:32:51,551 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-14.3-arm64-arm-64bit', 'prev_value': None, 'change': True}
+2024-10-14 08:32:51,551 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2024-10-14 08:32:51,551 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '23.3.0', 'prev_value': None, 'change': True}
+2024-10-14 08:32:51,551 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 23.3.0: Thu Dec 21 02:29:41 PST 2023; root:xnu-10002.81.5~11/RELEASE_ARM64_T8122', 'prev_value': None, 'change': True}
+2024-10-14 08:32:51,551 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'arm64', 'prev_value': None, 'change': True}
+2024-10-14 08:32:51,551 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2024-10-14 08:32:51,646 : WARNING : Machine : Iterating device collections directly is deprecated and will be removed. Access by value(): device_collections[switches] -> device_collections['switches'].values()
+2024-10-14 08:32:51,646 : INFO : SwitchController : <<<<<<< 's_8' active >>>>>>>
+2024-10-14 08:32:51,646 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2024-10-14 08:32:51,647 : INFO : SwitchController : Found active switch: (24, [FAST Platform Interface]) <switch.s_8>
+2024-10-14 08:32:51,650 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2024-10-14 08:32:51,651 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2024-10-14 08:32:51,651 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_8'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-10-14 08:32:51,651 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-10-14 08:32:51,651 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-10-14 08:32:51,651 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'top': [], 'average': 0, 'total': 0}, 'prev_value': None, 'change': True}
+2024-10-14 08:32:51,651 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2024-10-14 08:32:51,651 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2024-10-14 08:32:51,652 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2024-10-14 08:32:51,652 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2024-10-14 08:32:51,652 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2024-10-14 08:32:51,652 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2024-10-14 08:32:51,652 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2024-10-14 08:32:51,652 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2024-10-14 08:32:51,652 : INFO : Mode.attract : Started. Priority: 10
+2024-10-14 08:32:51,652 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2024-10-14 08:32:51,652 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2024-10-14 08:32:51,652 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2024-10-14 08:32:51,652 : INFO : Machine : Starting the main run loop.
+2024-10-14 08:33:02,697 : INFO : SwitchController : <<<<<<< 's_8' inactive >>>>>>>
+2024-10-14 08:33:02,713 : INFO : SwitchController : <<<<<<< 's_8' active >>>>>>>
+2024-10-14 08:33:03,197 : INFO : SwitchController : <<<<<<< 's_8' inactive >>>>>>>
+2024-10-14 08:33:03,204 : INFO : SwitchController : <<<<<<< 's_8' active >>>>>>>
+2024-10-14 08:33:03,433 : INFO : SwitchController : <<<<<<< 's_8' inactive >>>>>>>
+2024-10-14 08:33:03,441 : INFO : SwitchController : <<<<<<< 's_8' active >>>>>>>
+2024-10-14 08:33:06,146 : INFO : SwitchController : <<<<<<< 's_8' inactive >>>>>>>
+2024-10-14 08:33:06,646 : INFO : SwitchController : <<<<<<< 's_8' active >>>>>>>
+2024-10-14 08:33:06,947 : INFO : SwitchController : <<<<<<< 's_8' inactive >>>>>>>
+2024-10-14 08:33:06,952 : INFO : SwitchController : <<<<<<< 's_8' active >>>>>>>
+2024-10-14 08:33:06,956 : INFO : SwitchController : <<<<<<< 's_8' inactive >>>>>>>
+2024-10-14 08:33:07,128 : INFO : SwitchController : <<<<<<< 's_8' active >>>>>>>
+2024-10-14 08:33:07,394 : INFO : SwitchController : <<<<<<< 's_8' inactive >>>>>>>
+2024-10-14 08:33:07,505 : INFO : SwitchController : <<<<<<< 's_8' active >>>>>>>
+2024-10-14 08:33:07,707 : INFO : SwitchController : <<<<<<< 's_8' inactive >>>>>>>
+2024-10-14 08:33:07,837 : INFO : SwitchController : <<<<<<< 's_8' active >>>>>>>
+2024-10-14 08:33:08,011 : INFO : SwitchController : <<<<<<< 's_8' inactive >>>>>>>
+2024-10-14 08:33:08,015 : INFO : SwitchController : <<<<<<< 's_8' active >>>>>>>
+2024-10-14 08:33:08,027 : INFO : SwitchController : <<<<<<< 's_8' inactive >>>>>>>
+2024-10-14 08:33:08,126 : INFO : SwitchController : <<<<<<< 's_8' active >>>>>>>
+2024-10-14 08:33:08,292 : INFO : SwitchController : <<<<<<< 's_8' inactive >>>>>>>
+2024-10-14 08:33:08,902 : INFO : SwitchController : <<<<<<< 's_8' active >>>>>>>
+2024-10-14 08:33:08,931 : INFO : SwitchController : <<<<<<< 's_8' inactive >>>>>>>
+2024-10-14 08:33:09,154 : INFO : SwitchController : <<<<<<< 's_8' active >>>>>>>
+2024-10-14 08:33:09,162 : INFO : SwitchController : <<<<<<< 's_8' inactive >>>>>>>
+2024-10-14 08:33:09,444 : INFO : SwitchController : <<<<<<< 's_8' active >>>>>>>
+2024-10-14 08:33:09,453 : INFO : SwitchController : <<<<<<< 's_8' inactive >>>>>>>
+2024-10-14 08:33:09,820 : INFO : SwitchController : <<<<<<< 's_8' active >>>>>>>
+2024-10-14 08:33:10,162 : INFO : SwitchController : <<<<<<< 's_8' inactive >>>>>>>
+2024-10-14 08:33:10,236 : INFO : SwitchController : <<<<<<< 's_8' active >>>>>>>
+2024-10-14 08:33:10,242 : INFO : SwitchController : <<<<<<< 's_8' inactive >>>>>>>
+2024-10-14 08:33:10,259 : INFO : SwitchController : <<<<<<< 's_8' active >>>>>>>
+2024-10-14 08:33:10,277 : INFO : SwitchController : <<<<<<< 's_8' inactive >>>>>>>
+2024-10-14 08:33:10,315 : INFO : SwitchController : <<<<<<< 's_8' active >>>>>>>
+2024-10-14 08:33:10,331 : INFO : SwitchController : <<<<<<< 's_8' inactive >>>>>>>
+2024-10-14 08:33:10,334 : INFO : SwitchController : <<<<<<< 's_8' active >>>>>>>
+2024-10-14 08:33:31,233 : INFO : SwitchController : <<<<<<< 's_8' inactive >>>>>>>
+2024-10-14 08:33:31,250 : INFO : SwitchController : <<<<<<< 's_8' active >>>>>>>
+2024-10-14 08:33:31,289 : INFO : SwitchController : <<<<<<< 's_8' inactive >>>>>>>
+2024-10-14 08:33:31,641 : INFO : SwitchController : <<<<<<< 's_8' active >>>>>>>
+2024-10-14 08:33:31,874 : INFO : SwitchController : <<<<<<< 's_8' inactive >>>>>>>
+2024-10-14 08:33:32,259 : INFO : SwitchController : <<<<<<< 's_8' active >>>>>>>
+2024-10-14 08:33:32,519 : INFO : SwitchController : <<<<<<< 's_8' inactive >>>>>>>
+2024-10-14 08:33:32,985 : INFO : SwitchController : <<<<<<< 's_8' active >>>>>>>
+2024-10-14 08:33:33,052 : INFO : SwitchController : <<<<<<< 's_8' inactive >>>>>>>
+2024-10-14 08:33:33,750 : INFO : SwitchController : <<<<<<< 's_8' active >>>>>>>
+2024-10-14 08:33:33,902 : INFO : SwitchController : <<<<<<< 's_8' inactive >>>>>>>
+2024-10-14 08:33:38,621 : INFO : SwitchController : <<<<<<< 's_8' active >>>>>>>
+2024-10-14 08:33:40,594 : INFO : SwitchController : <<<<<<< 's_8' inactive >>>>>>>
+2024-10-14 08:33:40,878 : INFO : SwitchController : <<<<<<< 's_8' active >>>>>>>
+2024-10-14 08:33:41,295 : INFO : SwitchController : <<<<<<< 's_8' inactive >>>>>>>
+2024-10-14 08:33:41,744 : INFO : SwitchController : <<<<<<< 's_8' active >>>>>>>
+2024-10-14 08:33:41,982 : INFO : SwitchController : <<<<<<< 's_8' inactive >>>>>>>
+2024-10-14 08:33:42,121 : INFO : SwitchController : <<<<<<< 's_8' active >>>>>>>
+2024-10-14 08:33:57,998 : INFO : Machine : Shutting down...
+2024-10-14 08:33:57,999 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2024-10-14 08:33:58,110 : INFO : root : MPF run loop ended.

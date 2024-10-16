@@ -1,0 +1,6 @@
+2024-10-14 20:36:08,226 : INFO : root : Loading config.
+2024-10-14 20:36:08,228 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-10-14 20:36:08,228 : WARNING : ConfigProcessor : Config file in cache changed: /Users/tannerpetch/Documents/GitHub/trashland_4/config/config.yaml
+2024-10-14 20:36:08,228 : INFO : ConfigProcessor : Loading config from file /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/mpfconfig.yaml.
+2024-10-14 20:36:08,269 : INFO : ConfigProcessor : Loading config: /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/mpfconfig.yaml
+2024-10-14 20:36:08,270 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/trashland_4/config/config.yaml.

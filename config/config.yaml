@@ -6,324 +6,45 @@ hardware:
 
 playfields:
   playfield:
-    default_source_device: none
+    default_source_device: bd_autolauncher
     tags: default 
 
 
 fast:
   net:
-    port: com9
+    port: /dev/tty.usbmodem1301
     controller: neuron
     io_loop:
-      b_head:
+      b_cabinet:
         model: FP-I/O-0804
         order: 1
-      b_cabinet:
+      b_lower_mini:
         model: FP-I/O-0804
         order: 2
       b_main:
         model: FP-I/O-3208
         order: 3
+      b_middle:
+        model: FP-I/O-1616
+        order: 4
+      b_back:
+        model: FP-I/O-3208
+        order: 5
         
-  exp:
-    port: com10
-    boards: 
-      pf:
-        model: FP-EXP-0081
+
     
 
 modes:
-  - attract
 
 
 
     
 lights:
 
-# Chain 1 - Rear Left
-
-  l_sling_r:
-    number: pf-1-1
-    tags: playfield, slings
-  l_target_r_hurryup_1:
-    number: pf-1-2
-    tags: playfield, r_hurryup, target_r, stationary
-  l_target_r_hurryup_2:
-    number: pf-1-3
-    tags: playfield, r_hurryup, target_r, stationary
-  l_target_r_hurryup_3:
-    number: pf-1-4
-    tags: playfield, r_hurryup, target_r, stationary
-  l_target_r:
-    number: pf-1-5
-    tags: playfield, target_r, stationary, square
-  l_big_arrow_b:
-    number: pf-1-6
-    tags: playfield, knife, stationary
-  l_big_arrow_t:
-    number: pf-1-7
-    tags: playfield, knife, stationary
-  l_gi_1:
-    number: pf-1-8
-    tags: gi, gi_back_r, gi_right
-  l_gi_2: 
-    number: pf-1-9
-    tags: gi, gi_back_r, gi_right
-  l_arrow_loop:
-    number: pf-1-10
-    tags: playfield, arrow, loop
-  l_circle_loop:
-    number: pf-1-11
-    tags: playfield, circle, loop
-  l_gi_3:
-    number: pf-1-12
-    tags: gi, gi_mid_r, gi_right
-  l_vuk_square_top:
-    number: pf-1-13
-    tags: playfield, square, vuk
-  l_vuk_arrow_top:
-    number: pf-1-14
-    tags: playfield, arrow, vuk
-  l_vuk_arrow_bot:
-    number: pf-1-15
-    tags: playfield, arrow, vuk
-  l_vuk_square_bot:
-    number: pf-1-16
-    tags: playfield, square, vuk
-  l_gi_4:
-    number: pf-1-17
-    tags: gi, gi_mid_r, gi_right
-  l_gi_5:
-    number: pf-1-18
-    tags: gi, gi_mid_r, gi_right
-  l_inlane_r:
-    number: pf-1-19
-    tags: playfield, square, inlane
-  l_gi_6:
-    number: pf-1-20
-    tags: gi, gi_apron, gi_right
-  l_gi_7:
-    number: pf-1-21
-    tags: gi, gi_apron, gi_right
-  l_apron_indicator_5:
-    number: pf-1-22
-  l_apron_indicator_4:
-    number: pf-1-23
-  l_apron_indicator_3:
-    number: pf-1-24
-  l_apron_indicator_2:
-    number: pf-1-25
-  l_apron_indicator_1:
-    number: pf-1-26
-  l_gi_8:
-    number: pf-1-27
-    tags: gi, gi_apron, gi_right
-  l_gi_9:
-    number: pf-1-28
-    tags: gi, gi_apron, gi_right
-    
-# Chain 2
-
-  l_target_mid_l:
-    number: pf-2-1
-    tags: playfield, target_l, stationary, square
-  l_knife:
-    number: pf-2-2
-    tags: playfield, knife, stationary
-  l_circle_knife:
-    number: pf-2-3
-    tags: playfield, circle, knife
-  l_circle_ramp_r:
-    number: pf-2-4
-    tags: playfield, circle, ramp, ramp_r
-  l_target_l_hurryup_1:
-    number: pf-2-5
-    tags: playfield, l_hurryup, target_mid_l, stationary
-  l_target_l_hurryup_2:
-    number: pf-2-6
-    tags: playfield, l_hurryup, target_mid_l, stationary
-  l_target_l_hurryup_3:
-    number: pf-2-7
-    tags: playfield, l_hurryup, target_mid_l, stationary
-  l_target_l:
-    number: pf-2-8
-    tags: playfield, target_l, stationary, square
-  l_arrow_ramp_l:
-    number: pf-2-9
-    tags: playfield, arrow, ramp, ramp_l
-  l_circle_ramp_l:
-    number: pf-2-10
-    tags: playfield, circle, ramp, ramp_l
-  l_gi_10:
-    number: pf-2-11
-    tags: gi, gi_l, gi_mid_l
-  l_gi_11:
-    number: pf-2-12
-    tags: gi, gi_l, gi_mid_l
-  l_gi_12:
-    number: pf-2-13
-    tags: gi, gi_l, gi_mid_l
-  l_gi_13:
-    number: pf-2-14
-    tags: gi, gi_l, gi_mid_l
-  l_gi_14:
-    number: pf-2-15
-    tags: gi, gi_l, gi_mid_l
-  l_arrow_ramp_r:
-    number: pf-2-16
-    tags: playfield, arrow, ramp, ramp_r
-  l_gi_15:
-    number: pf-2-17
-    tags: gi, gi_l, gi_back
-  l_gi_16:
-    number: pf-2-18
-    tags: gi, gi_back, gi_l
-  l_gi_17:
-    number: pf-2-19
-    tags: gi, gi_back, gi_l
-
-# Chain 3
-
-  l_sling_l:
-    number: pf-3-1
-    tags: playfield, slings
-  l_gi_18:
-    number: pf-3-2
-    tags: gi, gi_apron, gi_l
-  l_gi_19:
-    number: pf-3-3
-    tags: gi, gi_apron, gi_l
-  l_inlane_l:
-    number: pf-3-4
-    tags: playfield, square, inlane
-  l_gi_20:
-    number: pf-3-5
-    tags: gi, gi_apron, gi_l
-  l_penta_1:
-    number: pf-3-6
-  l_penta_2:
-    number: pf-3-7
-  l_penta_3:
-    number: pf-3-8
-  l_penta_4:
-    number: pf-3-9
-  l_penta_5:
-    number: pf-3-10
-  l_shoot_again:
-    number: pf-3-11
-    tags: playfield
-    
-  l_pop_flasher_1:
-    number: pf-8-1
-    tags: popflash
-  l_pop_flasher_2:
-    number: pf-8-2
-    tags: popflash
-  l_pop_flasher_3:
-    number: pf-8-3
-    tags: popflash
-  l_pop_flasher_4:
-    number: pf-8-4
-    tags: popflash
-  l_pop_flasher_5:
-    number: pf-8-5
-    tags: popflash
-  l_pop_flasher_6:
-    number: pf-8-6
-    tags: popflash
-  l_pop_flasher_7:
-    number: pf-8-7
-    tags: popflash
-  l_pop_flasher_8:
-    number: pf-8-8
-    tags: popflash
-  l_pop_flasher_9:
-    number: pf-8-9
-    tags: popflash
-  l_pop_flasher_10 :
-    number: pf-8-9
-    tags: popflash
-
-  
-
-  
-
-switches:
-
-# Board 1 - Cabinet Board
-
-  s_flipper_l:
-    number: b_cabinet-3
-    tags: left_flipper
-  s_flipper_r:
-    number: b_cabinet-0
-    
-    
-    tags: right_flipper
-  s_launch:
-    number: b_cabinet-1
-    tags:
-  s_start:
-    number: b_cabinet-2
-    tags: start
-    type: 'NC'
-    
-    
-    
-    
-# Board 2 - Lower Mini PLayfield
 
 
-  s_trough_1:
-    number: b_main-0
-    type: 'NC'
-  s_trough_2:
-    number: b_main-1
-    type: 'NC'
-  s_trough_3:
-    number: b_main-2
-    type: 'NC'
-  s_trough_4:
-    number: b_main-3
-    type: 'NC'
-  s_sling_l:
-    number: b_main-4
-    
-  s_stationary_o:
-    number: b_main-8
-    tags: playfield_active
-  s_stationay_u:
-    number: b_main-9
-    tags: playfield_active
-  s_pop:
-    number: b_main-10
 
-  s_stationary_S:
-    number: b_main-11
-    tags: playfield_active
-  s_stationary_back:
-    number: b_main-12
-    tags: playfield_active
-  s_sling_r:
-    number: b_main-13
-  s_vuk:
-    number: b_main-14
-    tags:
-    type: 'NC'
-    
-  s_ramp_r:
-    number: b_main-27
-  s_ramp_l:
-    number: b_main-28
-  s_ramp_full:
-    number: b_main-29
-  s_spinner:
-    number: b_main-30
-    
-  s_h:
-    number: b_main_22
-  s_e:
-    number: b_main_23
+
 
 
   
@@ -336,85 +57,515 @@ coils:
     number: b_cabinet-0
     default_pulse_ms: 1
     default_hold_power: 0.125
-
+    
 # Board 2 - Lower Mini
 
 
-  c_flipper_l:
-    number: b_main-1
+  c_flipper_lower_l:
+    number: b_lower_mini-1
     default_pulse_ms: 20
     allow_enable: true
     default_hold_power: 1
     
-  c_flipper_r:
-    number: b_main-7
+  c_flipper_lower_r:
+    number: b_lower_mini-2
     default_pulse_ms: 20
     allow_enable: true
     default_hold_power: 1
     
+  c_sling_lower:
+    number: b_lower_mini-3
+    default_pulse_ms: 10
+
+  c_lower_vuk:
+    number: b_lower_mini-0
+    default_pulse_ms: 30
+
+
+# Board 3 - Main
+
   c_trough:
     number: b_main-0
+    default_pulse_ms: 10
+    default_pulse_power: 1
+    
+  c_autolauncher:
+    number: b_main-1
     default_pulse_ms: 15
     default_pulse_power: 1
+    allow_enable: true
+    default_hold_power: 1
 
-  c_pop:
-    number: b_main-4
-
-  c_sling_l:
+    
+  c_flipper_l_main:
+    number: b_main-2
+    default_pulse_ms: 30
+    default_hold_power: 1
+  c_flipper_l_hold:
     number: b_main-3
+    default_pulse_ms: 20
+    allow_enable: true
+    default_hold_power: 1
+    
+  c_flipper_r_main:
+    number: b_main-4
+    default_pulse_ms: 50
+    allow_enable: true
+    default_hold_power: 1 
+  c_flipper_r_hold:
+    number: b_main-5
+    default_pulse_ms: 20
+    allow_enable: true
+    default_hold_power: 1
+    
+
+
+  c_kicking_target:
+    number: b_middle-7
     default_pulse_ms: 8
     default_pulse_power: 0.8
-  c_sling_r:
-    number: b_main-6
+    default_recycle: true
+  c_pop:
+    number: b_main-7
     default_pulse_ms: 8
     
-  c_vuk:
-    number: b_main-5
+
+    
+# Board 4 - Middle
+
+  c_flipper_l_upper_main:
+    number: b_middle-9
+    allow_enable: true
+    default_hold_power: 1
+    default_pulse_power: 1
+    default_pulse_ms: 30
+
+  c_flipper_l_upper_hold:
+    number: b_middle-8
+    default_pulse_ms: 20
+    allow_enable: true
+    default_hold_power: 1
+    default_pulse_power: 1
+    
+  c_inlane_post:
+    number: b_middle-10
+    allow_enable: true
+    default_hold_power: 0.25
+    default_pulse_power: 1
+    default_pulse_ms: 10
+    
+  c_sling_l:
+    number: b_middle-11
+    default_pulse_power: 1
+    default_pulse_ms: 15
+    
+  c_drop_reset:
+    number: b_middle-14
+    default_pulse_power: 1
+    default_pulse_ms: 12
+  c_drop_release:
+    number: b_middle-12
+    default_pulse_power: 0.75
+    default_pulse_ms: 10
+    
+  c_kicker_orbit:
+    number: b_middle-15
+    default_pulse_power: 1
+    default_pulse_ms: 20
+    
+    
+  c_middle_scoop:
+    number: b_middle-2
+    default_pulse_power: 1
+    default_pulse_ms: 20
+    
+
+  c_drop_single:
+    number: b_middle-1
+    default_pulse_power: 0.75
+    default_pulse_ms: 60
+  c_drop_single_release:
+    number: b_middle-0
+    default_pulse_power: 0.75
+    default_pulse_ms: 20
+    
+# Board 5 - Back + Upper
+
+  c_vuk_back:
+   number: b_back-5
+   default_pulse_ms: 30
+   default_pulse_power: 1
+
+
+  c_b_flipper_main:
+    number: b_back-3
+    default_pulse_power: 1
+    default_pulse_ms: 20
+  c_b_flipper_hold:
+    number: b_back-4
+    allow_enable: true
+    default_hold_power: 1
+    
+  c_b_lock:
+    number: b_back-1
+    allow_enable: true
+    default_pulse_power: 0.7
+    default_pulse_ms: 100
+    
+  c_b_pop:
+    number: b_back-2
+    default_pulse_ms: 20
+    
+  c_u_flipper:
+    number: b_back-0
+    allow_enable: true
+    default_hold_power: 0.5
+    
+  c_vuk_upper:
+    number: b_back-7
+    default_pulse_power: 1
+    default_pulse_ms: 30
+    
+switches:
+
+
+  s_flipper_but_r_1:
+    number: b_cabinet-0
+  s_flipper_but_r_2:
+    number: b_cabinet-1
+  s_flipper_but_l_1:
+    number: b_cabinet-2
+  s_flipper_but_l_2:
+    number: b_cabinet-3
+  s_launch:
+    number: b_cabinet-4
+    tags: launch
+  s_tilt:
+    number: b_cabinet-5
+    tags: tilt
+  s_start:
+    number: b_cabinet-6
+    tags: start
+
+  s_bot:
+    number:  b_lower_mini-0
+  s_lower_single:
+    number:  b_lower_mini-1
+  s_lower_sling:
+    number:  b_lower_mini-2
+  s_bot_mid:
+    number:  b_lower_mini-3
+  s_top_mid:
+    number:  b_lower_mini-4
+  s_lower_orbit:
+    number:  b_lower_mini-5
+    type: 'NC'
+  s_top:
+    number:  b_lower_mini-6
+  s_lower_vuk:
+    number:  b_lower_mini-7
+    type: 'NC'
+
+
+  s_outlane_l:
+    number: b_main-0
+    type: 'NC'
+  s_inlane_l:
+    number: b_main-1
+    type: 'NC'
+    
+  s_outlane_r:
+    number: b_main-6
+    type: 'NC'
+  s_inlane_r:
+    number: b_main-7
+    type: 'NC'
+
+  s_trough_6:
+    number: b_main-8
+    type: 'NC'
+  s_trough_5:
+    number: b_main-9
+    type: 'NC'
+  s_trough_4:
+    number: b_main-10
+    type: 'NC'
+  s_trough_3:
+    number: b_main-11
+    type: 'NC'
+  s_trough_2:
+    number: b_main-12
+    type: 'NC'
+  s_trough_1:
+    number: b_main-14
+    type: 'NC'
+  s_trough_jam:
+    number: b_main-15
+    type: 'NC'
+    
+  s_flipper_l:
+    number: b_main-16
+    type: 'NC'
+  s_lower_transfer:
+    number: b_main-17
+  s_flipper_r:
+    number: b_main-18
+    type: 'NC'
+  s_flipper_upper_l:
+    number: b_main-19
+    type: 'NC'
+  s_pop:
+    number: b_main-20
+  s_kicking_target:
+    number: b_main-21
+  s_autolauncher:
+    number: b_main-22
+  s_scissor_save:
+    number: b_main-23
+    
+  s_kicker_orbit:
+    number: b_middle-0
+    type: 'NC'
+  s_drop_r:
+    number: b_middle-1
+  s_drop_m:
+    number: b_middle-2
+  s_drop_l:
+    number: b_middle-3
+  s_subway:
+    number: b_middle-4
+    type: 'NC'
+  s_stationary_l:
+    number: b_middle-5
+  s_sling_l:
+    number: b_middle-6
+  s_stationary_m:
+    number: b_middle-7
+    
+  s_orbit_small_r:
+    number: b_middle-8
+  s_drop_single:
+    number: b_middle-9
+    type: 'NC'
+  s_orbit_small_l:
+    number: b_middle-10
+  s_middle_scoop:
+    number: b_middle-11
+    type: 'NC'
+  s_stationary_r:
+    number: b_middle-12
+  s_captive_r:
+    number: b_middle-13
+  s_captive_l:
+    number: b_middle-14
+    
+    
+# Board 4 - Back + Upper
+
+  s_vuk_back:
+    number: b_back-2
+    type: 'NC'
+  s_b_rollover_loop:
+    number: b_back-3
+  s_b_rollover_misc:
+    number: b_back-4
+  s_b_eos:
+    number: b_back-0
+    type: 'NC'
+  s_b_pop:
+    number: b_back-1
+  s_b_target_right:
+    number: b_back-6
+  s_b_target_left:
+    number: b_back-7
+  s_b_rollover_interchange:
+    number: b_back-5
+    
+  s_lock_1:
+    number: b_back-24
+    type: 'NC'
+  s_lock_2:
+    number: b_back-25
+    type: 'NC'
+  s_lock_3:
+    number: b_back-26
+    type: 'NC'
+    
+  s_vuk_upper:
+    number: b_back-27
+    type: 'NC'
+    
+  s_u_rollover:
+    number: b_back-8
+  s_u_target:
+    number: b_back-9
+  s_u_lane_r:
+    number: b_back-10
+  s_u_lane_l:
+    number: b_back-11
+    
+ball_devices:
+
+  bd_middle_scoop:
+    ball_switches: s_middle_scoop
+    eject_coil: c_middle_scoop
+    eject_timeouts: 1s
+    
+  bd_trough:
+  # s_trough_6, s_trough_5, s_trough_4, s_trough_3, s_trough_2, 
+    ball_switches: s_trough_1
+    eject_coil: c_trough
+    eject_timeouts: 1s
+    tags: trough, home, drain
+    jam_switch: s_trough_jam
+    eject_coil_jam_pulse: 15ms
+    eject_targets: bd_autolauncher
+    
+  bd_autolauncher:
+    ball_switches: s_autolauncher
+    entrance_count_delay: 300ms
+    eject_timeouts: 3s
+    eject_coil: c_autolauncher
+    player_controlled_eject_event: sw_launch
+    
+  bd_kicker_orbit:
+    ball_switches: s_kicker_orbit
+    eject_coil: c_kicker_orbit
+    eject_timeouts: 1s
+    
+    
+  bd_lower_vuk:
+    ball_switches: s_lower_vuk
+    eject_coil: c_lower_vuk
+    eject_timeouts: 1s
+    
+  bd_vuk_back:
+    ball_switches: s_vuk_back
+    eject_coil: c_vuk_back
+    eject_timeouts: 2s
+    
+  bd_vuk_upper:
+    ball_switches: s_vuk_upper
+    eject_coil: c_vuk_upper
+    eject_timeouts: 2s
+    
+  bd_b_lock:
+    ball_switches: s_lock_1, s_lock_1, s_lock_1
+    eject_coil: c_b_lock
+    eject_timeouts: 2s
     
 flippers:
 
   f_l:
-    main_coil: c_flipper_l
-    activation_switch: s_flipper_l
-    enable_events: ball_started, machine_reset_phase_3
-
+    main_coil: c_flipper_l_main
+    hold_coil: c_flipper_l_hold
+    activation_switch: s_flipper_but_l_1
+    eos_switch: s_flipper_l
+    enable_events: ball_started
+    
+  f_l_upper:
+    main_coil: c_flipper_l_upper_main
+    hold_coil: c_flipper_l_upper_hold
+    activation_switch: s_flipper_but_l_1
+    eos_switch: s_flipper_l
+    enable_events: ball_started
     
   f_r:
-    main_coil: c_flipper_r
-    activation_switch: s_flipper_r
-    enable_events: ball_started, machine_reset_phase_3
-
+    main_coil: c_flipper_r_main
+    hold_coil: c_flipper_r_hold
+    activation_switch: s_flipper_but_r_1
+    #eos_switch: s_flipper_upper_l
+    enable_events: ball_started
     
-
-ball_devices:
-
-  bd_vuk:
-    ball_switches: s_vuk
-    eject_coil: c_vuk
-    eject_timeouts: 2s
+  f_lower_r:
+    main_coil: c_flipper_lower_r
+    activation_switch: s_flipper_but_r_2
+    enable_events: lower_flippers_enable
+    disable_events: ball_started
+  f_lower_l:
+    main_coil: c_flipper_lower_l
+    activation_switch: s_flipper_but_l_2
+    enable_events: lower_flippers_enable
+    disable_events: ball_started
     
-  bd_trough:
-    ball_switches: s_trough_1, s_trough_2, s_trough_3, s_trough_4
-    eject_coil: c_trough
-    #tags: trough, home, drain
+    
+  f_back:
+    main_coil: c_b_flipper_main
+    hold_coil: c_b_flipper_hold
+    activation_switch: s_flipper_but_r_2
+    
+  f_upper:
+    main_coil: c_u_flipper
+    activation_switch: s_flipper_but_l_2
+    
+drop_targets:
+    d_drop_single:
+      switch: s_drop_single
+      knockdown_coil: c_drop_single_release
+      
+
+
+      
+
+    right:
+      switch: s_drop_r
+
+    mid:
+      switch: s_drop_m
+
+    left:
+      switch: s_drop_l
+
+drop_target_banks:
+
+    dt_single:
+      drop_targets: d_drop_single
+      reset_coil: c_drop_single
+      reset_events: ball_started
+     #   balldevice_bd_top_vuk_eject_success: 0.25s
+      #  s_pop_right_hit: 0.25s
+       # ball_started: 0s
+      reset_on_complete: 10s
+      
+
+      
+      
+    mid:
+      drop_targets:  left, right, mid
+      reset_coil: c_drop_reset
+      reset_events: ball_started
+    
     
 autofire_coils:
-    
-  ac_lsling:
-    coil: c_sling_l
-    switch: s_sling_l
-    enable_events: machine_reset_phase_3
-    
-    
-  ac_rsling:
-    coil: c_sling_r
-    switch: s_sling_r
-    enable_events: machine_reset_phase_3
-    
+
   ac_pop:
     coil: c_pop
     switch: s_pop
-    enable_events: machine_reset_phase_3
-
-
-   
+  
+  ac_kicking_target:
+    coil: c_kicking_target
+    switch: s_kicking_target
+  
+  ac_sling_l:
+    coil: c_sling_l
+    switch: s_sling_l
+    
+  ac_sling_lower:
+    coil: c_sling_lower
+    switch: s_lower_sling
+    
+  ac_pop_back:
+    coil: c_b_pop
+    switch: s_b_pop
+    
+diverters:
+    
+  d_lower:
+    activation_coil: c_top_divertor      # WMS uses the -tor spelling
+    type: hold
+    activation_time: 3s
+    activation_switches: s_enter_left_ramp
+    enable_events: ball_started
+    disable_events: ball_ended, borg_lock_Lit
+    targets_when_active: playfield
+    targets_when_inactive: bd_borg_ship
