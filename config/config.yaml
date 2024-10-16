@@ -12,7 +12,7 @@ playfields:
 
 fast:
   net:
-    port: com5
+    port: auto
     controller: neuron
     io_loop:
       b_cabinet:
@@ -124,7 +124,6 @@ coils:
     number: b_middle-7
     default_pulse_ms: 10
     default_pulse_power: 1
-    default_recycle: true
   c_pop:
     number: b_main-7
     default_pulse_ms: 8

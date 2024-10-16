@@ -1,0 +1,83 @@
+2024-10-16 11:27:00,735 : INFO : root : Loading config.
+2024-10-16 11:27:00,737 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-10-16 11:27:00,737 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/d95e8ed26cf18d157c15fb5a5184ccb8.mpf_cache
+2024-10-16 11:27:00,756 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/c7af4841f7c2cabb0f971746daddf284.mpf_cache
+2024-10-16 11:27:00,756 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/edcc5f1d3215b377c9faab88c62e4ce0.mpf_cache
+2024-10-16 11:27:00,756 : INFO : Machine : Mission Pinball Framework Core Engine v0.57.1.dev3
+2024-10-16 11:27:00,756 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2024-10-16-11-27-00-mpf-Tanners-Laptop.local.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2024-10-16 11:27:00,756 : INFO : Machine : MPF path: /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf
+2024-10-16 11:27:00,756 : INFO : Machine : Machine path: /Users/tannerpetch/Documents/GitHub/trashland_3
+2024-10-16 11:27:00,756 : INFO : Machine : Platform: darwin
+2024-10-16 11:27:00,756 : INFO : Machine : Python executable location: /Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9
+2024-10-16 11:27:00,756 : INFO : Machine : Python version: 3.9.13 (64-bit)
+2024-10-16 11:27:00,756 : INFO : Machine : Initializing MPF...
+2024-10-16 11:27:00,820 : INFO : FAST : Auto-detecting ports for the following connections: ['net']
+2024-10-16 11:27:00,841 : INFO : FAST : Detected NET on port /dev/cu.usbmodem1401
+2024-10-16 11:27:00,945 : INFO : FAST [NET] : Trying to connect to /dev/cu.usbmodem1401 at 921600bps
+2024-10-16 11:27:00,952 : INFO : FAST [NET] : Connected to /dev/cu.usbmodem1401 at 921600bps
+2024-10-16 11:27:00,953 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.21
+2024-10-16 11:27:00,954 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2024-10-16 11:27:00,955 : INFO : FAST [NET] : Registered I/O Board 1: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2024-10-16 11:27:00,956 : INFO : FAST [NET] : Registered I/O Board 2: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2024-10-16 11:27:00,957 : INFO : FAST [NET] : Registered I/O Board 3: Model: FP-I/O-1616, Firmware: 01.10, Switches: 16, Drivers: 16
+2024-10-16 11:27:00,958 : INFO : FAST [NET] : Registered I/O Board 4: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2024-10-16 11:27:00,958 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2024-10-16 11:27:00,969 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2024-10-16 11:27:00,969 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-10-16 11:27:00,969 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.57.1.dev3', 'prev_value': None, 'change': True}
+2024-10-16 11:27:00,970 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.57.1.dev3, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2024-10-16 11:27:00,970 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.9.13', 'prev_value': None, 'change': True}
+2024-10-16 11:27:00,974 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-14.3-arm64-arm-64bit', 'prev_value': None, 'change': True}
+2024-10-16 11:27:00,974 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2024-10-16 11:27:00,975 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '23.3.0', 'prev_value': None, 'change': True}
+2024-10-16 11:27:00,975 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 23.3.0: Thu Dec 21 02:29:41 PST 2023; root:xnu-10002.81.5~11/RELEASE_ARM64_T8122', 'prev_value': None, 'change': True}
+2024-10-16 11:27:00,975 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'arm64', 'prev_value': None, 'change': True}
+2024-10-16 11:27:00,975 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2024-10-16 11:27:00,985 : INFO : EventManager : Event: ======'drop_target_bank_dt_single_up'====== Args={}
+2024-10-16 11:27:00,985 : INFO : EventManager : Event: ======'drop_target_bank_mid_up'====== Args={}
+2024-10-16 11:27:00,985 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-36' coro=<SystemWideDevice.device_added_system_wide() done, defined at /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/core/system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_kicking_target in platform. See error above')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/devices/driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/platforms/fast/fast.py", line 394, in configure_driver
+    driver.set_initial_config(config, platform_settings)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/platforms/fast/fast_driver.py", line 90, in set_initial_config
+    self.current_driver_config = self.convert_mpf_config_to_fast(mpf_config, platform_settings)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/platforms/fast/fast_driver.py", line 99, in convert_mpf_config_to_fast
+    raise ConfigFileError("FAST platform does not support default_recycle for coils. "
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in FAST Driver: FAST platform does not support default_recycle for coils. Use platform_settings:recycle_ms instead. Coil 'c_kicking_target'. Error Code: CFE-FAST_Driver-7 (https://missionpinball.org/logs)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/core/system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/devices/driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_kicking_target in platform. See error above
+2024-10-16 11:27:00,987 : INFO : Machine : Starting the main run loop.
+2024-10-16 11:27:00,987 : INFO : Machine : Shutting down...
+2024-10-16 11:27:00,988 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2024-10-16 11:27:02,090 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/devices/driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/platforms/fast/fast.py", line 394, in configure_driver
+    driver.set_initial_config(config, platform_settings)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/platforms/fast/fast_driver.py", line 90, in set_initial_config
+    self.current_driver_config = self.convert_mpf_config_to_fast(mpf_config, platform_settings)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/platforms/fast/fast_driver.py", line 99, in convert_mpf_config_to_fast
+    raise ConfigFileError("FAST platform does not support default_recycle for coils. "
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in FAST Driver: FAST platform does not support default_recycle for coils. Use platform_settings:recycle_ms instead. Coil 'c_kicking_target'. Error Code: CFE-FAST_Driver-7 (https://missionpinball.org/logs)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/core/machine.py", line 793, in _run_loop
+    raise self._exception['exception']
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/core/system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/devices/driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_kicking_target in platform. See error above
