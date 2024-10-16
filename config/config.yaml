@@ -122,8 +122,8 @@ coils:
 
   c_kicking_target:
     number: b_middle-7
-    default_pulse_ms: 8
-    default_pulse_power: 0.8
+    default_pulse_ms: 10
+    default_pulse_power: 1
     default_recycle: true
   c_pop:
     number: b_main-7
