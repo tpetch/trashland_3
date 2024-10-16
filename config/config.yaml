@@ -12,7 +12,7 @@ playfields:
 
 fast:
   net:
-    port: com3
+    port: com5
     controller: neuron
     io_loop:
       b_cabinet:
