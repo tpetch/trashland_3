@@ -109,7 +109,7 @@ coils:
     
   c_flipper_r_main:
     number: b_main-4
-    default_pulse_ms: 50
+    default_pulse_ms: 60
     allow_enable: true
     default_hold_power: 1 
   c_flipper_r_hold:
@@ -122,7 +122,7 @@ coils:
 
   c_kicking_target:
     number: b_middle-7
-    default_pulse_ms: 10
+    default_pulse_ms: 30
     default_pulse_power: 1
   c_pop:
     number: b_main-7
