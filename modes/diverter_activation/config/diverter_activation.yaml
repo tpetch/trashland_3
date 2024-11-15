@@ -1,0 +1,19 @@
+#config_version=6
+mode:
+  start_events: ball_starting
+  priority: 101
+  
+shots:
+
+  r_orbit_small_r_div:
+   switch: s_orbit_small_r
+   
+  r_orbit_small_l_div:
+   switch: s_orbit_small_l
+   
+
+  
+event_player:
+
+  r_orbit_small_l_div_hit:  diverter_activate
+  l_orbit_small_l_div_hit:  diverter_activate

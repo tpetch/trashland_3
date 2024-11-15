@@ -1,0 +1,159 @@
+2024-10-19 07:35:54,182 : INFO : root : Loading config.
+2024-10-19 07:35:54,183 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-10-19 07:35:54,183 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/9d21ea9a81fcfc5941f8ed75c4a080eb.mpf_cache
+2024-10-19 07:35:54,207 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/43115b802accf167344a214047a50cd4.mpf_cache
+2024-10-19 07:35:54,207 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/bd1387dfa7de7ffc5bacad015019c743.mpf_cache
+2024-10-19 07:35:54,208 : WARNING : ConfigProcessor : Config file in cache changed: /Users/tannerpetch/Documents/GitHub/trashland_3/modes/base/config/base.yaml
+2024-10-19 07:35:54,208 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/trashland_3/modes/base/config/base.yaml.
+2024-10-19 07:35:54,209 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/trashland_3/modes/base/config/base.yaml
+2024-10-19 07:35:54,209 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/d126ded0bd5e51d3c29826a335e85340.mpf_cache
+2024-10-19 07:35:54,209 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/43115b802accf167344a214047a50cd4.mpf_cache
+2024-10-19 07:35:54,209 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/a4506495691bdf3563a8fd11a9d79f10.mpf_cache
+2024-10-19 07:35:54,209 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/40b90811de8a75ce62c7eba4221d4b1e.mpf_cache
+2024-10-19 07:35:54,210 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/db09ec9978a00e1c6f82e6773edea5b3.mpf_cache
+2024-10-19 07:35:54,210 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev4
+2024-10-19 07:35:54,210 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2024-10-19-07-35-54-mpf-Tanners-Laptop.local.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'mc_file_name': None, 'no_sound': False, 'full_logfile_path': '/Users/tannerpetch/Documents/GitHub/trashland_3/logs/2024-10-19-07-35-54-mpf-Tanners-Laptop.local.log'}
+2024-10-19 07:35:54,210 : INFO : Machine : MPF path: /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf
+2024-10-19 07:35:54,210 : INFO : Machine : Machine path: /Users/tannerpetch/Documents/GitHub/trashland_3
+2024-10-19 07:35:54,210 : INFO : Machine : Platform: darwin
+2024-10-19 07:35:54,210 : INFO : Machine : Python executable location: /Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11
+2024-10-19 07:35:54,210 : INFO : Machine : Python version: 3.11.9 (64-bit)
+2024-10-19 07:35:54,211 : INFO : Machine : Initializing MPF...
+2024-10-19 07:35:54,236 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2024-10-19 07:35:54,241 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2024-10-19 07:35:54,241 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-10-19 07:35:54,241 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev4', 'prev_value': None, 'change': True}
+2024-10-19 07:35:54,241 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev4, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2024-10-19 07:35:54,241 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.11.9', 'prev_value': None, 'change': True}
+2024-10-19 07:35:54,248 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-14.3-arm64-arm-64bit', 'prev_value': None, 'change': True}
+2024-10-19 07:35:54,248 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2024-10-19 07:35:54,248 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '23.3.0', 'prev_value': None, 'change': True}
+2024-10-19 07:35:54,248 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 23.3.0: Thu Dec 21 02:29:41 PST 2023; root:xnu-10002.81.5~11/RELEASE_ARM64_T8122', 'prev_value': None, 'change': True}
+2024-10-19 07:35:54,248 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'arm64', 'prev_value': None, 'change': True}
+2024-10-19 07:35:54,248 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/Users/tannerpetch/Documents/GitHub/trashland_3/logs/2024-10-19-07-35-54-mpf-Tanners-Laptop.local.log', 'prev_value': None, 'change': True}
+2024-10-19 07:35:54,248 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2024-10-19 07:35:54,264 : INFO : EventManager : Event: ======'drop_target_bank_dt_single_up'====== Args={}
+2024-10-19 07:35:54,264 : INFO : EventManager : Event: ======'drop_target_bank_mid_up'====== Args={}
+2024-10-19 07:35:54,265 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2024-10-19 07:35:54,267 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2024-10-19 07:35:54,267 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2024-10-19 07:36:03,057 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2024-10-19 07:36:03,058 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2024-10-19 07:36:03,061 : INFO : ball_device.bd_scoop : BCH: Initial count: 0
+2024-10-19 07:36:03,061 : INFO : ball_device.bd_scoop : State: idle
+2024-10-19 07:36:03,062 : INFO : ball_device.bd_trough : BCH: Initial count: 0
+2024-10-19 07:36:03,062 : INFO : ball_device.bd_trough : State: idle
+2024-10-19 07:36:03,062 : INFO : ball_device.bd_autolauncher : BCH: Initial count: 0
+2024-10-19 07:36:03,062 : INFO : ball_device.bd_autolauncher : State: idle
+2024-10-19 07:36:03,062 : INFO : ball_device.bd_kicker_orbit : BCH: Initial count: 0
+2024-10-19 07:36:03,063 : INFO : ball_device.bd_kicker_orbit : State: idle
+2024-10-19 07:36:03,063 : INFO : ball_device.bd_lower_vuk : BCH: Initial count: 0
+2024-10-19 07:36:03,063 : INFO : ball_device.bd_lower_vuk : State: idle
+2024-10-19 07:36:03,063 : INFO : ball_device.bd_vuk_back : BCH: Initial count: 0
+2024-10-19 07:36:03,063 : INFO : ball_device.bd_vuk_back : State: idle
+2024-10-19 07:36:03,064 : INFO : ball_device.bd_vuk_upper : BCH: Initial count: 0
+2024-10-19 07:36:03,064 : INFO : ball_device.bd_vuk_upper : State: idle
+2024-10-19 07:36:03,065 : INFO : ball_device.bd_b_lock : BCH: Initial count: 0
+2024-10-19 07:36:03,065 : INFO : ball_device.bd_b_lock : State: idle
+2024-10-19 07:36:03,076 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2024-10-19 07:36:03,080 : ERROR : asyncio : Exception in callback EventManager._queue_task_done(<Task finishe...olor 1500ms')>)
+handle: <Handle EventManager._queue_task_done(<Task finishe...olor 1500ms')>)>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/config_players/light_player.py", line 122, in _convert_color
+    color = RGBColor(color)
+            ^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/rgb_color.py", line 177, in __init__
+    self._color = RGBColor.string_to_rgb(color)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/rgb_color.py", line 420, in string_to_rgb
+    raise ColorException("Invalid RGB string: {}".format(value))
+mpf.core.rgb_color.ColorException: Invalid RGB string: 1500ms
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/events.py", line 795, in _queue_task_done
+    future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/show_controller.py", line 53, in _load_shows
+    self.machine.shows[show_name].load(show_config)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/assets/show.py", line 171, in load
+    self._process_step_actions(step, actions)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/assets/show.py", line 201, in _process_step_actions
+    raise e
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/assets/show.py", line 197, in _process_step_actions
+    self.machine.show_controller.show_players[key].validate_config_entry(value, self.name)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/config_players/device_config_player.py", line 56, in validate_config_entry
+    raise e
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/config_players/device_config_player.py", line 52, in validate_config_entry
+    self._validate_config_item(device, device_settings))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/config_players/device_config_player.py", line 83, in _validate_config_item
+    raise e
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/config_players/device_config_player.py", line 80, in _validate_config_item
+    device_settings = self._expand_device_config(device_settings)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/config_players/light_player.py", line 133, in _expand_device_config
+    device_settings['color'] = self._convert_color(color)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/config_players/light_player.py", line 124, in _convert_color
+    self.raise_config_error("Invalid color {}".format(color), 1, source_exception=e, context=context)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/logging.py", line 174, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in light_player: Show "attracti_gi" >> Failed to load config player attracti_gi:lights with settings {'gi': 'yellow-f2s', 'playfield': 'green-f2s', 'duration': '1500ms'} >> Failed to expand entry "duration". >> Invalid color 1500ms Error Code: CFE-light_player-1 (https://missionpinball.org/logs)
+2024-10-19 07:36:03,085 : INFO : Machine : Starting the main run loop.
+2024-10-19 07:36:03,085 : INFO : Machine : Shutting down...
+2024-10-19 07:36:03,085 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2024-10-19 07:36:04,088 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/config_players/light_player.py", line 122, in _convert_color
+    color = RGBColor(color)
+            ^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/rgb_color.py", line 177, in __init__
+    self._color = RGBColor.string_to_rgb(color)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/rgb_color.py", line 420, in string_to_rgb
+    raise ColorException("Invalid RGB string: {}".format(value))
+mpf.core.rgb_color.ColorException: Invalid RGB string: 1500ms
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/machine.py", line 793, in _run_loop
+    raise self._exception['exception']
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/events.py", line 795, in _queue_task_done
+    future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/show_controller.py", line 53, in _load_shows
+    self.machine.shows[show_name].load(show_config)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/assets/show.py", line 171, in load
+    self._process_step_actions(step, actions)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/assets/show.py", line 201, in _process_step_actions
+    raise e
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/assets/show.py", line 197, in _process_step_actions
+    self.machine.show_controller.show_players[key].validate_config_entry(value, self.name)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/config_players/device_config_player.py", line 56, in validate_config_entry
+    raise e
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/config_players/device_config_player.py", line 52, in validate_config_entry
+    self._validate_config_item(device, device_settings))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/config_players/device_config_player.py", line 83, in _validate_config_item
+    raise e
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/config_players/device_config_player.py", line 80, in _validate_config_item
+    device_settings = self._expand_device_config(device_settings)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/config_players/light_player.py", line 133, in _expand_device_config
+    device_settings['color'] = self._convert_color(color)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/config_players/light_player.py", line 124, in _convert_color
+    self.raise_config_error("Invalid color {}".format(color), 1, source_exception=e, context=context)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/logging.py", line 174, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in light_player: Show "attracti_gi" >> Failed to load config player attracti_gi:lights with settings {'gi': 'yellow-f2s', 'playfield': 'green-f2s', 'duration': '1500ms'} >> Failed to expand entry "duration". >> Invalid color 1500ms Error Code: CFE-light_player-1 (https://missionpinball.org/logs)
+2024-10-19 07:36:04,092 : INFO : root : MPF run loop ended.

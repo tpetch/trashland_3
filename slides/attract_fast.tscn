@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3 uid="uid://b1nuycmhjh2l7"]
+
+[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_p2n1a"]
+[ext_resource type="Texture2D" uid="uid://c68c2c6kmyme1" path="res://images/fast_slide.png" id="2_xnjvw"]
+
+[node name="AttractFast" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_p2n1a")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(656, 190)
+scale = Vector2(0.782632, 0.78125)
+texture = ExtResource("2_xnjvw")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+z_index = -1
+offset_left = -19.0
+offset_top = -35.0
+offset_right = 1341.0
+offset_bottom = 419.0
+color = Color(0, 0, 0, 1)

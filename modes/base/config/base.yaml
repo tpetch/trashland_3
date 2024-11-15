@@ -1,0 +1,89 @@
+#config_version=6
+mode:
+  start_events: ball_starting
+  priority: 100
+  
+
+slide_player:
+  ball_starting: 
+    base:
+      priority: 100
+      action: queue_first
+  ball_ending:
+    base:
+      action: remove
+      
+show_player:
+  ball_started: gi_on
+    
+
+  
+
+
+
+        
+      
+shots:
+
+
+  r_orbit_small_r_base:
+   switch: s_orbit_small_r
+   profile: sp_base
+   
+  r_orbit_small_l_base:
+   switch: s_orbit_small_l
+   profile: sp_base
+
+  r_pop:
+   switch: s_pop
+   profile: sp_base
+
+  r_sling_l:
+   switch: s_sling_l
+   profile: sp_base
+  r_sling_r:
+   switch: s_kicking_target
+   profile: sp_base
+      
+  r_scoop:
+    switch: s_middle_scoop
+    profile: sp_base
+
+      
+      
+shot_profiles:
+  sp_base:
+      states:
+      - name: state_base
+        show: "off"
+      
+  
+sequence_shots:
+    
+  ss_orbit_counterclockwise:
+    switch_sequence: s_orbit_small_r, s_orbit_small_l
+    sequence_timeout: 2s
+  ss_orbit_clockwise:
+    switch_sequence: s_orbit_small_l, s_orbit_small_r
+    sequence_timeout: 2s
+
+  
+  
+variable_player:
+
+  r_sling_l_hit:
+    score: 10
+  r_sling_r_hit:
+    score: 10
+  r_pop_hit:
+    score: 10
+  ss_orbit_counterclockwise_hit:
+    score: 100
+  ss_orbit_clockwise_hit:
+    score: 100
+    
+
+    
+
+
+

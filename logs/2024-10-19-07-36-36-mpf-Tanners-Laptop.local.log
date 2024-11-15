@@ -1,0 +1,270 @@
+2024-10-19 07:36:36,363 : INFO : root : Loading config.
+2024-10-19 07:36:36,365 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-10-19 07:36:36,365 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/9d21ea9a81fcfc5941f8ed75c4a080eb.mpf_cache
+2024-10-19 07:36:36,397 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/43115b802accf167344a214047a50cd4.mpf_cache
+2024-10-19 07:36:36,397 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/bd1387dfa7de7ffc5bacad015019c743.mpf_cache
+2024-10-19 07:36:36,398 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/d126ded0bd5e51d3c29826a335e85340.mpf_cache
+2024-10-19 07:36:36,398 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/43115b802accf167344a214047a50cd4.mpf_cache
+2024-10-19 07:36:36,398 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/a4506495691bdf3563a8fd11a9d79f10.mpf_cache
+2024-10-19 07:36:36,398 : WARNING : ConfigProcessor : Config file in cache changed: /Users/tannerpetch/Documents/GitHub/trashland_3/modes/attract/shows/./attracti_gi.yaml
+2024-10-19 07:36:36,399 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/trashland_3/modes/attract/shows/./attracti_gi.yaml.
+2024-10-19 07:36:36,400 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/trashland_3/modes/attract/shows/./attracti_gi.yaml
+2024-10-19 07:36:36,400 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/40b90811de8a75ce62c7eba4221d4b1e.mpf_cache
+2024-10-19 07:36:36,401 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/db09ec9978a00e1c6f82e6773edea5b3.mpf_cache
+2024-10-19 07:36:36,401 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev4
+2024-10-19 07:36:36,401 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2024-10-19-07-36-36-mpf-Tanners-Laptop.local.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'mc_file_name': None, 'no_sound': False, 'full_logfile_path': '/Users/tannerpetch/Documents/GitHub/trashland_3/logs/2024-10-19-07-36-36-mpf-Tanners-Laptop.local.log'}
+2024-10-19 07:36:36,401 : INFO : Machine : MPF path: /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf
+2024-10-19 07:36:36,401 : INFO : Machine : Machine path: /Users/tannerpetch/Documents/GitHub/trashland_3
+2024-10-19 07:36:36,401 : INFO : Machine : Platform: darwin
+2024-10-19 07:36:36,401 : INFO : Machine : Python executable location: /Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11
+2024-10-19 07:36:36,401 : INFO : Machine : Python version: 3.11.9 (64-bit)
+2024-10-19 07:36:36,401 : INFO : Machine : Initializing MPF...
+2024-10-19 07:36:36,430 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,435 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,435 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,435 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev4', 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,435 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev4, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,435 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.11.9', 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,443 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-14.3-arm64-arm-64bit', 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,443 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,443 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '23.3.0', 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,443 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 23.3.0: Thu Dec 21 02:29:41 PST 2023; root:xnu-10002.81.5~11/RELEASE_ARM64_T8122', 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,443 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'arm64', 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,443 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/Users/tannerpetch/Documents/GitHub/trashland_3/logs/2024-10-19-07-36-36-mpf-Tanners-Laptop.local.log', 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,443 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2024-10-19 07:36:36,459 : INFO : EventManager : Event: ======'drop_target_bank_dt_single_up'====== Args={}
+2024-10-19 07:36:36,459 : INFO : EventManager : Event: ======'drop_target_bank_mid_up'====== Args={}
+2024-10-19 07:36:36,459 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2024-10-19 07:36:36,461 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2024-10-19 07:36:36,461 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2024-10-19 07:36:36,464 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2024-10-19 07:36:36,464 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2024-10-19 07:36:36,465 : INFO : ball_device.bd_scoop : BCH: Initial count: 0
+2024-10-19 07:36:36,465 : INFO : ball_device.bd_scoop : State: idle
+2024-10-19 07:36:36,465 : INFO : ball_device.bd_trough : BCH: Initial count: 0
+2024-10-19 07:36:36,465 : INFO : ball_device.bd_trough : State: idle
+2024-10-19 07:36:36,465 : INFO : ball_device.bd_autolauncher : BCH: Initial count: 0
+2024-10-19 07:36:36,465 : INFO : ball_device.bd_autolauncher : State: idle
+2024-10-19 07:36:36,466 : INFO : ball_device.bd_kicker_orbit : BCH: Initial count: 0
+2024-10-19 07:36:36,466 : INFO : ball_device.bd_kicker_orbit : State: idle
+2024-10-19 07:36:36,466 : INFO : ball_device.bd_lower_vuk : BCH: Initial count: 0
+2024-10-19 07:36:36,466 : INFO : ball_device.bd_lower_vuk : State: idle
+2024-10-19 07:36:36,466 : INFO : ball_device.bd_vuk_back : BCH: Initial count: 0
+2024-10-19 07:36:36,466 : INFO : ball_device.bd_vuk_back : State: idle
+2024-10-19 07:36:36,466 : INFO : ball_device.bd_vuk_upper : BCH: Initial count: 0
+2024-10-19 07:36:36,466 : INFO : ball_device.bd_vuk_upper : State: idle
+2024-10-19 07:36:36,466 : INFO : ball_device.bd_b_lock : BCH: Initial count: 0
+2024-10-19 07:36:36,466 : INFO : ball_device.bd_b_lock : State: idle
+2024-10-19 07:36:36,470 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2024-10-19 07:36:36,470 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2024-10-19 07:36:36,470 : INFO : BallController : Initial balls found: 0
+2024-10-19 07:36:36,471 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,471 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 34, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,471 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_b_rollover_interchange'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,472 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_b_rollover_misc'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,472 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_b_target_left'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,472 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_b_target_right'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,472 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_bot'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,472 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_bot_mid'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,472 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_captive_l'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,472 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_captive_r'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,472 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_flipper_but_l_1'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,472 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_flipper_but_l_2'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,472 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_flipper_l'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,472 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_flipper_upper_l'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,472 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_inlane_l'====== Args={'value': 32, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,472 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_kicking_target'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,472 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_lock_1'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,472 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_lock_2'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,472 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_lock_3'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,472 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_lower_orbit'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,472 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_lower_single'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,472 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_lower_sling'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,472 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_lower_transfer'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,472 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_lower_vuk'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,472 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_middle_scoop'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,472 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_orbit_small_l'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,472 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_orbit_small_r'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,472 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_outlane_l'====== Args={'value': 34, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,472 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_outlane_r'====== Args={'value': 34, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,472 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_pop'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,472 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_scissor_save'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,472 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_sling_l'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,472 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_start'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,472 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_stationary_l'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,472 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_stationary_m'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,472 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_stationary_r'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,473 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_tilt'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,473 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_top'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,473 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_top_mid'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,473 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_u_lane_l'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,473 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_u_lane_r'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,473 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_u_rollover'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,473 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_u_target'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,473 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_vuk_upper'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,473 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 0, 'top': [0, 0, 0, 0, 0, 0, 0, 0, 0], 'total': 9}, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,473 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_autolauncher'====== Args={'value': 116, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,473 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_eos'====== Args={'value': 582, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,473 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_pop'====== Args={'value': 132, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,473 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_rollover_interchange'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,473 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_rollover_loop'====== Args={'value': 8, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,473 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_rollover_misc'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,473 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_target_left'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,473 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_target_right'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,473 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bot'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,473 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bot_mid'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,473 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_captive_l'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,473 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_captive_r'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,473 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_l'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,473 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_m'====== Args={'value': 14, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,473 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_r'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,474 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_single'====== Args={'value': 12, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,474 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_but_l_1'====== Args={'value': 347, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,474 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_but_l_2'====== Args={'value': 324, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,474 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_but_r_1'====== Args={'value': 723, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,474 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_but_r_2'====== Args={'value': 715, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,474 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_l'====== Args={'value': 324, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,474 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_r'====== Args={'value': 1663, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,474 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_upper_l'====== Args={'value': 296, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,474 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlane_l'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,474 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlane_r'====== Args={'value': 72, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,474 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_kicker_orbit'====== Args={'value': 171, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,474 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_kicking_target'====== Args={'value': 532, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,474 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch'====== Args={'value': 119, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,474 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lock_1'====== Args={'value': 10, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,474 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lock_2'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,474 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lock_3'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,474 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_orbit'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,474 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_single'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,474 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_sling'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,475 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_transfer'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,475 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_vuk'====== Args={'value': 13, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,475 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_middle_scoop'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,475 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_orbit_small_l'====== Args={'value': 36, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,475 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_orbit_small_r'====== Args={'value': 195, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,475 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_outlane_l'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,475 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_outlane_r'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,475 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop'====== Args={'value': 77, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,475 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_scissor_save'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,475 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_l'====== Args={'value': 16, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,475 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,475 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_stationary_l'====== Args={'value': 101, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,475 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_stationary_m'====== Args={'value': 23, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,475 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_stationary_r'====== Args={'value': 27, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,475 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_subway'====== Args={'value': 166, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,475 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_tilt'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,475 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_top'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,476 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_top_mid'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,476 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_1'====== Args={'value': 97, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,476 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_2'====== Args={'value': 57, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,476 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_3'====== Args={'value': 56, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,476 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_4'====== Args={'value': 134, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,476 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_5'====== Args={'value': 48, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,476 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_6'====== Args={'value': 100, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,476 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_jam'====== Args={'value': 70, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,476 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_u_lane_l'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,476 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_u_lane_r'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,476 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_u_rollover'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,476 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_u_target'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,476 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_vuk_back'====== Args={'value': 59, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,476 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_vuk_upper'====== Args={'value': 58, 'prev_value': None, 'change': True}
+2024-10-19 07:36:36,477 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2024-10-19 07:36:36,477 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2024-10-19 07:36:36,477 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2024-10-19 07:36:36,487 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2024-10-19 07:36:36,487 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2024-10-19 07:36:36,488 : INFO : EventManager : Event: ======'diverter_d_middle_diverter_deactivating'====== Args={}
+2024-10-19 07:36:36,488 : INFO : coil.c_diverter : Disabling Driver
+2024-10-19 07:36:36,488 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2024-10-19 07:36:36,488 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2024-10-19 07:36:36,488 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2024-10-19 07:36:36,488 : INFO : Mode.attract : Started. Priority: 10
+2024-10-19 07:36:36,488 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2024-10-19 07:36:36,488 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2024-10-19 07:36:36,488 : ERROR : asyncio : Exception in callback EventManager.process_event_queue()
+handle: <Handle EventManager.process_event_queue()>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/show_controller.py", line 130, in replace_or_advance_show
+    show_obj = self.machine.shows[config.name]
+               ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+KeyError: 'attract_gi'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/events.py", line 755, in _run_handlers
+    result = handler.callback(**merged_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/config_player.py", line 348, in config_play_callback
+    return self.play(settings=settings, context=context, calling_context=calling_context, priority=priority,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/config_players/show_player.py", line 60, in play
+    self._update_show(show.name, show_settings, context, queue, start_time, show_tokens)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/config_players/show_player.py", line 225, in _update_show
+    action(key, instance_dict, show_name, show_settings, queue, start_time, placeholder_args)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/config_players/show_player.py", line 117, in _play
+    instance_dict[key] = self.machine.show_controller.replace_or_advance_show(previous_show, show_config,
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/show_controller.py", line 132, in replace_or_advance_show
+    raise KeyError("Cannot play show '{}'. No show with that "
+KeyError: "Cannot play show 'attract_gi'. No show with that name."
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/events.py", line 846, in process_event_queue
+    self._process_event(event=event[0],
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/events.py", line 808, in _process_event
+    result = self._run_handlers(event, ev_type, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/events.py", line 757, in _run_handlers
+    raise EventHandlerException(
+mpf.core.events.EventHandlerException: Exception while processing RegisteredHandler(callback=<bound method ConfigPlayer.config_play_callback of ConfigPlayer.show_player/shows>, priority=12, kwargs={'calling_context': 'mode_attract_started.2', 'mode': <Mode.attract>, 'settings': {attract_gi-None-None: {'priority': 0, 'action': 'play', 'show': None, 'speed': <NativeTemplate 1.0>, 'block_queue': False, 'start_step': <NativeTemplate 1>, 'start_running': <Template True>, 'loops': -1, 'sync_ms': None, 'manual_advance': False, 'show_queue': None, 'key': None, 'show_tokens': {}, 'events_when_played': [], 'events_when_stopped': [], 'events_when_looped': [], 'events_when_paused': [], 'events_when_resumed': [], 'events_when_advanced': [], 'events_when_stepped_back': [], 'events_when_updated': [], 'events_when_completed': []}}}, key=UUID('0cb763ab-c2ca-4b27-bb68-7c18075c682c'), condition=None, blocking_facility=None) for event mode_attract_started. "Cannot play show 'attract_gi'. No show with that name."
+2024-10-19 07:36:36,490 : INFO : Machine : Starting the main run loop.
+2024-10-19 07:36:36,490 : INFO : Machine : Shutting down...
+2024-10-19 07:36:36,490 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2024-10-19 07:36:36,491 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/show_controller.py", line 130, in replace_or_advance_show
+    show_obj = self.machine.shows[config.name]
+               ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+KeyError: 'attract_gi'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/events.py", line 755, in _run_handlers
+    result = handler.callback(**merged_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/config_player.py", line 348, in config_play_callback
+    return self.play(settings=settings, context=context, calling_context=calling_context, priority=priority,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/config_players/show_player.py", line 60, in play
+    self._update_show(show.name, show_settings, context, queue, start_time, show_tokens)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/config_players/show_player.py", line 225, in _update_show
+    action(key, instance_dict, show_name, show_settings, queue, start_time, placeholder_args)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/config_players/show_player.py", line 117, in _play
+    instance_dict[key] = self.machine.show_controller.replace_or_advance_show(previous_show, show_config,
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/show_controller.py", line 132, in replace_or_advance_show
+    raise KeyError("Cannot play show '{}'. No show with that "
+KeyError: "Cannot play show 'attract_gi'. No show with that name."
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/machine.py", line 793, in _run_loop
+    raise self._exception['exception']
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/events.py", line 846, in process_event_queue
+    self._process_event(event=event[0],
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/events.py", line 808, in _process_event
+    result = self._run_handlers(event, ev_type, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/events.py", line 757, in _run_handlers
+    raise EventHandlerException(
+mpf.core.events.EventHandlerException: Exception while processing RegisteredHandler(callback=<bound method ConfigPlayer.config_play_callback of ConfigPlayer.show_player/shows>, priority=12, kwargs={'calling_context': 'mode_attract_started.2', 'mode': <Mode.attract>, 'settings': {attract_gi-None-None: {'priority': 0, 'action': 'play', 'show': None, 'speed': <NativeTemplate 1.0>, 'block_queue': False, 'start_step': <NativeTemplate 1>, 'start_running': <Template True>, 'loops': -1, 'sync_ms': None, 'manual_advance': False, 'show_queue': None, 'key': None, 'show_tokens': {}, 'events_when_played': [], 'events_when_stopped': [], 'events_when_looped': [], 'events_when_paused': [], 'events_when_resumed': [], 'events_when_advanced': [], 'events_when_stepped_back': [], 'events_when_updated': [], 'events_when_completed': []}}}, key=UUID('0cb763ab-c2ca-4b27-bb68-7c18075c682c'), condition=None, blocking_facility=None) for event mode_attract_started. "Cannot play show 'attract_gi'. No show with that name."
+2024-10-19 07:36:36,493 : INFO : root : MPF run loop ended.

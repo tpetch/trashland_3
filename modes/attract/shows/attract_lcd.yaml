@@ -1,0 +1,19 @@
+#show_version=6
+
+- slides: 
+
+    attract:
+      action: remove
+    attract_fast:
+      action: queue_immediate
+
+
+  duration: 3s
+- slides: 
+
+    attract_fast:
+      action: remove
+    attract:
+      action: queue_immediate
+
+  duration: 3s

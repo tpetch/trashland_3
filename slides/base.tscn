@@ -1,0 +1,64 @@
+[gd_scene load_steps=5 format=3 uid="uid://celjkodvstce1"]
+
+[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_8sbgb"]
+[ext_resource type="Texture2D" uid="uid://cvmb7ff623bpd" path="res://images/trashland_bg.png" id="2_wfobi"]
+[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="3_dpr11"]
+
+[sub_resource type="SystemFont" id="SystemFont_x2y7s"]
+
+[node name="Base" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_8sbgb")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(647, 199)
+scale = Vector2(0.2418, 0.2418)
+texture = ExtResource("2_wfobi")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D"]
+position = Vector2(1270.57, 2330.64)
+
+[node name="MPFVariable" type="Label" parent="."]
+layout_mode = 0
+offset_left = 226.0
+offset_top = 214.0
+offset_right = 1043.0
+offset_bottom = 462.0
+theme_override_colors/font_color = Color(1, 1, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0.623529, 0, 1)
+theme_override_constants/outline_size = 23
+theme_override_fonts/font = SubResource("SystemFont_x2y7s")
+theme_override_font_sizes/font_size = 181
+text = "1,000,000"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("3_dpr11")
+variable_name = "score"
+comma_separate = true
+min_digits = 2
+
+[node name="MPFVariable4" type="Label" parent="."]
+layout_mode = 0
+offset_left = 1012.0
+offset_top = 104.0
+offset_right = 1052.0
+offset_bottom = 188.0
+theme_override_colors/font_color = Color(1, 1, 0, 1)
+theme_override_font_sizes/font_size = 48
+text = "1"
+script = ExtResource("3_dpr11")
+variable_name = "ball"
+min_digits = 1
+
+[node name="MPFVariable2" type="Label" parent="."]
+layout_mode = 0
+offset_left = 393.0
+offset_top = 103.0
+offset_right = 433.0
+offset_bottom = 186.0
+theme_override_colors/font_color = Color(0.894118, 0.937255, 0.00392157, 1)
+theme_override_font_sizes/font_size = 48
+text = "1"
+script = ExtResource("3_dpr11")
+variable_name = "number"

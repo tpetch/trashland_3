@@ -1,0 +1,6 @@
+2024-11-15 13:47:43,688 : INFO : root : Loading config.
+2024-11-15 13:47:43,717 : INFO : ConfigProcessor : Config spec file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/config_spec.mpf_cache
+2024-11-15 13:47:43,718 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-11-15 13:47:43,718 : INFO : ConfigProcessor : Loading config from file /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/mpfconfig.yaml.
+2024-11-15 13:47:43,722 : INFO : ConfigProcessor : Loading config: /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/mpfconfig.yaml
+2024-11-15 13:47:43,722 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/trashland_3/config/config.yaml.
