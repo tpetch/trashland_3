@@ -30,14 +30,7 @@ fast:
       b_back:
         model: FP-I/O-3208
         order: 5
-  exp:
-    port: auto
-    boards: 
-      pf:
-        model: FP-EXP-0081
-        address: 85
-      back:
-        model: FP-EXP-0071
+
 
 
     
