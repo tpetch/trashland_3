@@ -16,7 +16,7 @@ fast:
     controller: neuron
     io_loop:
       b_cabinet:
-        model: FP-I/O-0804
+        model: FP-I/O-3208
         order: 1
       b_lower_mini:
         model: FP-I/O-0804
@@ -579,9 +579,14 @@ lights:
   l_vert_ramp_square:
     number: pf-8-30
     tags: playfield, circle, main, main_playfield, lower_ramp
+  
+
 
 
     
+
+
+
 
 
   
@@ -710,7 +715,7 @@ coils:
     default_pulse_ms: 20
     
   c_diverter:
-    number: b_middle-13
+    number: b_middle_13
     allow_enable: true
     default_hold_power: 0.5
     default_pulse_power: 1
@@ -804,7 +809,7 @@ switches:
   s_lower_orbit:
     number:  b_lower_mini-5
     type: 'NC'
-  s_top:
+  s_lower_top:
     number:  b_lower_mini-6
   s_lower_vuk:
     number:  b_lower_mini-7
