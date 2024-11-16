@@ -232,21 +232,21 @@ switches:
 
 
   s_flipper_but_r_1:
-    number: b_cabinet_b-0
+    number: b_cabinet_b-8
   s_flipper_but_r_2:
-    number: b_cabinet_b-1
+    number: b_cabinet_b-9
   s_flipper_but_l_1:
-    number: b_cabinet_b-2
+    number: b_cabinet_b-10
   s_flipper_but_l_2:
-    number: b_cabinet_b-3
+    number: b_cabinet_b-11
   s_launch:
-    number: b_cabinet_b-4
+    number: b_cabinet_b-12
     tags: launch
   s_tilt:
-    number: b_cabinet_b-5
+    number: b_cabinet_b-13
     tags: tilt
   s_start:
-    number: b_cabinet_b-6
+    number: b_cabinet_b-14
     tags: start
 
   s_bot:
