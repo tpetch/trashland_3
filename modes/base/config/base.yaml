@@ -14,7 +14,7 @@ slide_player:
       action: remove
       
 show_player:
-  ball_started: gi_on
+ # ball_started: gi_on
     
 
   
