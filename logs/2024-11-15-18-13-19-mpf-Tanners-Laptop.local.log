@@ -1,0 +1,45 @@
+2024-11-15 18:13:19,256 : INFO : root : Loading config.
+2024-11-15 18:13:19,259 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-11-15 18:13:19,260 : WARNING : ConfigProcessor : Config file in cache changed: /Users/tannerpetch/Documents/GitHub/trashland_3/config/config.yaml
+2024-11-15 18:13:19,260 : INFO : ConfigProcessor : Loading config from file /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/mpfconfig.yaml.
+2024-11-15 18:13:19,268 : INFO : ConfigProcessor : Loading config: /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/mpfconfig.yaml
+2024-11-15 18:13:19,268 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/trashland_3/config/config.yaml.
+2024-11-15 18:13:19,280 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/trashland_3/config/config.yaml
+2024-11-15 18:13:19,283 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/9d21ea9a81fcfc5941f8ed75c4a080eb.mpf_cache
+2024-11-15 18:13:19,331 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/43115b802accf167344a214047a50cd4.mpf_cache
+2024-11-15 18:13:19,331 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/bd1387dfa7de7ffc5bacad015019c743.mpf_cache
+2024-11-15 18:13:19,332 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/d126ded0bd5e51d3c29826a335e85340.mpf_cache
+2024-11-15 18:13:19,332 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/43115b802accf167344a214047a50cd4.mpf_cache
+2024-11-15 18:13:19,332 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/fb286bdec51e83b76c44a07e18af10e7.mpf_cache
+2024-11-15 18:13:19,333 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/a4506495691bdf3563a8fd11a9d79f10.mpf_cache
+2024-11-15 18:13:19,334 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/ca66b8f571437747b2f2875349d15af7.mpf_cache
+2024-11-15 18:13:19,334 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev4
+2024-11-15 18:13:19,334 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2024-11-15-18-13-19-mpf-Tanners-Laptop.local.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'mc_file_name': None, 'no_sound': False, 'full_logfile_path': '/Users/tannerpetch/Documents/GitHub/trashland_3/logs/2024-11-15-18-13-19-mpf-Tanners-Laptop.local.log'}
+2024-11-15 18:13:19,334 : INFO : Machine : MPF path: /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf
+2024-11-15 18:13:19,334 : INFO : Machine : Machine path: /Users/tannerpetch/Documents/GitHub/trashland_3
+2024-11-15 18:13:19,334 : INFO : Machine : Platform: darwin
+2024-11-15 18:13:19,334 : INFO : Machine : Python executable location: /Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11
+2024-11-15 18:13:19,334 : INFO : Machine : Python version: 3.11.9 (64-bit)
+2024-11-15 18:13:19,335 : INFO : Machine : Initializing MPF...
+2024-11-15 18:13:19,429 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2024-11-15 18:13:19,447 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2024-11-15 18:13:19,447 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-11-15 18:13:19,447 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev4', 'prev_value': None, 'change': True}
+2024-11-15 18:13:19,447 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev4, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2024-11-15 18:13:19,447 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.11.9', 'prev_value': None, 'change': True}
+2024-11-15 18:13:19,515 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-14.3-arm64-arm-64bit', 'prev_value': None, 'change': True}
+2024-11-15 18:13:19,515 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2024-11-15 18:13:19,515 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '23.3.0', 'prev_value': None, 'change': True}
+2024-11-15 18:13:19,515 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 23.3.0: Thu Dec 21 02:29:41 PST 2023; root:xnu-10002.81.5~11/RELEASE_ARM64_T8122', 'prev_value': None, 'change': True}
+2024-11-15 18:13:19,515 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'arm64', 'prev_value': None, 'change': True}
+2024-11-15 18:13:19,515 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/Users/tannerpetch/Documents/GitHub/trashland_3/logs/2024-11-15-18-13-19-mpf-Tanners-Laptop.local.log', 'prev_value': None, 'change': True}
+2024-11-15 18:13:19,515 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2024-11-15 18:13:19,548 : INFO : EventManager : Event: ======'drop_target_bank_dt_single_up'====== Args={}
+2024-11-15 18:13:19,548 : INFO : EventManager : Event: ======'drop_target_bank_mid_up'====== Args={}
+2024-11-15 18:13:19,550 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2024-11-15 18:13:19,553 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2024-11-15 18:13:19,555 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2024-11-15 18:13:22,074 : INFO : Machine : Starting the main run loop.
+2024-11-15 18:13:22,075 : INFO : Machine : Shutting down...
+2024-11-15 18:13:22,075 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2024-11-15 18:13:23,101 : INFO : root : MPF run loop ended.
