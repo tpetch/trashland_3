@@ -15,7 +15,7 @@ fast:
     port: auto
     controller: neuron
     io_loop:
-      b_cabinet:
+      b_cabinet_b:
         model: FP-I/O-3208
         order: 1
       b_lower_mini:
@@ -52,11 +52,6 @@ modes:
 coils:
 
 # Board 1 - Cabinet
-
-  c_shaker:
-    number: b_cabinet-0
-    default_pulse_ms: 1
-    default_hold_power: 0.125
     
 # Board 2 - Lower Mini
 
@@ -237,21 +232,21 @@ switches:
 
 
   s_flipper_but_r_1:
-    number: b_cabinet-0
+    number: b_cabinet_b-0
   s_flipper_but_r_2:
-    number: b_cabinet-1
+    number: b_cabinet_b-1
   s_flipper_but_l_1:
-    number: b_cabinet-2
+    number: b_cabinet_b-2
   s_flipper_but_l_2:
-    number: b_cabinet-3
+    number: b_cabinet_b-3
   s_launch:
-    number: b_cabinet-4
+    number: b_cabinet_b-4
     tags: launch
   s_tilt:
-    number: b_cabinet-5
+    number: b_cabinet_b-5
     tags: tilt
   s_start:
-    number: b_cabinet-6
+    number: b_cabinet_b-6
     tags: start
 
   s_bot:
