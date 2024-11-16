@@ -16,7 +16,7 @@ fast:
     controller: neuron
     io_loop:
       b_cabinet:
-        model: FP-I/O-0804
+        model: FP-I/O-3208
         order: 1
       b_lower_mini:
         model: FP-I/O-0804
