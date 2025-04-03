@@ -35,7 +35,7 @@ fast:
     boards: 
       pf:
         model: FP-EXP-0081
-        address: 85
+        address: 86
       back:
         model: FP-EXP-0071
 
@@ -901,8 +901,10 @@ switches:
     number: b_middle-12
   s_captive_r:
     number: b_middle-13
+    type: 'NC'
   s_captive_l:
     number: b_middle-14
+    type: 'NC'
     
     
 # Board 4 - Back + Upper
