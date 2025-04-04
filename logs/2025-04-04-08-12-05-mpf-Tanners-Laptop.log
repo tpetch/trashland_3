@@ -1,0 +1,21 @@
+2025-04-04 08:12:05,159 : INFO : root : Loading config.
+2025-04-04 08:12:05,194 : INFO : ConfigProcessor : Config spec file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/config_spec.mpf_cache
+2025-04-04 08:12:05,194 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-04-04 08:12:05,195 : INFO : ConfigProcessor : Loading config from file /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/mpfconfig.yaml.
+2025-04-04 08:12:05,200 : INFO : ConfigProcessor : Loading config: /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/mpfconfig.yaml
+2025-04-04 08:12:05,201 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/trashland_3/config/config.yaml.
+2025-04-04 08:12:05,210 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/trashland_3/config/config.yaml
+2025-04-04 08:12:05,211 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/9d21ea9a81fcfc5941f8ed75c4a080eb.mpf_cache
+2025-04-04 08:12:05,253 : INFO : ConfigProcessor : Loading config from file /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/modes/attract/config/attract.yaml.
+2025-04-04 08:12:05,253 : INFO : ConfigProcessor : Loading config: /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/modes/attract/config/attract.yaml
+2025-04-04 08:12:05,253 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/trashland_3/modes/attract/config/attract.yaml.
+2025-04-04 08:12:05,254 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/trashland_3/modes/attract/config/attract.yaml
+2025-04-04 08:12:05,254 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/43115b802accf167344a214047a50cd4.mpf_cache
+2025-04-04 08:12:05,255 : INFO : ConfigProcessor : Loading config from file /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/modes/game/config/game.yaml.
+2025-04-04 08:12:05,255 : INFO : ConfigProcessor : Loading config: /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/modes/game/config/game.yaml
+2025-04-04 08:12:05,255 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/bd1387dfa7de7ffc5bacad015019c743.mpf_cache
+2025-04-04 08:12:05,256 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/trashland_3/modes/base/config/base.yaml.
+2025-04-04 08:12:05,256 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/trashland_3/modes/base/config/base.yaml
+2025-04-04 08:12:05,256 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/d126ded0bd5e51d3c29826a335e85340.mpf_cache
+2025-04-04 08:12:05,257 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/43115b802accf167344a214047a50cd4.mpf_cache
+2025-04-04 08:12:05,257 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/trashland_3/modes/diverter_activation/config/diverter_activation.yaml.
