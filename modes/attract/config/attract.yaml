@@ -2,7 +2,7 @@
 
 show_player:
   mode_attract_started: attract_lcd
-  #mode_attract_started.2: attract_gi
+  mode_attract_started.1: attract_gi
 
   
 slide_player:

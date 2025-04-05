@@ -1,0 +1,10 @@
+#show_version=6
+
+    - lights:
+       gi: green-f2s
+       playfield: yellow-f2s
+      duration: 2s
+    - lights:
+       gi: yellow-f2s
+       playfield: green-f2s
+      duration: 2s

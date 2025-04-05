@@ -36,8 +36,7 @@ fast:
       pf:
         model: FP-EXP-0081
         address: 86
-      back:
-        model: FP-EXP-0071
+
 
 
     

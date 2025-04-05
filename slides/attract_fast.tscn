@@ -15,6 +15,7 @@ texture = ExtResource("2_xnjvw")
 
 [node name="ColorRect" type="ColorRect" parent="."]
 z_index = -1
+layout_mode = 0
 offset_left = -19.0
 offset_top = -35.0
 offset_right = 1341.0
