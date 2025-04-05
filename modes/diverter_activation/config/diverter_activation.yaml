@@ -6,13 +6,15 @@ mode:
 shots:
 
   r_orbit_small_r_div:
-   switch: s_orbit_small_r
+    switch: s_orbit_small_r
    
   r_orbit_small_l_div:
-   switch: s_orbit_small_l
+    switch: s_orbit_small_l
 
   r_captive_l_div:
     switch: s_captive_l
+  r_stationary_r_div:
+    switch: s_stationary_r
    
    
 variable_player:
@@ -33,4 +35,5 @@ event_player:
 
   r_orbit_small_l_div_hit:  diverter_activate
   l_orbit_small_l_div_hit:  diverter_activate
+  r_stationary_r_div_hit: diverter_activate
   r_captive_l_div_hit{current_player.v_right_ramp>1}:  diverter_activate

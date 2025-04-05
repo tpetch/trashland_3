@@ -1045,3 +1045,6 @@
 2025-04-05 09:23:56,009 : INFO : EventManager : Event: ======'slide_attract_fast_inactive'====== Args={'is_removing': True, '_from_bcp': True}
 2025-04-05 09:23:56,009 : INFO : EventManager : Event: ======'slide_attract_active'====== Args={'calling_context': 1, 'cmd': 'slides_play', 'context': 'show_2', 'priority': 10, 'show_tokens': {}, 'start_time': 1946072.99351592, '_from_bcp': True}
 2025-04-05 09:23:56,009 : INFO : EventManager : Event: ======'slide_attract_fast_removed'====== Args={'_from_bcp': True}
+2025-04-05 13:30:37,457 : INFO : Machine : Shutting down...
+2025-04-05 13:30:37,462 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-04-05 13:30:37,565 : INFO : root : MPF run loop ended.

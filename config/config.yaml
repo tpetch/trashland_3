@@ -966,7 +966,7 @@ ball_devices:
     
   bd_trough:
   # s_trough_6, s_trough_5, s_trough_4, s_trough_3, s_trough_2, 
-    ball_switches: s_trough_1, s_trough_2
+    ball_switches: s_trough_1, s_trough_2, s_trough_3, s_trough_4
     eject_coil: c_trough
     eject_timeouts: 1s
     tags: trough, home, drain
