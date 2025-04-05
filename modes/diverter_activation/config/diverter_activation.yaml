@@ -14,7 +14,7 @@ shots:
   r_captive_l_div:
     switch: s_captive_l
   r_stationary_r_div:
-    switch: s_stationary_r
+    switch: s_stationary_m
    
    
 variable_player:

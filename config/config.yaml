@@ -1027,19 +1027,21 @@ flippers:
     main_coil: c_flipper_r_main
     hold_coil: c_flipper_r_hold
     activation_switch: s_flipper_but_r_1
-    #eos_switch: s_flipper_upper_l
+    eos_switch: s_flipper_upper_l
     enable_events: ball_started
     
   f_lower_r:
     main_coil: c_flipper_lower_r
     activation_switch: s_flipper_but_r_2
-    enable_events: diverter_activate, lower_flippers_enable
-    disable_events: ball_started, disable_lower_flippers
+    enable_events: ball_started
+    #enable_events: diverter_activate, lower_flippers_enable
+    #disable_events: ball_started, disable_lower_flippers
   f_lower_l:
     main_coil: c_flipper_lower_l
     activation_switch: s_flipper_but_l_2
-    enable_events: diverter_activate, lower_flippers_enable
-    disable_events: ball_started, disable_lower_flippers
+    enable_events: ball_started
+    #enable_events: diverter_activate, lower_flippers_enable
+    #disable_events: ball_started, disable_lower_flippers
     
     
   f_back:
