@@ -6,12 +6,12 @@ mode:
 
 slide_player:
   mode_base_starting: 
-    base:
-      action: queue_immediate
     attract_fast:
       action: remove
     attract:
       action: remove
+    base:
+      action: play
   mode_base_ending:
     base:
       action: remove

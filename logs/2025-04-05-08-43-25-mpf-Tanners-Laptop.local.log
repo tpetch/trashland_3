@@ -904,3 +904,144 @@
 2025-04-05 09:22:11,016 : INFO : EventManager : Event: ======'slide_attract_inactive'====== Args={'is_removing': True, '_from_bcp': True}
 2025-04-05 09:22:11,016 : INFO : EventManager : Event: ======'slide_attract_fast_active'====== Args={'_from_bcp': True}
 2025-04-05 09:22:11,016 : INFO : EventManager : Event: ======'slide_attract_removed'====== Args={'_from_bcp': True}
+2025-04-05 09:22:14,011 : INFO : EventManager : Event: ======'slide_attract_fast_created'====== Args={'_from_bcp': True}
+2025-04-05 09:22:14,012 : INFO : EventManager : Event: ======'slide_attract_created'====== Args={'_from_bcp': True}
+2025-04-05 09:22:14,012 : INFO : EventManager : Event: ======'slide_attract_fast_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2025-04-05 09:22:14,012 : INFO : EventManager : Event: ======'slide_attract_active'====== Args={'calling_context': 1, 'cmd': 'slides_play', 'context': 'show_2', 'priority': 10, 'show_tokens': {}, 'start_time': 1945970.99351592, '_from_bcp': True}
+2025-04-05 09:22:14,012 : INFO : EventManager : Event: ======'slide_attract_fast_removed'====== Args={'_from_bcp': True}
+2025-04-05 09:22:17,029 : INFO : EventManager : Event: ======'slide_attract_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2025-04-05 09:22:17,029 : INFO : EventManager : Event: ======'slide_attract_fast_active'====== Args={'_from_bcp': True}
+2025-04-05 09:22:17,029 : INFO : EventManager : Event: ======'slide_attract_removed'====== Args={'_from_bcp': True}
+2025-04-05 09:22:20,020 : INFO : EventManager : Event: ======'slide_attract_fast_created'====== Args={'_from_bcp': True}
+2025-04-05 09:22:20,022 : INFO : EventManager : Event: ======'slide_attract_created'====== Args={'_from_bcp': True}
+2025-04-05 09:22:20,022 : INFO : EventManager : Event: ======'slide_attract_fast_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2025-04-05 09:22:20,022 : INFO : EventManager : Event: ======'slide_attract_active'====== Args={'calling_context': 1, 'cmd': 'slides_play', 'context': 'show_2', 'priority': 10, 'show_tokens': {}, 'start_time': 1945976.99351592, '_from_bcp': True}
+2025-04-05 09:22:20,022 : INFO : EventManager : Event: ======'slide_attract_fast_removed'====== Args={'_from_bcp': True}
+2025-04-05 09:22:23,014 : INFO : EventManager : Event: ======'slide_attract_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2025-04-05 09:22:23,014 : INFO : EventManager : Event: ======'slide_attract_fast_active'====== Args={'_from_bcp': True}
+2025-04-05 09:22:23,014 : INFO : EventManager : Event: ======'slide_attract_removed'====== Args={'_from_bcp': True}
+2025-04-05 09:22:26,027 : INFO : EventManager : Event: ======'slide_attract_fast_created'====== Args={'_from_bcp': True}
+2025-04-05 09:22:26,027 : INFO : EventManager : Event: ======'slide_attract_created'====== Args={'_from_bcp': True}
+2025-04-05 09:22:26,027 : INFO : EventManager : Event: ======'slide_attract_fast_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2025-04-05 09:22:26,028 : INFO : EventManager : Event: ======'slide_attract_active'====== Args={'calling_context': 1, 'cmd': 'slides_play', 'context': 'show_2', 'priority': 10, 'show_tokens': {}, 'start_time': 1945982.99351592, '_from_bcp': True}
+2025-04-05 09:22:26,028 : INFO : EventManager : Event: ======'slide_attract_fast_removed'====== Args={'_from_bcp': True}
+2025-04-05 09:22:29,018 : INFO : EventManager : Event: ======'slide_attract_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2025-04-05 09:22:29,018 : INFO : EventManager : Event: ======'slide_attract_fast_active'====== Args={'_from_bcp': True}
+2025-04-05 09:22:29,019 : INFO : EventManager : Event: ======'slide_attract_removed'====== Args={'_from_bcp': True}
+2025-04-05 09:22:32,014 : INFO : EventManager : Event: ======'slide_attract_fast_created'====== Args={'_from_bcp': True}
+2025-04-05 09:22:32,014 : INFO : EventManager : Event: ======'slide_attract_created'====== Args={'_from_bcp': True}
+2025-04-05 09:22:32,015 : INFO : EventManager : Event: ======'slide_attract_fast_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2025-04-05 09:22:32,015 : INFO : EventManager : Event: ======'slide_attract_active'====== Args={'calling_context': 1, 'cmd': 'slides_play', 'context': 'show_2', 'priority': 10, 'show_tokens': {}, 'start_time': 1945988.99351592, '_from_bcp': True}
+2025-04-05 09:22:32,015 : INFO : EventManager : Event: ======'slide_attract_fast_removed'====== Args={'_from_bcp': True}
+2025-04-05 09:22:35,013 : INFO : EventManager : Event: ======'slide_attract_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2025-04-05 09:22:35,014 : INFO : EventManager : Event: ======'slide_attract_fast_active'====== Args={'_from_bcp': True}
+2025-04-05 09:22:35,014 : INFO : EventManager : Event: ======'slide_attract_removed'====== Args={'_from_bcp': True}
+2025-04-05 09:22:38,010 : INFO : EventManager : Event: ======'slide_attract_fast_created'====== Args={'_from_bcp': True}
+2025-04-05 09:22:38,011 : INFO : EventManager : Event: ======'slide_attract_created'====== Args={'_from_bcp': True}
+2025-04-05 09:22:38,011 : INFO : EventManager : Event: ======'slide_attract_fast_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2025-04-05 09:22:38,011 : INFO : EventManager : Event: ======'slide_attract_active'====== Args={'calling_context': 1, 'cmd': 'slides_play', 'context': 'show_2', 'priority': 10, 'show_tokens': {}, 'start_time': 1945994.99351592, '_from_bcp': True}
+2025-04-05 09:22:38,011 : INFO : EventManager : Event: ======'slide_attract_fast_removed'====== Args={'_from_bcp': True}
+2025-04-05 09:22:41,020 : INFO : EventManager : Event: ======'slide_attract_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2025-04-05 09:22:41,022 : INFO : EventManager : Event: ======'slide_attract_fast_active'====== Args={'_from_bcp': True}
+2025-04-05 09:22:41,023 : INFO : EventManager : Event: ======'slide_attract_removed'====== Args={'_from_bcp': True}
+2025-04-05 09:22:44,011 : INFO : EventManager : Event: ======'slide_attract_fast_created'====== Args={'_from_bcp': True}
+2025-04-05 09:22:44,011 : INFO : EventManager : Event: ======'slide_attract_created'====== Args={'_from_bcp': True}
+2025-04-05 09:22:44,011 : INFO : EventManager : Event: ======'slide_attract_fast_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2025-04-05 09:22:44,012 : INFO : EventManager : Event: ======'slide_attract_active'====== Args={'calling_context': 1, 'cmd': 'slides_play', 'context': 'show_2', 'priority': 10, 'show_tokens': {}, 'start_time': 1946000.99351592, '_from_bcp': True}
+2025-04-05 09:22:44,012 : INFO : EventManager : Event: ======'slide_attract_fast_removed'====== Args={'_from_bcp': True}
+2025-04-05 09:22:47,020 : INFO : EventManager : Event: ======'slide_attract_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2025-04-05 09:22:47,021 : INFO : EventManager : Event: ======'slide_attract_fast_active'====== Args={'_from_bcp': True}
+2025-04-05 09:22:47,022 : INFO : EventManager : Event: ======'slide_attract_removed'====== Args={'_from_bcp': True}
+2025-04-05 09:22:50,011 : INFO : EventManager : Event: ======'slide_attract_fast_created'====== Args={'_from_bcp': True}
+2025-04-05 09:22:50,011 : INFO : EventManager : Event: ======'slide_attract_created'====== Args={'_from_bcp': True}
+2025-04-05 09:22:50,011 : INFO : EventManager : Event: ======'slide_attract_fast_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2025-04-05 09:22:50,012 : INFO : EventManager : Event: ======'slide_attract_active'====== Args={'calling_context': 1, 'cmd': 'slides_play', 'context': 'show_2', 'priority': 10, 'show_tokens': {}, 'start_time': 1946006.99351592, '_from_bcp': True}
+2025-04-05 09:22:50,012 : INFO : EventManager : Event: ======'slide_attract_fast_removed'====== Args={'_from_bcp': True}
+2025-04-05 09:22:53,009 : INFO : EventManager : Event: ======'slide_attract_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2025-04-05 09:22:53,009 : INFO : EventManager : Event: ======'slide_attract_fast_active'====== Args={'_from_bcp': True}
+2025-04-05 09:22:53,009 : INFO : EventManager : Event: ======'slide_attract_removed'====== Args={'_from_bcp': True}
+2025-04-05 09:22:56,014 : INFO : EventManager : Event: ======'slide_attract_fast_created'====== Args={'_from_bcp': True}
+2025-04-05 09:22:56,033 : INFO : EventManager : Event: ======'slide_attract_created'====== Args={'_from_bcp': True}
+2025-04-05 09:22:56,033 : INFO : EventManager : Event: ======'slide_attract_fast_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2025-04-05 09:22:56,033 : INFO : EventManager : Event: ======'slide_attract_active'====== Args={'calling_context': 1, 'cmd': 'slides_play', 'context': 'show_2', 'priority': 10, 'show_tokens': {}, 'start_time': 1946012.99351592, '_from_bcp': True}
+2025-04-05 09:22:56,033 : INFO : EventManager : Event: ======'slide_attract_fast_removed'====== Args={'_from_bcp': True}
+2025-04-05 09:22:59,010 : INFO : EventManager : Event: ======'slide_attract_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2025-04-05 09:22:59,011 : INFO : EventManager : Event: ======'slide_attract_fast_active'====== Args={'_from_bcp': True}
+2025-04-05 09:22:59,011 : INFO : EventManager : Event: ======'slide_attract_removed'====== Args={'_from_bcp': True}
+2025-04-05 09:23:02,010 : INFO : EventManager : Event: ======'slide_attract_fast_created'====== Args={'_from_bcp': True}
+2025-04-05 09:23:02,011 : INFO : EventManager : Event: ======'slide_attract_created'====== Args={'_from_bcp': True}
+2025-04-05 09:23:02,011 : INFO : EventManager : Event: ======'slide_attract_fast_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2025-04-05 09:23:02,011 : INFO : EventManager : Event: ======'slide_attract_active'====== Args={'calling_context': 1, 'cmd': 'slides_play', 'context': 'show_2', 'priority': 10, 'show_tokens': {}, 'start_time': 1946018.99351592, '_from_bcp': True}
+2025-04-05 09:23:02,011 : INFO : EventManager : Event: ======'slide_attract_fast_removed'====== Args={'_from_bcp': True}
+2025-04-05 09:23:05,012 : INFO : EventManager : Event: ======'slide_attract_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2025-04-05 09:23:05,012 : INFO : EventManager : Event: ======'slide_attract_fast_active'====== Args={'_from_bcp': True}
+2025-04-05 09:23:05,013 : INFO : EventManager : Event: ======'slide_attract_removed'====== Args={'_from_bcp': True}
+2025-04-05 09:23:08,014 : INFO : EventManager : Event: ======'slide_attract_fast_created'====== Args={'_from_bcp': True}
+2025-04-05 09:23:08,015 : INFO : EventManager : Event: ======'slide_attract_created'====== Args={'_from_bcp': True}
+2025-04-05 09:23:08,015 : INFO : EventManager : Event: ======'slide_attract_fast_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2025-04-05 09:23:08,015 : INFO : EventManager : Event: ======'slide_attract_active'====== Args={'calling_context': 1, 'cmd': 'slides_play', 'context': 'show_2', 'priority': 10, 'show_tokens': {}, 'start_time': 1946024.99351592, '_from_bcp': True}
+2025-04-05 09:23:08,015 : INFO : EventManager : Event: ======'slide_attract_fast_removed'====== Args={'_from_bcp': True}
+2025-04-05 09:23:11,008 : INFO : EventManager : Event: ======'slide_attract_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2025-04-05 09:23:11,008 : INFO : EventManager : Event: ======'slide_attract_fast_active'====== Args={'_from_bcp': True}
+2025-04-05 09:23:11,008 : INFO : EventManager : Event: ======'slide_attract_removed'====== Args={'_from_bcp': True}
+2025-04-05 09:23:14,029 : INFO : EventManager : Event: ======'slide_attract_fast_created'====== Args={'_from_bcp': True}
+2025-04-05 09:23:14,030 : INFO : EventManager : Event: ======'slide_attract_created'====== Args={'_from_bcp': True}
+2025-04-05 09:23:14,030 : INFO : EventManager : Event: ======'slide_attract_fast_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2025-04-05 09:23:14,030 : INFO : EventManager : Event: ======'slide_attract_active'====== Args={'calling_context': 1, 'cmd': 'slides_play', 'context': 'show_2', 'priority': 10, 'show_tokens': {}, 'start_time': 1946030.99351592, '_from_bcp': True}
+2025-04-05 09:23:14,030 : INFO : EventManager : Event: ======'slide_attract_fast_removed'====== Args={'_from_bcp': True}
+2025-04-05 09:23:17,002 : INFO : EventManager : Event: ======'slide_attract_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2025-04-05 09:23:17,002 : INFO : EventManager : Event: ======'slide_attract_fast_active'====== Args={'_from_bcp': True}
+2025-04-05 09:23:17,002 : INFO : EventManager : Event: ======'slide_attract_removed'====== Args={'_from_bcp': True}
+2025-04-05 09:23:20,016 : INFO : EventManager : Event: ======'slide_attract_fast_created'====== Args={'_from_bcp': True}
+2025-04-05 09:23:20,018 : INFO : EventManager : Event: ======'slide_attract_created'====== Args={'_from_bcp': True}
+2025-04-05 09:23:20,018 : INFO : EventManager : Event: ======'slide_attract_fast_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2025-04-05 09:23:20,019 : INFO : EventManager : Event: ======'slide_attract_active'====== Args={'calling_context': 1, 'cmd': 'slides_play', 'context': 'show_2', 'priority': 10, 'show_tokens': {}, 'start_time': 1946036.99351592, '_from_bcp': True}
+2025-04-05 09:23:20,019 : INFO : EventManager : Event: ======'slide_attract_fast_removed'====== Args={'_from_bcp': True}
+2025-04-05 09:23:23,015 : INFO : EventManager : Event: ======'slide_attract_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2025-04-05 09:23:23,015 : INFO : EventManager : Event: ======'slide_attract_fast_active'====== Args={'_from_bcp': True}
+2025-04-05 09:23:23,015 : INFO : EventManager : Event: ======'slide_attract_removed'====== Args={'_from_bcp': True}
+2025-04-05 09:23:26,007 : INFO : EventManager : Event: ======'slide_attract_fast_created'====== Args={'_from_bcp': True}
+2025-04-05 09:23:26,007 : INFO : EventManager : Event: ======'slide_attract_created'====== Args={'_from_bcp': True}
+2025-04-05 09:23:26,007 : INFO : EventManager : Event: ======'slide_attract_fast_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2025-04-05 09:23:26,008 : INFO : EventManager : Event: ======'slide_attract_active'====== Args={'calling_context': 1, 'cmd': 'slides_play', 'context': 'show_2', 'priority': 10, 'show_tokens': {}, 'start_time': 1946042.99351592, '_from_bcp': True}
+2025-04-05 09:23:26,008 : INFO : EventManager : Event: ======'slide_attract_fast_removed'====== Args={'_from_bcp': True}
+2025-04-05 09:23:29,020 : INFO : EventManager : Event: ======'slide_attract_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2025-04-05 09:23:29,021 : INFO : EventManager : Event: ======'slide_attract_fast_active'====== Args={'_from_bcp': True}
+2025-04-05 09:23:29,022 : INFO : EventManager : Event: ======'slide_attract_removed'====== Args={'_from_bcp': True}
+2025-04-05 09:23:32,008 : INFO : EventManager : Event: ======'slide_attract_fast_created'====== Args={'_from_bcp': True}
+2025-04-05 09:23:32,008 : INFO : EventManager : Event: ======'slide_attract_created'====== Args={'_from_bcp': True}
+2025-04-05 09:23:32,008 : INFO : EventManager : Event: ======'slide_attract_fast_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2025-04-05 09:23:32,009 : INFO : EventManager : Event: ======'slide_attract_active'====== Args={'calling_context': 1, 'cmd': 'slides_play', 'context': 'show_2', 'priority': 10, 'show_tokens': {}, 'start_time': 1946048.99351592, '_from_bcp': True}
+2025-04-05 09:23:32,009 : INFO : EventManager : Event: ======'slide_attract_fast_removed'====== Args={'_from_bcp': True}
+2025-04-05 09:23:35,010 : INFO : EventManager : Event: ======'slide_attract_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2025-04-05 09:23:35,011 : INFO : EventManager : Event: ======'slide_attract_fast_active'====== Args={'_from_bcp': True}
+2025-04-05 09:23:35,012 : INFO : EventManager : Event: ======'slide_attract_removed'====== Args={'_from_bcp': True}
+2025-04-05 09:23:38,010 : INFO : EventManager : Event: ======'slide_attract_fast_created'====== Args={'_from_bcp': True}
+2025-04-05 09:23:38,011 : INFO : EventManager : Event: ======'slide_attract_created'====== Args={'_from_bcp': True}
+2025-04-05 09:23:38,011 : INFO : EventManager : Event: ======'slide_attract_fast_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2025-04-05 09:23:38,011 : INFO : EventManager : Event: ======'slide_attract_active'====== Args={'calling_context': 1, 'cmd': 'slides_play', 'context': 'show_2', 'priority': 10, 'show_tokens': {}, 'start_time': 1946054.99351592, '_from_bcp': True}
+2025-04-05 09:23:38,011 : INFO : EventManager : Event: ======'slide_attract_fast_removed'====== Args={'_from_bcp': True}
+2025-04-05 09:23:41,007 : INFO : EventManager : Event: ======'slide_attract_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2025-04-05 09:23:41,008 : INFO : EventManager : Event: ======'slide_attract_fast_active'====== Args={'_from_bcp': True}
+2025-04-05 09:23:41,008 : INFO : EventManager : Event: ======'slide_attract_removed'====== Args={'_from_bcp': True}
+2025-04-05 09:23:44,016 : INFO : EventManager : Event: ======'slide_attract_fast_created'====== Args={'_from_bcp': True}
+2025-04-05 09:23:44,038 : INFO : EventManager : Event: ======'slide_attract_created'====== Args={'_from_bcp': True}
+2025-04-05 09:23:44,038 : INFO : EventManager : Event: ======'slide_attract_fast_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2025-04-05 09:23:44,039 : INFO : EventManager : Event: ======'slide_attract_active'====== Args={'calling_context': 1, 'cmd': 'slides_play', 'context': 'show_2', 'priority': 10, 'show_tokens': {}, 'start_time': 1946060.99351592, '_from_bcp': True}
+2025-04-05 09:23:44,039 : INFO : EventManager : Event: ======'slide_attract_fast_removed'====== Args={'_from_bcp': True}
+2025-04-05 09:23:47,023 : INFO : EventManager : Event: ======'slide_attract_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2025-04-05 09:23:47,023 : INFO : EventManager : Event: ======'slide_attract_fast_active'====== Args={'_from_bcp': True}
+2025-04-05 09:23:47,023 : INFO : EventManager : Event: ======'slide_attract_removed'====== Args={'_from_bcp': True}
+2025-04-05 09:23:50,012 : INFO : EventManager : Event: ======'slide_attract_fast_created'====== Args={'_from_bcp': True}
+2025-04-05 09:23:50,012 : INFO : EventManager : Event: ======'slide_attract_created'====== Args={'_from_bcp': True}
+2025-04-05 09:23:50,012 : INFO : EventManager : Event: ======'slide_attract_fast_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2025-04-05 09:23:50,012 : INFO : EventManager : Event: ======'slide_attract_active'====== Args={'calling_context': 1, 'cmd': 'slides_play', 'context': 'show_2', 'priority': 10, 'show_tokens': {}, 'start_time': 1946066.99351592, '_from_bcp': True}
+2025-04-05 09:23:50,013 : INFO : EventManager : Event: ======'slide_attract_fast_removed'====== Args={'_from_bcp': True}
+2025-04-05 09:23:53,027 : INFO : EventManager : Event: ======'slide_attract_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2025-04-05 09:23:53,028 : INFO : EventManager : Event: ======'slide_attract_fast_active'====== Args={'_from_bcp': True}
+2025-04-05 09:23:53,029 : INFO : EventManager : Event: ======'slide_attract_removed'====== Args={'_from_bcp': True}
+2025-04-05 09:23:56,008 : INFO : EventManager : Event: ======'slide_attract_fast_created'====== Args={'_from_bcp': True}
+2025-04-05 09:23:56,009 : INFO : EventManager : Event: ======'slide_attract_created'====== Args={'_from_bcp': True}
+2025-04-05 09:23:56,009 : INFO : EventManager : Event: ======'slide_attract_fast_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2025-04-05 09:23:56,009 : INFO : EventManager : Event: ======'slide_attract_active'====== Args={'calling_context': 1, 'cmd': 'slides_play', 'context': 'show_2', 'priority': 10, 'show_tokens': {}, 'start_time': 1946072.99351592, '_from_bcp': True}
+2025-04-05 09:23:56,009 : INFO : EventManager : Event: ======'slide_attract_fast_removed'====== Args={'_from_bcp': True}
