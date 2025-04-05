@@ -5,7 +5,7 @@ mode:
   
 
 slide_player:
-  mode_base_starting: 
+  mode_base_started: 
     attract_fast:
       action: remove
     attract:

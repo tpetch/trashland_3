@@ -9,3 +9,10 @@ slide_player:
   mode_attract_started:
     base:
       action: remove
+  mode_attract_ending:
+    attract_fast:
+      action: remove
+    attract:
+      action: remove
+    base:
+      action: queue_immediate
