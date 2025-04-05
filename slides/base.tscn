@@ -12,7 +12,7 @@ anchors_preset = 0
 script = ExtResource("1_8sbgb")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(647, 199)
+position = Vector2(644, 107)
 scale = Vector2(0.2418, 0.2418)
 texture = ExtResource("2_wfobi")
 
@@ -21,10 +21,10 @@ position = Vector2(1270.57, 2330.64)
 
 [node name="MPFVariable" type="Label" parent="."]
 layout_mode = 0
-offset_left = 226.0
-offset_top = 214.0
-offset_right = 1043.0
-offset_bottom = 462.0
+offset_left = 240.485
+offset_top = 123.291
+offset_right = 1057.49
+offset_bottom = 371.291
 theme_override_colors/font_color = Color(1, 1, 0, 1)
 theme_override_colors/font_outline_color = Color(0, 0.623529, 0, 1)
 theme_override_constants/outline_size = 23
@@ -41,9 +41,9 @@ min_digits = 2
 [node name="MPFVariable4" type="Label" parent="."]
 layout_mode = 0
 offset_left = 1012.0
-offset_top = 104.0
+offset_top = 17.0
 offset_right = 1052.0
-offset_bottom = 188.0
+offset_bottom = 101.0
 theme_override_colors/font_color = Color(1, 1, 0, 1)
 theme_override_font_sizes/font_size = 48
 text = "1"
@@ -54,11 +54,17 @@ min_digits = 1
 [node name="MPFVariable2" type="Label" parent="."]
 layout_mode = 0
 offset_left = 393.0
-offset_top = 103.0
+offset_top = 16.0
 offset_right = 433.0
-offset_bottom = 186.0
+offset_bottom = 99.0
 theme_override_colors/font_color = Color(0.894118, 0.937255, 0.00392157, 1)
 theme_override_font_sizes/font_size = 48
 text = "1"
 script = ExtResource("3_dpr11")
 variable_name = "number"
+
+[node name="ColorRect" type="ColorRect" parent="."]
+z_index = -1
+offset_right = 1280.0
+offset_bottom = 390.0
+color = Color(0, 0, 0, 1)

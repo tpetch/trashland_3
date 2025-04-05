@@ -128,18 +128,25 @@ lights:
     tags: 
   l_achieve_circle_bot_l:
     number: pf-1-26
+    tags: playfield
   l_achieve_triangle_top_l:
     number: pf-1-27
+    tags: playfield
   l_achieve_circle_top:
     number: pf-1-28
+    tags: playfield
   l_achieve_triangle_top_r:
     number: pf-1-29
+    tags: playfield
   l_achieve_circle_mid:
     number: pf-1-30
+    tags: playfield
   l_achieve_circle_bot_r:
     number: pf-1-31
+    tags: playfield
   l_achieve_triangle_bot:
     number: pf-1-32
+    tags: playfield
   
 
   l_lower_single:
@@ -627,7 +634,7 @@ coils:
     
   c_autolauncher:
     number: b_main-1
-    default_pulse_ms: 18
+    default_pulse_ms: 20
     default_pulse_power: 1
     allow_enable: true
     default_hold_power: 1
@@ -1012,7 +1019,7 @@ flippers:
   f_l_upper:
     main_coil: c_flipper_l_upper_main
     hold_coil: c_flipper_l_upper_hold
-    activation_switch: s_flipper_but_l_1
+    activation_switch: s_flipper_but_l_2
     eos_switch: s_flipper_l
     enable_events: ball_started
     
@@ -1077,6 +1084,7 @@ drop_target_banks:
       drop_targets:  left, right, mid
       reset_coil: c_drop_reset
       reset_events: ball_started
+      reset_on_complete: 5s
     
     
 autofire_coils:
