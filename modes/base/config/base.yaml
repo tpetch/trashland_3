@@ -5,16 +5,13 @@ mode:
   
 
 slide_player:
-  mode_base_starting: 
-    base:
-      priority: 100
-      action: queue_first
+  mode_base_starting: base
   mode_base_ending:
     base:
       action: remove
       
 show_player:
-  ball_started: gi_on
+  ball_started: gi-on
     
 
   
