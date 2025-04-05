@@ -5,11 +5,11 @@ mode:
   
 
 slide_player:
-  ball_starting: 
+  mode_base_starting: 
     base:
       priority: 100
       action: queue_first
-  ball_ending:
+  mode_base_ending:
     base:
       action: remove
       
