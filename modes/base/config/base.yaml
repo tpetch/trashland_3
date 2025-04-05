@@ -5,7 +5,13 @@ mode:
   
 
 slide_player:
-  mode_base_starting: base
+  mode_base_starting: 
+    base:
+      action: queue_immediate
+    attract_fast:
+      action: remove
+    attract:
+      action: remove
   mode_base_ending:
     base:
       action: remove
