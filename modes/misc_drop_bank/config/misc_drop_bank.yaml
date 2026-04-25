@@ -77,15 +77,15 @@ variable_player:
 shows:
   drop_misc_blink:
     - lights:
-        (led): yellow-f200ms
+        (led): yellow
       duration: 700ms
     - lights:
-        (led): white-f200ms
+        (led): white
       duration: 200ms
   drop_misc_down:
     - lights:
-        (led): green-f200ms
+        (led): green
       duration: 700ms
     - lights:
-        (led): off-f200ms
+        (led): off
       duration: 200ms

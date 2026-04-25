@@ -1,17 +1,17 @@
 #show_version=6 
  
     - lights:
-        l_drop_r: yellow-f200ms
-        l_drop_m: yellow-f200ms
-        l_drop_l: yellow-f200ms
+        l_drop_r: yellow
+        l_drop_m: yellow
+        l_drop_l: yellow
       duration: 500ms
     - lights:
-        l_drop_r: white-f200ms
-        l_drop_m: yellow-f200ms
-        l_drop_l: yellow-f200ms
+        l_drop_r: white
+        l_drop_m: yellow
+        l_drop_l: yellow
       duration: 200ms
     - lights:
-        l_drop_r: green-f200ms
-        l_drop_m: green-f200ms
-        l_drop_l: green-f200ms
+        l_drop_r: green
+        l_drop_m: green
+        l_drop_l: green
       duration: 500ms
