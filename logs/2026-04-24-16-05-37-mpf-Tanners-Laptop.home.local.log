@@ -1,0 +1,93 @@
+2026-04-24 16:05:37,777 : INFO : root : Loading config.
+2026-04-24 16:05:37,779 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-04-24 16:05:37,779 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/9d21ea9a81fcfc5941f8ed75c4a080eb.mpf_cache
+2026-04-24 16:05:37,807 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/43115b802accf167344a214047a50cd4.mpf_cache
+2026-04-24 16:05:37,807 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/bd1387dfa7de7ffc5bacad015019c743.mpf_cache
+2026-04-24 16:05:37,807 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/d126ded0bd5e51d3c29826a335e85340.mpf_cache
+2026-04-24 16:05:37,808 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/be96f90f770b10caeac161802eebb966.mpf_cache
+2026-04-24 16:05:37,808 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/43115b802accf167344a214047a50cd4.mpf_cache
+2026-04-24 16:05:37,808 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/fb286bdec51e83b76c44a07e18af10e7.mpf_cache
+2026-04-24 16:05:37,808 : WARNING : ConfigProcessor : Config file in cache changed: /Users/tannerpetch/Documents/GitHub/trashland_3/modes/misc_drop_bank/config/misc_drop_bank.yaml
+2026-04-24 16:05:37,808 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/trashland_3/modes/misc_drop_bank/config/misc_drop_bank.yaml.
+2026-04-24 16:05:37,809 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/trashland_3/modes/misc_drop_bank/config/misc_drop_bank.yaml
+2026-04-24 16:05:37,810 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/4a0392f72066fff3dac8952634b7a9cd.mpf_cache
+2026-04-24 16:05:37,810 : WARNING : ConfigProcessor : Config file in cache changed: /Users/tannerpetch/Documents/GitHub/trashland_3/modes/misc_drop_bank_lit/config/misc_drop_bank_lit.yaml
+2026-04-24 16:05:37,810 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/trashland_3/modes/misc_drop_bank_lit/config/misc_drop_bank_lit.yaml.
+2026-04-24 16:05:37,810 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/trashland_3/modes/misc_drop_bank_lit/config/misc_drop_bank_lit.yaml
+2026-04-24 16:05:37,811 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/9740e98676f8796777039fba8e7d5e82.mpf_cache
+2026-04-24 16:05:37,811 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/a181a17d50eb4ab7db55e27ff85926c7.mpf_cache
+2026-04-24 16:05:37,811 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/a4506495691bdf3563a8fd11a9d79f10.mpf_cache
+2026-04-24 16:05:37,811 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/7e62a906c63d3b7efc85393a80e94c06.mpf_cache
+2026-04-24 16:05:37,811 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/ca66b8f571437747b2f2875349d15af7.mpf_cache
+2026-04-24 16:05:37,812 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/eeaf33bcbaf1c79f59b4ab00525b4fda.mpf_cache
+2026-04-24 16:05:37,812 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/ac7b60c885d53a697f70525935b77cd1.mpf_cache
+2026-04-24 16:05:37,812 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev14
+2026-04-24 16:05:37,812 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2026-04-24-16-05-37-mpf-Tanners-Laptop.home.local.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'full_logfile_path': '/Users/tannerpetch/Documents/GitHub/trashland_3/logs/2026-04-24-16-05-37-mpf-Tanners-Laptop.home.local.log'}
+2026-04-24 16:05:37,812 : INFO : Machine : MPF path: /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf
+2026-04-24 16:05:37,812 : INFO : Machine : Machine path: /Users/tannerpetch/Documents/GitHub/trashland_3
+2026-04-24 16:05:37,812 : INFO : Machine : Platform: darwin
+2026-04-24 16:05:37,812 : INFO : Machine : Python executable location: /Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11
+2026-04-24 16:05:37,812 : INFO : Machine : Python version: 3.11.9 (64-bit)
+2026-04-24 16:05:37,813 : INFO : Machine : Initializing MPF...
+2026-04-24 16:05:37,840 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2026-04-24 16:05:37,846 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2026-04-24 16:05:37,846 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 310, 'prev_value': None, 'change': True}
+2026-04-24 16:05:37,846 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev14', 'prev_value': None, 'change': True}
+2026-04-24 16:05:37,846 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev14, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2026-04-24 16:05:37,846 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.11.9', 'prev_value': None, 'change': True}
+2026-04-24 16:05:37,853 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-14.3-arm64-arm-64bit', 'prev_value': None, 'change': True}
+2026-04-24 16:05:37,854 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2026-04-24 16:05:37,854 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '23.3.0', 'prev_value': None, 'change': True}
+2026-04-24 16:05:37,854 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 23.3.0: Thu Dec 21 02:29:41 PST 2023; root:xnu-10002.81.5~11/RELEASE_ARM64_T8122', 'prev_value': None, 'change': True}
+2026-04-24 16:05:37,854 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'arm64', 'prev_value': None, 'change': True}
+2026-04-24 16:05:37,854 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/Users/tannerpetch/Documents/GitHub/trashland_3/logs/2026-04-24-16-05-37-mpf-Tanners-Laptop.home.local.log', 'prev_value': None, 'change': True}
+2026-04-24 16:05:37,854 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2026-04-24 16:05:37,858 : ERROR : ConfigValidator : Your config contains a value for the setting "mode:events_on_start", but this is not a valid setting name.
+2026-04-24 16:05:37,858 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...tting name.')>) at /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/events.py:124
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...tting name.')>) at /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/events.py:124>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/events.py", line 127, in _async_handler_done
+    future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/mode_controller.py", line 119, in load_modes
+    self.machine.modes[mode] = self._load_mode(mode)
+                               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/mode_controller.py", line 152, in _load_mode
+    config['mode'] = self.machine.config_validator.validate_config("mode", config['mode'])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/config_validator.py", line 177, in _validate_config
+    self.check_for_invalid_sections(this_spec, source, validation_failure_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/config_validator.py", line 345, in check_for_invalid_sections
+    raise ConfigFileError('Your config contains a value for the '
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Your config contains a value for the setting "mode:events_on_start", but this is not a valid setting name. Error Code: CFE-ConfigValidator-2 (https://missionpinball.org/latest/logs)
+2026-04-24 16:05:37,860 : INFO : Machine : Starting the main run loop with active modes: []
+2026-04-24 16:05:37,860 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2026-04-24 16:05:37,860 : INFO : Machine : Shutting down...
+2026-04-24 16:05:37,860 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-04-24 16:05:38,862 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/machine.py", line 810, in _run_loop
+    raise self._exception['exception']
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/events.py", line 127, in _async_handler_done
+    future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/mode_controller.py", line 119, in load_modes
+    self.machine.modes[mode] = self._load_mode(mode)
+                               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/mode_controller.py", line 152, in _load_mode
+    config['mode'] = self.machine.config_validator.validate_config("mode", config['mode'])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/config_validator.py", line 177, in _validate_config
+    self.check_for_invalid_sections(this_spec, source, validation_failure_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/config_validator.py", line 345, in check_for_invalid_sections
+    raise ConfigFileError('Your config contains a value for the '
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Your config contains a value for the setting "mode:events_on_start", but this is not a valid setting name. Error Code: CFE-ConfigValidator-2 (https://missionpinball.org/latest/logs)
+2026-04-24 16:05:38,866 : INFO : root : MPF run loop ended.

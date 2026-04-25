@@ -1,0 +1,13 @@
+#config_version=6
+
+modes:
+
+  - base
+  - base_gi_control
+  - base_upper_trash_spell
+  - attract
+  - diverter_activation
+
+  - misc_drop_bank
+  - misc_drop_bank_lit
+  - misc_launch_shows

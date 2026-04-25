@@ -1,0 +1,157 @@
+#config_version=6
+
+ball_devices:
+
+  bd_scoop:
+    ball_switches: s_middle_scoop
+    eject_coil: c_scoop
+    eject_timeouts: 1s
+    
+  bd_trough:
+  # s_trough_6, s_trough_5, s_trough_4, s_trough_3, s_trough_2, 
+    ball_switches: s_trough_1, s_trough_2, s_trough_3, s_trough_4
+    eject_coil: c_trough
+    eject_timeouts: 1s
+    tags: trough, home, drain
+    jam_switch: s_trough_jam
+    eject_coil_jam_pulse: 15ms
+    eject_targets: bd_autolauncher
+    
+  bd_autolauncher:
+    ball_switches: s_autolauncher
+    entrance_count_delay: 300ms
+    eject_timeouts: 3s
+    eject_coil: c_autolauncher
+    player_controlled_eject_event: sw_launch
+    
+  bd_kicker_orbit:
+    ball_switches: s_kicker_orbit
+    eject_coil: c_kicker_orbit
+    eject_timeouts: 1s
+    
+    
+  bd_lower_vuk:
+    ball_switches: s_lower_vuk
+    eject_coil: c_lower_vuk
+    eject_timeouts: 1s
+    
+  bd_vuk_back:
+    ball_switches: s_vuk_back
+    eject_coil: c_vuk_back
+    eject_timeouts: 2s
+    
+  bd_vuk_upper:
+    ball_switches: s_vuk_upper
+    eject_coil: c_vuk_upper
+    eject_timeouts: 2s
+    
+  bd_b_lock:
+    ball_switches: s_lock_1, s_lock_1, s_lock_1
+    eject_coil: c_b_lock
+    eject_timeouts: 2s
+    
+flippers:
+
+  f_l:
+    main_coil: c_flipper_l_main
+    hold_coil: c_flipper_l_hold
+    activation_switch: s_flipper_but_l_1
+    eos_switch: s_flipper_l
+    enable_events: ball_started
+    
+  f_l_upper:
+    main_coil: c_flipper_l_upper_main
+    hold_coil: c_flipper_l_upper_hold
+    activation_switch: s_flipper_but_l_2
+    eos_switch: s_flipper_l
+    enable_events: ball_started
+    
+  f_r:
+    main_coil: c_flipper_r_main
+    hold_coil: c_flipper_r_hold
+    activation_switch: s_flipper_but_r_1
+    eos_switch: s_flipper_upper_l
+    enable_events: ball_started
+    
+  f_lower_r:
+    main_coil: c_flipper_lower_r
+    activation_switch: s_flipper_but_r_2
+    enable_events: ball_started
+    #enable_events: diverter_activate, lower_flippers_enable
+    #disable_events: ball_started, disable_lower_flippers
+  f_lower_l:
+    main_coil: c_flipper_lower_l
+    activation_switch: s_flipper_but_l_2
+    enable_events: ball_started
+    #enable_events: diverter_activate, lower_flippers_enable
+    #disable_events: ball_started, disable_lower_flippers
+    
+    
+  f_back:
+    main_coil: c_b_flipper_main
+    hold_coil: c_b_flipper_hold
+    activation_switch: s_flipper_but_r_2
+    
+  f_upper:
+    main_coil: c_u_flipper
+    activation_switch: s_flipper_but_l_2
+    
+drop_targets:
+    d_drop_single:
+      switch: s_drop_single
+      knockdown_coil: c_drop_single_release    
+
+    right:
+      switch: s_drop_r
+
+    mid:
+      switch: s_drop_m
+
+    left:
+      switch: s_drop_l
+
+drop_target_banks:
+
+    dt_single:
+      drop_targets: d_drop_single
+      reset_coil: c_drop_single
+      reset_events: reset_drop_single
+    
+      
+    dt_bank:
+      drop_targets:  left, right, mid
+      reset_coil: c_drop_reset
+      reset_events: ball_started{ball==1}, reset_drop_bank
+    
+    
+autofire_coils:
+
+  ac_pop:
+    coil: c_pop
+    switch: s_pop
+  
+  ac_kicking_target:
+    coil: c_kicking_target
+    switch: s_kicking_target
+  
+  ac_sling_l:
+    coil: c_sling_l
+    switch: s_sling_l
+    
+  ac_sling_lower:
+    coil: c_sling_lower
+    switch: s_lower_sling
+    
+  ac_pop_back:
+    coil: c_b_pop
+    switch: s_b_pop
+    
+diverters:
+
+  d_middle_diverter:
+    activation_coil: c_diverter      # WMS uses the -tor spelling
+    type: hold
+    activation_time: 6s
+    activate_events: diverter_activate
+    enable_events: ball_started
+    disable_events: ball_ended

@@ -1,0 +1,622 @@
+#config_version=6
+
+lights:
+
+  l_gi_1_1:
+    number: pf-1-1
+    tags: gi, main_gi, main
+  l_gi_1_2:
+    number: pf-1-2
+    tags: gi, main_gi, main
+  l_outlane_l:
+    number: pf-1-3
+    tags: playfield, rectangle, oval, main, main_playfield, outlane, lane
+  l_inlane_l:
+    number: pf-1-4
+    tags: playfield, rectangle, oval, main, main_playfield, inlane, lane
+  l_gi_1_3:
+    number: pf-1-5
+    tags: gi, main_gi, main
+  l_gi_1_4:
+    number: pf-1-6
+    tags: gi, main_gi, main
+  l_gi_1_5:
+    number: pf-1-7
+    tags: gi, main_gi, main
+  l_drop_r:
+    number: pf-1-8
+    tags: playfield, rectangle, square, main, main_playfield, drops
+  l_drop_m:
+    number: pf-1-9
+    tags: playfield, rectangle, square, main, main_playfield, drops
+  l_drop_l:
+    number: pf-1-10
+    tags: playfield, rectangle, square, main, main_playfield, drops
+  l_sling_l_1:
+    number: pf-1-11
+    tags: playfield
+  l_drops_arrow:
+    number: pf-1-12
+    tags: playfield
+  l_drops_square_top:
+    number: pf-1-13
+    tags: playfield
+  l_drops_square_bot:
+    number: pf-1-14
+    tags: playfield
+  l_drops_circle_small:
+    number: pf-1-15
+    tags: playfield
+  l_sling_l_2:
+    number: pf-1-16
+    tags: playfield
+  l_multiball_got_1:
+    number: pf-1-17
+    tags: playfield
+  l_multiball_got_2:
+    number: pf-1-18
+    tags: playfield
+  l_multiball_got_3:
+    number: pf-1-19
+    tags: playfield
+  l_gi_1_6:
+    number: pf-1-20
+    tags: gi, main_gi, main
+  l_gi_1_7:
+    number: pf-1-21
+    tags: gi, main_gi, main
+  l_gi_1_8:
+    number: pf-1-22
+    tags: gi, main_gi, main
+  l_gi_1_9:
+    number: pf-1-23
+    tags: gi, main_gi, main
+  l_gi_1_10:
+    number: pf-1-24
+    tags: gi, main_gi, main
+  l_scissor_save:
+    number: pf-1-25
+    tags: 
+  l_achieve_circle_bot_l:
+    number: pf-1-26
+    tags: playfield
+  l_achieve_triangle_top_l:
+    number: pf-1-27
+    tags: playfield
+  l_achieve_circle_top:
+    number: pf-1-28
+    tags: playfield
+  l_achieve_triangle_top_r:
+    number: pf-1-29
+    tags: playfield
+  l_achieve_circle_mid:
+    number: pf-1-30
+    tags: playfield
+  l_achieve_circle_bot_r:
+    number: pf-1-31
+    tags: playfield
+  l_achieve_triangle_bot:
+    number: pf-1-32
+    tags: playfield
+  
+
+  l_lower_single:
+    number: pf-2-1
+    tags: playfield, lower_playfield, lower
+  l_lower_transfer:
+    number: pf-2-2
+    tags: playfield, lower_playfield, lower
+  l_lower_loop:
+    number: pf-2-3
+    tags: playfield, lower_playfield, lower
+  l_lower_top:
+    number: pf-2-4
+    tags: playfield, lower_playfield, lower
+  l_lower_top_mid:
+    number: pf-2-5
+    tags: playfield, lower_playfield, lower
+  l_lower_bot_mid:
+    number: pf-2-6
+    tags: playfield, lower_playfield, lower
+  l_lower_bot:
+    number: pf-2-7
+    tags: playfield, lower_playfield, lower
+  l_lower_d:
+    number: pf-2-8
+    tags: playfield, lower_playfield, lower
+  l_lower_n:
+    number: pf-2-9
+    tags: playfield, lower_playfield, lower
+  l_lower_a:
+    number: pf-2-10
+    tags: playfield, lower_playfield, lower
+  l_lower_l:
+    number: pf-2-11
+    tags: playfield, lower_playfield, lower
+  l_gi_2_1:
+    number: pf-2-12
+    tags: gi, lower_gi, lower
+  l_lower_stadium_1:
+    number: pf-2-13
+    tags: gi, lower_gi, lower_stadium, lower
+  l_lower_stadium_2:
+    number: pf-2-14
+    tags: gi, lower_gi, lower_stadium, lower
+  l_lower_stadium_3:
+    number: pf-2-15
+    tags: gi, lower_gi, lower_stadium, lower
+  l_lower_stadium_4:
+    number: pf-2-16
+    tags: gi, lower_gi, lower_stadium, lower
+  l_lower_stadium_5:
+    number: pf-2-17
+    tags: gi, lower_gi, lower_stadium, lower
+  l_lower_stadium_6:
+    number: pf-2-18
+    tags: gi, lower_gi, lower_stadium, lower
+    
+  l_character_3_mode_2-5:
+    number: pf-3-1
+    tags:
+  l_character_3_mode_2-4:
+    number: pf-3-2
+    tags: playfield, main, main_playfield, character_3, characters, mode_insert, character_mode
+  l_character_3_mode_2-3:
+    number: pf-3-3
+    tags:
+  l_character_3_mode_2-2:
+    number: pf-3-4
+    tags: playfield, main, main_playfield, character_3, characters, mode_insert, character_mode
+  l_character_3_mode_2-1:
+    number: pf-3-5
+    tags:
+  l_character_3_mode_1-1:
+    number: pf-3-6
+    tags:
+  l_character_3_mode_1-2:
+    number: pf-3-7
+    tags: playfield, main, main_playfield, character_3, characters, mode_insert, character_mode
+  l_character_3_mode_1-3:
+    number: pf-3-8
+    tags:
+  l_character_3_mode_1-4:
+    number: pf-3-9
+    tags: playfield, main, main_playfield, character_3, characters, mode_insert, character_mode
+  l_character_3_mode_1-5:
+    number: pf-3-10
+    tags:
+  l_character_3_large-1:
+    number: pf-3-11
+    tags: 
+  l_character_3_large-2:
+    number: pf-3-12
+    tags: playfield, main, main_playfield, character_3, characters, big_insert
+  l_character_3_large-3:
+    number: pf-3-13
+    tags:
+  l_character_3_large-4:
+    number: pf-3-14
+    tags: playfield, main, main_playfield, character_3, characters, big_insert
+  l_character_3_large-5:
+    number: pf-3-15
+    tags:
+  l_character_3_large-6:
+    number: pf-3-16
+    tags:
+  l_character_3_large-7:
+    number: pf-3-17
+    tags:
+  l_character_3_large-8:
+    number: pf-3-18
+    tags:
+  l_character_3_large-9:
+    number: pf-3-19
+    tags:
+  l_character_4_mode_2-5:
+    number: pf-3-20
+    tags:
+  l_character_4_mode_2-4:
+    number: pf-3-21
+    tags: playfield, main, main_playfield, character_4, characters, mode_insert, character_mode
+  l_character_4_mode_2-3:
+    number: pf-3-22
+    tags:
+  l_character_4_mode_2-2:
+    number: pf-3-23
+    tags: playfield, main, main_playfield, character_4, characters, mode_insert, character_mode
+  l_character_4_mode_2-1:
+    number: pf-3-24
+    tags:
+  l_character_4_mode_1-1:
+    number: pf-3-25
+    tags:
+  l_character_4_mode_1-2:
+    number: pf-3-26
+    tags: playfield, main, main_playfield, character_4, characters, mode_insert, character_mode
+  l_character_4_mode_1-3:
+    number: pf-3-27
+    tags:
+  l_character_4_mode_1-4:
+    number: pf-3-28
+    tags: playfield, main, main_playfield, character_4, characters, mode_insert, character_mode
+  l_character_4_mode_1-5:
+    number: pf-3-29
+    tags:
+  l_character_4_large-1:
+    number: pf-3-30
+    tags: playfield, main, main_playfield, character_4, characters, big_insert
+  l_character_4_large-2:
+    number: pf-3-31
+    tags: 
+  l_character_4_large-3:
+    number: pf-3-32
+    tags: playfield, main, main_playfield, character_4, characters, big_insert
+    
+    
+
+
+  l_gi_6_1:
+    number: pf-6-1
+    tags: gi, main_gi, main
+  l_gi_6_2:
+    number: pf-6-2
+    tags: gi, main_gi, main
+  l_rollover_r_1:
+    number: pf-6-3
+    tags: playfield, rollover, main, main_playfield, orbit_small
+  l_rollover_r_2:
+    number: pf-6-4
+    tags: playfield, rollover, main, main_playfield
+  l_rollover_r_3:
+    number: pf-6-5
+    tags: playfield, rollover, main, main_playfield, orbit_small
+  l_rollover_r_4:
+    number: pf-6-6
+    tags: playfield, rollover, main, main_playfield
+  l_gi_6_3:
+    number: pf-6-7
+    tags: gi, main_gi, main
+  l_gi_6_4:
+    number: pf-6-8
+    tags: gi, main_gi, main
+  l_orbit_small_3:
+    number: pf-6-9
+    tags: playfield, small_circle, main, main_playfield, orbit_small
+  l_orbit_small_2:
+    number: pf-6-10
+    tags: playfield, small_circle, main, main_playfield, orbit_small
+  l_orbit_small_1:
+    number: pf-6-11
+    tags: playfield, small_circle, main, main_playfield, orbit_small
+  l_gi_6_5:
+    number: pf-6-12
+    tags: gi, main_gi, main
+  l_vert_ramp_arrow:
+    number: pf-6-13
+    tags: playfield, arrow, main, main_playfield, vert_ramp
+  l_gi_6_6:
+    number: pf-6-14
+    tags: gi, main_gi, main
+  l_gi_6_7:
+    number: pf-6-15
+    tags: gi, main_gi, main
+  l_gi_6_8:
+    number: pf-6-16
+    tags: gi, main_gi, main
+  l_scoop_triangle:
+    number: pf-6-17
+    tags: playfield, main, main_playfield, scoop
+  l_gi_6_9:
+    number: pf-6-18
+    tags: gi, main_gi, main
+  l_gi_6_10:
+    number: pf-6-19
+    tags: gi, main_gi, main
+  l_scoop_rectangle_2:
+    number: pf-6-20
+    tags: playfield, rectangle, main, main_playfield, scoop
+  l_scoop_rectangle_1:
+    number: pf-6-21
+    tags: playfield, rectangle, main, main_playfield, scoop
+  l_gi_6_11:
+    number: pf-6-22
+    tags: gi, main_gi, main
+  l_outlane_r:
+    number: pf-6-23
+    tags: playfield, rectangle, oval, main, main_playfield, outlane, lane
+  l_inlane_r:
+    number: pf-6-24
+    tags: playfield, rectangle, oval, main, main_playfield, inlane, lane
+  l_gi_6_12:
+    number: pf-6-25
+    tags: gi, main_gi, main
+  l_gi_6_13:
+    number: pf-6-26
+    tags: gi, main_gi, main
+  l_gi_6_14:
+    number: pf-6-27
+    tags: gi, main_gi, main
+  l_gi_6_15:
+    number: pf-6-28
+    tags: gi, main_gi, main
+  l_name:
+    number: pf-6-29
+    tags: playfield, rectangle, main, main_playfield, name
+  l_shoot_again:
+    number: pf-6-30
+    tags: playfield, circle, main, main_playfield, shoot_again
+    
+# right characters
+
+  l_character_1_mode_2-5:
+    number: pf-7-1
+    tags:
+  l_character_1_mode_2-4:
+    number: pf-7-2
+    tags: playfield, main, main_playfield, character_1, characters, mode_insert, character_mode
+  l_character_1_mode_2-3:
+    number: pf-7-3
+    tags:
+  l_character_1_mode_2-2:
+    number: pf-7-4
+    tags: playfield, main, main_playfield, character_1, characters, mode_insert, character_mode
+  l_character_1_mode_2-1:
+    number: pf-7-5
+    tags:
+  l_character_1_mode_1-1:
+    number: pf-7-6
+    tags:
+  l_character_1_mode_1-2:
+    number: pf-7-7
+    tags: playfield, main, main_playfield, character_1, characters, mode_insert, character_mode
+  l_character_1_mode_1-3:
+    number: pf-7-8
+    tags:
+  l_character_1_mode_1-4:
+    number: pf-7-9
+    tags: playfield, main, main_playfield, character_1, characters, mode_insert, character_mode
+  l_character_1_mode_1-5:
+    number: pf-7-10
+    tags:
+  l_character_1_large-1:
+    number: pf-7-11
+    tags: 
+  l_character_1_large-2:
+    number: pf-7-12
+    tags: playfield, main, main_playfield, character_1, characters, big_insert
+  l_character_1_large-3:
+    number: pf-7-13
+    tags:
+  l_character_1_large-4:
+    number: pf-7-14
+    tags: playfield, main, main_playfield, character_1, characters, big_insert
+  l_character_1_large-5:
+    number: pf-7-15
+    tags:
+  l_character_1_large-6:
+    number: pf-7-16
+    tags:
+  l_character_1_large-7:
+    number: pf-7-17
+    tags:
+  l_character_1_large-8:
+    number: pf-7-18
+    tags:
+  l_character_1_large-9:
+    number: pf-7-19
+    tags:
+  l_character_2_mode_2-5:
+    number: pf-7-20
+    tags:
+  l_character_2_mode_2-4:
+    number: pf-7-21
+    tags: playfield, main, main_playfield, character_2, characters, mode_insert, character_mode
+  l_character_2_mode_2-3:
+    number: pf-7-22
+    tags:
+  l_character_2_mode_2-2:
+    number: pf-7-23
+    tags: playfield, main, main_playfield, character_2, characters, mode_insert, character_mode
+  l_character_2_mode_2-1:
+    number: pf-7-24
+    tags:
+  l_character_2_mode_1-1:
+    number: pf-7-25
+    tags:
+  l_character_2_mode_1-2:
+    number: pf-7-26
+    tags: playfield, main, main_playfield, character_2, characters, mode_insert, character_mode
+  l_character_2_mode_1-3:
+    number: pf-7-27
+    tags:
+  l_character_2_mode_1-4:
+    number: pf-7-28
+    tags: playfield, main, main_playfield, character_2, characters, mode_insert, character_mode
+  l_character_2_mode_1-5:
+    number: pf-7-29
+    tags:
+  l_character_2_large-1:
+    number: pf-7-30
+    tags: playfield, main, main_playfield, character_2, characters, big_insert
+  l_character_2_large-2:
+    number: pf-7-31
+    tags: 
+  l_character_2_large-3:
+    number: pf-7-32
+    tags: playfield, main, main_playfield, character_2, characters, big_insert
+    
+    
+  l_tight_arrow:
+    number: pf-8-1
+    tags: playfield, arrow, main, main_playfield, tight_shot
+  l_tight_square:
+    number: pf-8-2
+    tags: playfield, square, main, main_playfield, tight_shot
+  l_tight_big_circle:
+    number: pf-8-3
+    tags: playfield, circle, main, main_playfield, tight_shot
+  l_tight_small_circle:
+    number: pf-8-4
+    tags: playfield, circle, main, main_playfield, tight_shot
+  l_gi_8_1:
+    number: pf-8-5
+    tags: gi, main_gi, main
+  l_gi_8_2:
+    number: pf-8-6
+    tags: gi, main_gi, main
+  l_gi_8_3:
+    number: pf-8-7
+    tags: gi, main_gi, main
+  l_stationary_l:
+    number: pf-8-8
+    tags: playfield, circle, main, main_playfield
+  l_upper_ramp_arrow:
+    number: pf-8-9
+    tags: playfield, arrow, main, main_playfield, upper_ramp
+  l_upper_ramp_square:
+    number: pf-8-10
+    tags: playfield, square, main, main_playfield, upper_ramp
+  l_upper_ramp_big_circle:
+    number: pf-8-11
+    tags: playfield, circle, main, main_playfield, upper_ramp
+  l_lower_ramp_big_circle:
+    number: pf-8-12
+    tags: playfield, circle, main, main_playfield, lower_ramp
+  l_lower_ramp_square:
+    number: pf-8-13
+    tags: playfield, square, main, main_playfield, lower_ramp
+  l_lower_ramp_arrow:
+    number: pf-8-14
+    tags: playfield, arrow, main, main_playfield, lower_ramp
+  l_stationary_m:
+    number: pf-8-15
+    tags: playfield, circle, main, main_playfield
+  l_orbit_small_circle:
+    number: pf-8-16
+    tags: playfield, circle, main, main_playfield, orbit
+  l_orbit_square:
+    number: pf-8-17
+    tags: playfield, circle, main, main_playfield, orbit
+  l_orbit_arrow:
+    number: pf-8-18
+    tags: playfield, circle, main, main_playfield, orbit
+  l_gi_8_4:
+    number: pf-8-19
+    tags: gi, main_gi, main
+  l_gi_8_5:
+    number: pf-8-20
+    tags: gi, main_gi, main
+  l_rollover_l_1:
+    number: pf-8-21
+    tags: playfield, rollover, main, main_pf, orbit_small
+  l_rollover_l_2:
+    number: pf-8-22
+    tags: playfield, rollover, main, main_pf
+  l_rollover_l_3:
+    number: pf-8-23
+    tags: playfield, rollover, main, main_pf, orbit_small
+  l_rollover_l_4:
+    number: pf-8-24
+    tags: playfield, rollover, main, main_pf
+  l_captive_big_circle:
+    number: pf-8-25
+    tags: playfield, circle, main, main_playfield, captive
+  l_captive_square:
+    number: pf-8-26
+    tags: playfield, circle, main, main_playfield, captive
+  l_captive_small_circle:
+    number: pf-8-27
+    tags: playfield, circle, main, main_playfield, captive
+  l_vert_ramp_small_circle:
+    number: pf-8-28
+    tags: playfield, circle, main, main_playfield, lower_ramp
+  l_vert_ramp_big_circle:
+    number: pf-8-29
+    tags: playfield, circle, main, main_playfield, lower_ramp
+  l_vert_ramp_square:
+    number: pf-8-30
+    tags: playfield, circle, main, main_playfield, lower_ramp
+
+
+  l_upper_pf_orbit_circle:
+    number: pf_back-1-1
+    tags: upper_playfield, playfield
+  l_upper_pf_orbit_arrow:
+    number: pf_back-1-2
+    tags: upper_playfield, playfield
+  l_upper_pf_top_escape_circle:
+    number: pf_back-1-3
+    tags: upper_playfield, playfield
+  l_upper_pf_ramp_circle:
+    number: pf_back-1-4
+    tags: upper_playfield, playfield
+  l_upper_pf_bot_escape_circle:
+    number: pf_back-1-5
+    tags: upper_playfield, playfield
+  l_upper_pf_ramp_arrow:
+    number: pf_back-1-6
+    tags: upper_playfield, playfield
+  l_upper_pf_h:
+    number: pf_back-1-7
+    tags: upper_playfield, playfield
+  l_upper_pf_s:
+    number: pf_back-1-8
+    tags: upper_playfield, playfield
+  l_upper_pf_a:
+    number: pf_back-1-9
+    tags: upper_playfield, playfield
+  l_upper_pf_r:
+    number: pf_back-1-10
+    tags: upper_playfield, playfield
+  l_upper_pf_t:
+    number: pf_back-1-11
+    tags: upper_playfield, playfield
+
+  l_vert_arrow_l:
+    number: pf_back-3-1
+    tags: vert_playfield, playfield
+  l_vert_arrow_m:
+    number: pf_back-3-2
+    tags: vert_playfield, playfield
+  l_vert_arrow_r:
+    number: pf_back-3-3
+    tags: vert_playfield, playfield
+  l_vert_gi_1:
+    number: pf_back-3-4
+    tags: vert_playfield, gi
+  l_vert_interchange_arrow:
+    number: pf_back-3-5
+    tags: vert_playfield, playfield
+  l_vert_interchange_circle:
+    number: pf_back-3-6
+    tags: vert_playfield, playfield
+  l_vert_lock_arrow:
+    number: pf_back-3-7
+    tags: vert_playfield, playfield
+  l_vert_lock_circle:
+    number: pf_back-3-8
+    tags: vert_playfield, playfield
+  l_vert_target_l:
+    number: pf_back-3-9
+    tags: vert_playfield, playfield
+  l_vert_target_r:
+    number: pf_back-3-10
+    tags: vert_playfield, playfield
+  l_vert_count_1:
+    number: pf_back-3-11
+    tags: vert_playfield, playfield
+  l_vert_count_2:
+    number: pf_back-3-12
+    tags: vert_playfield, playfield
+  l_vert_count_3:
+    number: pf_back-3-13
+    tags: vert_playfield, playfield
+  l_vert_count_4:
+    number: pf_back-3-14
+    tags: vert_playfield, playfield
+  l_vert_count_5:
+    number: pf_back-3-15
+    tags: vert_playfield, playfield
+  l_vert_gi_2:
+    number: pf_back-3-16
+    tags: vert_playfield, gi

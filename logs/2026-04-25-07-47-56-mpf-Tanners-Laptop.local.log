@@ -1,0 +1,174 @@
+2026-04-25 07:47:56,042 : INFO : root : Loading config.
+2026-04-25 07:47:56,044 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-04-25 07:47:56,044 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/9d21ea9a81fcfc5941f8ed75c4a080eb.mpf_cache
+2026-04-25 07:47:56,073 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/43115b802accf167344a214047a50cd4.mpf_cache
+2026-04-25 07:47:56,073 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/bd1387dfa7de7ffc5bacad015019c743.mpf_cache
+2026-04-25 07:47:56,073 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/d126ded0bd5e51d3c29826a335e85340.mpf_cache
+2026-04-25 07:47:56,073 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/be96f90f770b10caeac161802eebb966.mpf_cache
+2026-04-25 07:47:56,074 : WARNING : ConfigProcessor : Config file in cache changed: /Users/tannerpetch/Documents/GitHub/trashland_3/modes/base_upper_trash_spell/config/base_upper_trash_spell.yaml
+2026-04-25 07:47:56,074 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/trashland_3/modes/base_upper_trash_spell/config/base_upper_trash_spell.yaml.
+2026-04-25 07:47:56,076 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/trashland_3/modes/base_upper_trash_spell/config/base_upper_trash_spell.yaml
+2026-04-25 07:47:56,076 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/09c29321b3c254ca3d33b1b40058369c.mpf_cache
+2026-04-25 07:47:56,076 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/43115b802accf167344a214047a50cd4.mpf_cache
+2026-04-25 07:47:56,076 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/fb286bdec51e83b76c44a07e18af10e7.mpf_cache
+2026-04-25 07:47:56,076 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/4a0392f72066fff3dac8952634b7a9cd.mpf_cache
+2026-04-25 07:47:56,077 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/9740e98676f8796777039fba8e7d5e82.mpf_cache
+2026-04-25 07:47:56,077 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/a181a17d50eb4ab7db55e27ff85926c7.mpf_cache
+2026-04-25 07:47:56,077 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/a4506495691bdf3563a8fd11a9d79f10.mpf_cache
+2026-04-25 07:47:56,077 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/7e62a906c63d3b7efc85393a80e94c06.mpf_cache
+2026-04-25 07:47:56,078 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/ca66b8f571437747b2f2875349d15af7.mpf_cache
+2026-04-25 07:47:56,078 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/eeaf33bcbaf1c79f59b4ab00525b4fda.mpf_cache
+2026-04-25 07:47:56,078 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/ac7b60c885d53a697f70525935b77cd1.mpf_cache
+2026-04-25 07:47:56,078 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev14
+2026-04-25 07:47:56,078 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2026-04-25-07-47-56-mpf-Tanners-Laptop.local.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'full_logfile_path': '/Users/tannerpetch/Documents/GitHub/trashland_3/logs/2026-04-25-07-47-56-mpf-Tanners-Laptop.local.log'}
+2026-04-25 07:47:56,078 : INFO : Machine : MPF path: /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf
+2026-04-25 07:47:56,078 : INFO : Machine : Machine path: /Users/tannerpetch/Documents/GitHub/trashland_3
+2026-04-25 07:47:56,079 : INFO : Machine : Platform: darwin
+2026-04-25 07:47:56,079 : INFO : Machine : Python executable location: /Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11
+2026-04-25 07:47:56,079 : INFO : Machine : Python version: 3.11.9 (64-bit)
+2026-04-25 07:47:56,079 : INFO : Machine : Initializing MPF...
+2026-04-25 07:47:56,101 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2026-04-25 07:47:56,107 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2026-04-25 07:47:56,107 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 310, 'prev_value': None, 'change': True}
+2026-04-25 07:47:56,107 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev14', 'prev_value': None, 'change': True}
+2026-04-25 07:47:56,107 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev14, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2026-04-25 07:47:56,107 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.11.9', 'prev_value': None, 'change': True}
+2026-04-25 07:47:56,116 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-14.3-arm64-arm-64bit', 'prev_value': None, 'change': True}
+2026-04-25 07:47:56,116 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2026-04-25 07:47:56,116 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '23.3.0', 'prev_value': None, 'change': True}
+2026-04-25 07:47:56,116 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 23.3.0: Thu Dec 21 02:29:41 PST 2023; root:xnu-10002.81.5~11/RELEASE_ARM64_T8122', 'prev_value': None, 'change': True}
+2026-04-25 07:47:56,116 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'arm64', 'prev_value': None, 'change': True}
+2026-04-25 07:47:56,116 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/Users/tannerpetch/Documents/GitHub/trashland_3/logs/2026-04-25-07-47-56-mpf-Tanners-Laptop.local.log', 'prev_value': None, 'change': True}
+2026-04-25 07:47:56,116 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2026-04-25 07:47:56,129 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...mplate "2s"')>) at /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/events.py:124
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...mplate "2s"')>) at /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/events.py:124>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/placeholder_manager.py", line 663, in _parse_template
+    return ast.parse(template_str, mode='eval').body
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<unknown>", line 1
+    2s
+    ^
+SyntaxError: invalid decimal literal
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/events.py", line 127, in _async_handler_done
+    future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/device_manager.py", line 89, in _load_device_modules
+    await self.machine.mode_controller.load_mode_devices()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/mode_controller.py", line 86, in load_mode_devices
+    await mode.load_mode_devices()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/mode.py", line 438, in load_mode_devices
+    settings = device.validate_and_parse_config(settings, True, "mode:" + self.name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/device.py", line 108, in validate_and_parse_config
+    self.machine.config_validator.validate_config(
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/config_validator.py", line 204, in _validate_config
+    processed_config[k] = self.validate_config_item(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/config_validator.py", line 256, in validate_config_item
+    new_list.append(self.validate_item(i, validation, validation_failure_info))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/config_validator.py", line 699, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/config_validator.py", line 368, in _validate_type_subconfig
+    return self._validate_config(attribute, item, validation_failure_info=validation_failure_info,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/config_validator.py", line 204, in _validate_config
+    processed_config[k] = self.validate_config_item(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/config_validator.py", line 243, in validate_config_item
+    return self.validate_item(item, validation, validation_failure_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/config_validator.py", line 701, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/config_validator.py", line 470, in _validate_type_template_float
+    return self.machine.placeholder_manager.build_float_template(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/placeholder_manager.py", line 792, in build_float_template
+    return FloatTemplate(self._parse_template(template_str), template_str, self, default_value)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/placeholder_manager.py", line 665, in _parse_template
+    raise AssertionError('Failed to parse template "{}"'.format(template_str))
+AssertionError: Failed to parse template "2s"
+2026-04-25 07:47:56,133 : INFO : Machine : Starting the main run loop with active modes: []
+2026-04-25 07:47:56,133 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2026-04-25 07:47:56,133 : INFO : Machine : Shutting down...
+2026-04-25 07:47:56,133 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-04-25 07:47:57,134 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/placeholder_manager.py", line 663, in _parse_template
+    return ast.parse(template_str, mode='eval').body
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<unknown>", line 1
+    2s
+    ^
+SyntaxError: invalid decimal literal
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/machine.py", line 810, in _run_loop
+    raise self._exception['exception']
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/events.py", line 127, in _async_handler_done
+    future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/device_manager.py", line 89, in _load_device_modules
+    await self.machine.mode_controller.load_mode_devices()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/mode_controller.py", line 86, in load_mode_devices
+    await mode.load_mode_devices()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/mode.py", line 438, in load_mode_devices
+    settings = device.validate_and_parse_config(settings, True, "mode:" + self.name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/device.py", line 108, in validate_and_parse_config
+    self.machine.config_validator.validate_config(
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/config_validator.py", line 204, in _validate_config
+    processed_config[k] = self.validate_config_item(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/config_validator.py", line 256, in validate_config_item
+    new_list.append(self.validate_item(i, validation, validation_failure_info))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/config_validator.py", line 699, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/config_validator.py", line 368, in _validate_type_subconfig
+    return self._validate_config(attribute, item, validation_failure_info=validation_failure_info,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/config_validator.py", line 204, in _validate_config
+    processed_config[k] = self.validate_config_item(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/config_validator.py", line 243, in validate_config_item
+    return self.validate_item(item, validation, validation_failure_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/config_validator.py", line 701, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/config_validator.py", line 470, in _validate_type_template_float
+    return self.machine.placeholder_manager.build_float_template(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/placeholder_manager.py", line 792, in build_float_template
+    return FloatTemplate(self._parse_template(template_str), template_str, self, default_value)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/placeholder_manager.py", line 665, in _parse_template
+    raise AssertionError('Failed to parse template "{}"'.format(template_str))
+AssertionError: Failed to parse template "2s"
+2026-04-25 07:47:57,138 : INFO : root : MPF run loop ended.

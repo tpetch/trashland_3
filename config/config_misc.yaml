@@ -1,0 +1,7 @@
+#config_version=6
+
+timed_switches:
+  game_cancel:
+    switch_tags: start
+    time: 2s
+    events_when_active: end_game

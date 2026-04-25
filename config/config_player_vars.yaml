@@ -1,0 +1,6 @@
+#config_version=6
+
+player_vars:
+  var_misc_drop:
+    initial_value: 0
+    value_type: int

@@ -1,70 +1,73 @@
-[gd_scene load_steps=5 format=3 uid="uid://celjkodvstce1"]
+[gd_scene load_steps=7 format=3 uid="uid://bv73s1a3o1ne0"]
 
 [ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_8sbgb"]
-[ext_resource type="Texture2D" uid="uid://cvmb7ff623bpd" path="res://images/trashland_bg.png" id="2_wfobi"]
+[ext_resource type="Texture2D" uid="uid://dfvbsvhu41shj" path="res://images/trashland_title.png" id="2_fkim1"]
 [ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="3_dpr11"]
-
-[sub_resource type="SystemFont" id="SystemFont_x2y7s"]
+[ext_resource type="Texture2D" uid="uid://dxjp625yq7utk" path="res://images/trashland_base_border.png" id="3_je8xc"]
+[ext_resource type="Texture2D" uid="uid://bduyspg00pyjn" path="res://images/score_balls.png" id="4_y7sl0"]
+[ext_resource type="FontFile" uid="uid://y82rgchl61jc" path="res://slides/Jua-Regular.ttf" id="5_7bg2u"]
 
 [node name="Base" type="Control"]
 layout_mode = 3
 anchors_preset = 0
 script = ExtResource("1_8sbgb")
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(644, 107)
-scale = Vector2(0.2418, 0.2418)
-texture = ExtResource("2_wfobi")
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(960, 542)
+texture = ExtResource("2_fkim1")
 
-[node name="Sprite2D" type="Sprite2D" parent="Sprite2D"]
-position = Vector2(1270.57, 2330.64)
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(958, 540)
+texture = ExtResource("3_je8xc")
+
+[node name="Sprite2D3" type="Sprite2D" parent="."]
+position = Vector2(963, 544)
+texture = ExtResource("4_y7sl0")
+
+[node name="MPFVariable2" type="Label" parent="."]
+layout_mode = 0
+offset_left = 689.0
+offset_top = 898.0
+offset_right = 1151.0
+offset_bottom = 1036.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("5_7bg2u")
+theme_override_font_sizes/font_size = 60
+text = "Player 1"
+horizontal_alignment = 2
+script = ExtResource("3_dpr11")
+variable_name = "number"
+comma_separate = true
+min_digits = 1
+template_string = "Player %s"
 
 [node name="MPFVariable" type="Label" parent="."]
 layout_mode = 0
-offset_left = 240.485
-offset_top = 123.291
-offset_right = 1057.49
-offset_bottom = 371.291
-theme_override_colors/font_color = Color(1, 1, 0, 1)
-theme_override_colors/font_outline_color = Color(0, 0.623529, 0, 1)
-theme_override_constants/outline_size = 23
-theme_override_fonts/font = SubResource("SystemFont_x2y7s")
-theme_override_font_sizes/font_size = 181
+offset_left = 689.0
+offset_top = 981.0
+offset_right = 1151.0
+offset_bottom = 1119.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("5_7bg2u")
+theme_override_font_sizes/font_size = 60
 text = "1,000,000"
-horizontal_alignment = 1
-vertical_alignment = 1
+horizontal_alignment = 2
 script = ExtResource("3_dpr11")
 variable_name = "score"
 comma_separate = true
 min_digits = 2
 
-[node name="MPFVariable4" type="Label" parent="."]
-layout_mode = 0
-offset_left = 1012.0
-offset_top = 17.0
-offset_right = 1052.0
-offset_bottom = 101.0
-theme_override_colors/font_color = Color(1, 1, 0, 1)
-theme_override_font_sizes/font_size = 48
-text = "1"
+[node name="MPFVariable3" type="Label" parent="."]
+offset_left = 218.0
+offset_top = 46.0
+offset_right = 680.0
+offset_bottom = 184.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("5_7bg2u")
+theme_override_font_sizes/font_size = 60
+text = "Ball 1"
 script = ExtResource("3_dpr11")
 variable_name = "ball"
+comma_separate = true
 min_digits = 1
-
-[node name="MPFVariable2" type="Label" parent="."]
-layout_mode = 0
-offset_left = 393.0
-offset_top = 16.0
-offset_right = 433.0
-offset_bottom = 99.0
-theme_override_colors/font_color = Color(0.894118, 0.937255, 0.00392157, 1)
-theme_override_font_sizes/font_size = 48
-text = "1"
-script = ExtResource("3_dpr11")
-variable_name = "number"
-
-[node name="ColorRect" type="ColorRect" parent="."]
-z_index = -1
-offset_right = 1280.0
-offset_bottom = 390.0
-color = Color(0, 0, 0, 1)
+template_string = "Ball %s"

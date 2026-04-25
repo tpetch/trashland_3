@@ -1,0 +1,13 @@
+#config_version=6
+mode:
+  start_events: ball_starting
+
+show_player:
+   ball_started: 
+     gi_basic:
+      loops: -1
+      show_tokens:
+        gi_color_1: white
+        gi_color_2: white
+
+    

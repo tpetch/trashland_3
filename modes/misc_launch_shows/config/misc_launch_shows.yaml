@@ -1,0 +1,14 @@
+#config_version=6
+mode:
+  start_events: ball_starting
+  stop_events: stop_launch_shows
+  priority: 1000
+
+
+slide_player:
+  mode_misc_launch_shows_started:
+    launch_slide:
+      action: play
+event_player:
+  balldevice_bd_autolauncher_ball_eject_success:
+    - stop_launch_shows

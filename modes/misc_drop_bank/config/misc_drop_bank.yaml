@@ -1,0 +1,91 @@
+#config_version=6
+mode:
+  start_events: ball_starting{current_player.var_misc_drop==0}
+
+  priority: 80
+
+shots:
+  r_drop_l_misc:
+    switch: s_drop_l
+    delay_switch:
+      s_kicker_orbit: 2s
+    profile: sp_drop_misc
+    show_tokens:
+      led: l_drop_l
+
+  r_drop_m_misc:
+    switch: s_drop_m
+    delay_switch:
+      s_kicker_orbit: 2s
+    profile: sp_drop_misc
+    show_tokens:
+      led: l_drop_m
+
+  r_drop_r_misc:
+    switch: s_drop_r
+    delay_switch:
+      s_kicker_orbit: 2s
+    profile: sp_drop_misc
+    show_tokens:
+      led: l_drop_r
+
+  
+shot_profiles:
+  sp_drop_misc:
+    states:
+      - name: drop_lit
+        show: "drop_misc_blink"
+      - name: drop_hit
+        show: "off"
+
+shot_groups:
+  sg_drops_misc:
+    shots: r_drop_l_misc, r_drop_m_misc, r_drop_r_misc
+    restart_events: sg_drops_misc_drop_hit_complete
+    disable_events: sg_drops_misc_drop_hit_complete
+    enable_events: mode_misc_drop_bank_started, reset_sg_drops_misc
+
+event_player:
+  sg_drops_misc_drop_hit_complete:
+    - enable_misc_drop_bank_lit
+    
+
+show_player:
+  sg_drops_misc_complete: 
+    drop_misc_blink_comp:
+      loops: 0
+  r_drop_l_misc_drop_lit_hit:
+    drop_misc_down:
+      loops: 0
+      show_tokens:
+        led: l_drop_l
+  r_drop_m_misc_drop_lit_hit:
+    drop_misc_down:
+      loops: 0
+      show_tokens:
+        led: l_drop_m
+  r_drop_r_misc_drop_lit_hit:
+    drop_misc_down:
+      loops: 0
+      show_tokens:
+        led: l_drop_r
+
+variable_player:
+  sg_drops_misc_complete{current_player.var_misc_drop==0}:
+    var_misc_drop: 1
+
+shows:
+  drop_misc_blink:
+    - lights:
+        (led): yellow-f200ms
+      duration: 700ms
+    - lights:
+        (led): white-f200ms
+      duration: 200ms
+  drop_misc_down:
+    - lights:
+        (led): green-f200ms
+      duration: 700ms
+    - lights:
+        (led): off-f200ms
+      duration: 200ms

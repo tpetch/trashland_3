@@ -1,0 +1,23 @@
+2026-04-24 14:12:33,134 : INFO : root : Loading config.
+2026-04-24 14:12:33,136 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-04-24 14:12:33,137 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/9d21ea9a81fcfc5941f8ed75c4a080eb.mpf_cache
+2026-04-24 14:12:33,138 : WARNING : ConfigProcessor : Config file in cache changed: /Users/tannerpetch/Documents/GitHub/trashland_3/config/config_modes.yaml
+2026-04-24 14:12:33,138 : INFO : ConfigProcessor : Loading config from file /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/mpfconfig.yaml.
+2026-04-24 14:12:33,142 : INFO : ConfigProcessor : Loading config: /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/mpfconfig.yaml
+2026-04-24 14:12:33,142 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/trashland_3/config/config.yaml.
+2026-04-24 14:12:33,143 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/trashland_3/config/config.yaml
+2026-04-24 14:12:33,147 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/trashland_3/config/config_lights.yaml
+2026-04-24 14:12:33,148 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/trashland_3/config/config_modes.yaml
+2026-04-24 14:12:33,148 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/trashland_3/config/config_fast.yaml
+2026-04-24 14:12:33,150 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/trashland_3/config/config_coils.yaml
+2026-04-24 14:12:33,151 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/trashland_3/config/config_switches.yaml
+2026-04-24 14:12:33,152 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/trashland_3/config/config_devices.yaml
+2026-04-24 14:12:33,153 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/trashland_3/config/config_misc.yaml
+2026-04-24 14:12:33,155 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/9d21ea9a81fcfc5941f8ed75c4a080eb.mpf_cache
+2026-04-24 14:12:33,183 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/43115b802accf167344a214047a50cd4.mpf_cache
+2026-04-24 14:12:33,184 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/bd1387dfa7de7ffc5bacad015019c743.mpf_cache
+2026-04-24 14:12:33,184 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/d126ded0bd5e51d3c29826a335e85340.mpf_cache
+2026-04-24 14:12:33,185 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/43115b802accf167344a214047a50cd4.mpf_cache
+2026-04-24 14:12:33,185 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/fb286bdec51e83b76c44a07e18af10e7.mpf_cache
+2026-04-24 14:12:33,185 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/4a0392f72066fff3dac8952634b7a9cd.mpf_cache
+2026-04-24 14:12:33,185 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/9740e98676f8796777039fba8e7d5e82.mpf_cache

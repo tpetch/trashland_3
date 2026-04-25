@@ -1,0 +1,192 @@
+#config_version=6
+mode:
+  start_events: ball_starting
+
+
+
+shots:
+
+  r_rollover_trash:
+    switch: s_u_rollover
+  r_bot_escape_trash:
+    switch: s_u_bot_escape
+    profile: sp_trash_spell
+    start_enabled: true
+    disable_events: r_trash_spell_trash-s_hit
+    show_tokens:
+      led: l_upper_pf_bot_escape_circle
+  r_top_escape_trash:
+    switch: s_u_top_escape
+    profile: sp_trash_spell
+    start_enabled: true
+    disable_events: r_trash_spell_trash-s_hit
+    advance_events: ball_started{ball==1}
+    show_tokens:
+      led: l_upper_pf_top_escape_circle
+  r_ramp_trash:
+    switch: s_u_ramp
+    profile: sp_trash_spell
+    start_enabled: true
+    disable_events: r_trash_spell_trash-s_hit
+    show_tokens:
+      led: l_upper_pf_ramp_circle
+  r_trash_spell:
+    hit_events: sg_trash_spell_upper_shot_spotted_hit
+    profile: sp_t_r_a_s_h
+
+shot_profiles:
+  sp_trash_spell:
+    advance_on_hit: false
+    states:
+      - name: off
+        show: "off"
+      - name: upper_shot_spotted
+        show: "upper_shot_spotted"
+
+  sp_t_r_a_s_h:
+    states:
+      - name: off
+      - name: trash-t
+        show: "trash-t"
+      - name: trash-r
+        show: "trash-r"
+      - name: trash-a
+        show: "trash-a"
+      - name: trash-s
+        show: "trash-s"
+      - name: trash-h
+        show: "trash-h"
+
+
+shot_groups:
+  sg_trash_spell:
+    shots: r_bot_escape_trash, r_ramp_trash, r_top_escape_trash
+    rotate_left_events: timer_trash_rotator_tick
+
+timers:
+  trash_rotator:
+    start_running: true
+    tick_interval: 2s
+    control_events:
+      - event: r_rollover_trash_hit
+        action: pause
+        value: 5
+
+shows:
+  upper_shot_spotted:
+    - lights:
+        (led): yellow
+      duration: 600ms
+    - lights:
+        (led): GreenYellow-f200ms
+      duration: 200ms
+
+  trash-t:
+    - lights:
+        l_upper_pf_t: green
+      duration: 600ms
+    - lights:
+        l_upper_pf_t: GreenYellow-f200ms
+      duration: 200ms
+    - lights:
+        l_upper_pf_t: YellowGreen-f200ms
+      duration: 400ms
+    - lights:
+        l_upper_pf_t: green-f100ms
+      duration: 100ms
+
+  trash-r:
+    - lights:
+        l_upper_pf_t: green
+        l_upper_pf_r: GreenYellow
+      duration: 600ms
+    - lights:
+        l_upper_pf_t: GreenYellow-f200ms
+        l_upper_pf_r: YellowGreen-f200ms
+      duration: 200ms
+    - lights:
+        l_upper_pf_t: YellowGreen-f200ms
+        l_upper_pf_r: green-f200ms
+      duration: 400ms
+    - lights:
+        l_upper_pf_t: green-f100ms
+        l_upper_pf_r: GreenYellow-f100ms
+      duration: 100ms
+
+  trash-a:
+    - lights:
+        l_upper_pf_t: green
+        l_upper_pf_r: GreenYellow
+        l_upper_pf_a: YellowGreen
+      duration: 600ms
+    - lights:
+        l_upper_pf_t: GreenYellow-f200ms
+        l_upper_pf_r: YellowGreen-f200ms
+        l_upper_pf_a: green-f200ms
+      duration: 200ms
+    - lights:
+        l_upper_pf_t: YellowGreen-f200ms
+        l_upper_pf_r: green-f200ms
+        l_upper_pf_a: GreenYellow-f200ms
+      duration: 400ms
+    - lights:
+        l_upper_pf_t: green-f100ms
+        l_upper_pf_r: GreenYellow-f100ms
+        l_upper_pf_a: YellowGreen-f100ms
+      duration: 100ms
+
+  trash-s:
+    - lights:
+        l_upper_pf_t: green
+        l_upper_pf_r: GreenYellow
+        l_upper_pf_a: YellowGreen
+        l_upper_pf_s: green
+      duration: 600ms
+    - lights:
+        l_upper_pf_t: GreenYellow-f200ms
+        l_upper_pf_r: YellowGreen-f200ms
+        l_upper_pf_a: green-f200ms
+        l_upper_pf_s: GreenYellow-f200ms
+      duration: 200ms
+    - lights:
+        l_upper_pf_t: YellowGreen-f200ms
+        l_upper_pf_r: green-f200ms
+        l_upper_pf_a: GreenYellow-f200ms
+        l_upper_pf_s: YellowGreen-f200ms
+      duration: 400ms
+    - lights:
+        l_upper_pf_t: green-f100ms
+        l_upper_pf_r: GreenYellow-f100ms
+        l_upper_pf_a: YellowGreen-f100ms
+        l_upper_pf_s: green-f100ms
+      duration: 100ms
+
+  trash-h:
+    - lights:
+        l_upper_pf_t: green
+        l_upper_pf_r: GreenYellow
+        l_upper_pf_a: YellowGreen
+        l_upper_pf_s: green
+        l_upper_pf_h: GreenYellow
+      duration: 600ms
+    - lights:
+        l_upper_pf_t: GreenYellow-f200ms
+        l_upper_pf_r: YellowGreen-f200ms
+        l_upper_pf_a: green-f200ms
+        l_upper_pf_s: GreenYellow-f200ms
+        l_upper_pf_h: YellowGreen-f200ms
+      duration: 200ms
+    - lights:
+        l_upper_pf_t: YellowGreen-f200ms
+        l_upper_pf_r: green-f200ms
+        l_upper_pf_a: GreenYellow-f200ms
+        l_upper_pf_s: YellowGreen-f200ms
+        l_upper_pf_h: green-f200ms
+      duration: 400ms
+    - lights:
+        l_upper_pf_t: green-f100ms
+        l_upper_pf_r: GreenYellow-f100ms
+        l_upper_pf_a: YellowGreen-f100ms
+        l_upper_pf_s: green-f100ms
+        l_upper_pf_h: GreenYellow-f100ms
+      duration: 100ms

@@ -1,0 +1,32 @@
+#config_version=6
+mode:
+  start_events: ball_starting{current_player.var_misc_drop==1}, enable_misc_drop_bank_lit
+  stop_events: start_misc_drop_blink
+  priority: 100
+
+shots:
+  r_drop_behind_misc:
+    switch: s_kicker_orbit
+    profile: sp_drop_behind_misc
+    show_tokens:
+      led: l_drops_square_top
+
+  
+shot_profiles:
+  sp_drop_behind_misc:
+    states:
+      - name: drop_behind_lit
+        show: "drop_misc_blink"
+
+event_player:
+  r_drop_behind_misc_hit:
+    - reset_sg_drops_misc
+    - reset_drop_bank
+    - start_misc_drop_blink
+
+variable_player:
+  reset_sg_drops_misc:
+    var_misc_drop:
+      int: 0
+      action: set
+    

@@ -1,0 +1,38 @@
+2026-04-24 11:12:16,462 : INFO : root : Loading config.
+2026-04-24 11:12:16,476 : INFO : ConfigProcessor : Config spec file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/config_spec.mpf_cache
+2026-04-24 11:12:16,477 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-04-24 11:12:16,477 : WARNING : ConfigProcessor : Config file in cache changed: /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/mpfconfig.yaml
+2026-04-24 11:12:16,477 : INFO : ConfigProcessor : Loading config from file /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/mpfconfig.yaml.
+2026-04-24 11:12:16,480 : INFO : ConfigProcessor : Loading config: /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/mpfconfig.yaml
+2026-04-24 11:12:16,480 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/trashland_3/config/config.yaml.
+2026-04-24 11:12:16,481 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/trashland_3/config/config.yaml
+2026-04-24 11:12:16,485 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/trashland_3/config/config_lights.yaml
+2026-04-24 11:12:16,486 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/trashland_3/config/config_modes.yaml
+2026-04-24 11:12:16,487 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/trashland_3/config/config_fast.yaml
+2026-04-24 11:12:16,488 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/trashland_3/config/config_coils.yaml
+2026-04-24 11:12:16,489 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/trashland_3/config/config_switches.yaml
+2026-04-24 11:12:16,491 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/trashland_3/config/config_devices.yaml
+2026-04-24 11:12:16,491 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/trashland_3/config/config_misc.yaml
+2026-04-24 11:12:16,493 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/9d21ea9a81fcfc5941f8ed75c4a080eb.mpf_cache
+2026-04-24 11:12:16,508 : WARNING : ConfigProcessor : Config file in cache changed: /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/modes/attract/config/attract.yaml
+2026-04-24 11:12:16,508 : INFO : ConfigProcessor : Loading config from file /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/modes/attract/config/attract.yaml.
+2026-04-24 11:12:16,509 : INFO : ConfigProcessor : Loading config: /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/modes/attract/config/attract.yaml
+2026-04-24 11:12:16,509 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/trashland_3/modes/attract/config/attract.yaml.
+2026-04-24 11:12:16,509 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/trashland_3/modes/attract/config/attract.yaml
+2026-04-24 11:12:16,510 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/43115b802accf167344a214047a50cd4.mpf_cache
+2026-04-24 11:12:16,510 : WARNING : ConfigProcessor : Config file in cache changed: /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/modes/game/config/game.yaml
+2026-04-24 11:12:16,510 : INFO : ConfigProcessor : Loading config from file /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/modes/game/config/game.yaml.
+2026-04-24 11:12:16,510 : INFO : ConfigProcessor : Loading config: /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/modes/game/config/game.yaml
+2026-04-24 11:12:16,510 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/bd1387dfa7de7ffc5bacad015019c743.mpf_cache
+2026-04-24 11:12:16,510 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/d126ded0bd5e51d3c29826a335e85340.mpf_cache
+2026-04-24 11:12:16,510 : WARNING : ConfigProcessor : Config file in cache changed: /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/config_spec.yaml
+2026-04-24 11:12:16,510 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/trashland_3/modes/base/config/base.yaml.
+2026-04-24 11:12:16,511 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/trashland_3/modes/base/config/base.yaml
+2026-04-24 11:12:16,511 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/d126ded0bd5e51d3c29826a335e85340.mpf_cache
+2026-04-24 11:12:16,511 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/43115b802accf167344a214047a50cd4.mpf_cache
+2026-04-24 11:12:16,511 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/fb286bdec51e83b76c44a07e18af10e7.mpf_cache
+2026-04-24 11:12:16,512 : WARNING : ConfigProcessor : Config file in cache changed: /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/config_spec.yaml
+2026-04-24 11:12:16,512 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/trashland_3/modes/diverter_activation/config/diverter_activation.yaml.
+2026-04-24 11:12:16,512 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/trashland_3/modes/diverter_activation/config/diverter_activation.yaml
+2026-04-24 11:12:16,512 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/fb286bdec51e83b76c44a07e18af10e7.mpf_cache
+2026-04-24 11:12:16,512 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/trashland_3/modes/misc_drop_bank/config/misc_drop_bank.yaml.

@@ -1,0 +1,30 @@
+[gd_scene load_steps=3 format=3 uid="uid://bmlmqh8r6lh2u"]
+
+[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_tre7n"]
+[ext_resource type="FontFile" uid="uid://y82rgchl61jc" path="res://slides/Jua-Regular.ttf" id="2_3u7mq"]
+
+[node name="LaunchSlide" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_tre7n")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = -34.0
+offset_top = -57.0
+offset_right = 2022.0
+offset_bottom = 1137.0
+color = Color(0, 1, 0, 1)
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 170.0
+offset_top = 383.0
+offset_right = 1802.0
+offset_bottom = 686.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_3u7mq")
+theme_override_font_sizes/font_size = 150
+text = "Press the Launch Button
+to launch ball!"
+horizontal_alignment = 1

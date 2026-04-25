@@ -1,0 +1,186 @@
+#config_version=6
+
+switches:
+
+
+  s_flipper_but_r_1:
+    number: b_cabinet-0
+  s_flipper_but_r_2:
+    number: b_cabinet-1
+  s_flipper_but_l_1:
+    number: b_cabinet-2
+  s_flipper_but_l_2:
+    number: b_cabinet-3
+  s_launch:
+    number: b_cabinet-4
+    tags: launch
+  s_tilt:
+    number: b_cabinet-5
+    tags: tilt
+  s_start:
+    number: b_cabinet-6
+    tags: start
+
+  s_bot:
+    number:  b_lower_mini-0
+  s_lower_single:
+    number:  b_lower_mini-1
+  s_lower_sling:
+    number:  b_lower_mini-2
+  s_bot_mid:
+    number:  b_lower_mini-3
+  s_top_mid:
+    number:  b_lower_mini-4
+  s_lower_orbit:
+    number:  b_lower_mini-5
+    type: 'NC'
+  s_top:
+    number:  b_lower_mini-6
+  s_lower_vuk:
+    number:  b_lower_mini-7
+    type: 'NC'
+    events_when_activated: disable_lower_flippers
+
+
+  s_outlane_l:
+    number: b_main-0
+    type: 'NC'
+  s_inlane_l:
+    number: b_main-1
+    type: 'NC'
+    
+  s_outlane_r:
+    number: b_main-6
+    type: 'NC'
+  s_inlane_r:
+    number: b_main-7
+    type: 'NC'
+
+  s_trough_6:
+    number: b_main-8
+    type: 'NC'
+  s_trough_5:
+    number: b_main-9
+    type: 'NC'
+  s_trough_4:
+    number: b_main-10
+    type: 'NC'
+  s_trough_3:
+    number: b_main-11
+    type: 'NC'
+  s_trough_2:
+    number: b_main-12
+    type: 'NC'
+  s_trough_1:
+    number: b_main-14
+    type: 'NC'
+  s_trough_jam:
+    number: b_main-15
+    type: 'NC'
+    
+  s_flipper_l:
+    number: b_main-16
+    type: 'NC'
+  s_lower_transfer:
+    number: b_main-17
+  s_flipper_r:
+    number: b_main-18
+    type: 'NC'
+  s_flipper_upper_l:
+    number: b_main-19
+    type: 'NC'
+  s_pop:
+    number: b_main-20
+  s_kicking_target:
+    number: b_main-21
+  s_autolauncher:
+    number: b_main-22
+  s_scissor_save:
+    number: b_main-23
+    
+  s_kicker_orbit:
+    number: b_middle-0
+    type: 'NC'
+  s_drop_r:
+    number: b_middle-1
+  s_drop_m:
+    number: b_middle-2
+  s_drop_l:
+    number: b_middle-3
+  s_subway:
+    number: b_middle-4
+    type: 'NC'
+  s_stationary_l:
+    number: b_middle-5
+  s_sling_l:
+    number: b_middle-6
+  s_stationary_m:
+    number: b_middle-7
+    
+  s_orbit_small_r:
+    number: b_middle-8
+  s_drop_single:
+    number: b_middle-9
+    type: 'NC'
+  s_orbit_small_l:
+    number: b_middle-10
+  s_middle_scoop:
+    number: b_middle-11
+    type: 'NC'
+  s_stationary_r:
+    number: b_middle-12
+  s_captive_r:
+    number: b_middle-13
+    type: 'NC'
+  s_captive_l:
+    number: b_middle-14
+    type: 'NC'
+    
+    
+# Board 4 - Back + Upper
+
+  s_vuk_back:
+    number: b_back-2
+    type: 'NC'
+  s_b_rollover_loop:
+    number: b_back-3
+  s_b_rollover_misc:
+    number: b_back-4
+  s_b_eos:
+    number: b_back-0
+    type: 'NC'
+  s_b_pop:
+    number: b_back-1
+  s_b_target_right:
+    number: b_back-6
+  s_b_target_left:
+    number: b_back-7
+  s_b_rollover_interchange:
+    number: b_back-5
+    
+  s_lock_1:
+    number: b_back-24
+    type: 'NC'
+  s_lock_2:
+    number: b_back-25
+    type: 'NC'
+  s_lock_3:
+    number: b_back-26
+    type: 'NC'
+    
+  s_vuk_upper:
+    number: b_back-27
+    type: 'NC'
+    
+  s_u_rollover:
+    number: b_back-8
+  s_u_bot_escape:
+    number: b_back-9
+  s_u_top_escape:
+    number: b_back-10
+  s_u_exit:
+    number: b_back-11
+  s_u_ramp:
+    number: b_back-12
+
+

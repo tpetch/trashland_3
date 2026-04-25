@@ -1,0 +1,96 @@
+2026-04-24 07:27:28,388 : INFO : root : Loading config.
+2026-04-24 07:27:28,389 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-04-24 07:27:28,389 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/9d21ea9a81fcfc5941f8ed75c4a080eb.mpf_cache
+2026-04-24 07:27:28,390 : WARNING : ConfigProcessor : Config file in cache changed: /Users/tannerpetch/Documents/GitHub/trashland_3/config/config_lights.yaml
+2026-04-24 07:27:28,390 : INFO : ConfigProcessor : Loading config from file /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/mpfconfig.yaml.
+2026-04-24 07:27:28,393 : INFO : ConfigProcessor : Loading config: /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/mpfconfig.yaml
+2026-04-24 07:27:28,393 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/trashland_3/config/config.yaml.
+2026-04-24 07:27:28,394 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/trashland_3/config/config.yaml
+2026-04-24 07:27:28,397 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/trashland_3/config/config_lights.yaml
+2026-04-24 07:27:28,398 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/trashland_3/config/config_modes.yaml
+2026-04-24 07:27:28,399 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/trashland_3/config/config_fast.yaml
+2026-04-24 07:27:28,400 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/trashland_3/config/config_coils.yaml
+2026-04-24 07:27:28,402 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/trashland_3/config/config_switches.yaml
+2026-04-24 07:27:28,403 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/trashland_3/config/config_devices.yaml
+2026-04-24 07:27:28,404 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/trashland_3/config/config_misc.yaml
+2026-04-24 07:27:28,405 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/9d21ea9a81fcfc5941f8ed75c4a080eb.mpf_cache
+2026-04-24 07:27:28,432 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/43115b802accf167344a214047a50cd4.mpf_cache
+2026-04-24 07:27:28,433 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/bd1387dfa7de7ffc5bacad015019c743.mpf_cache
+2026-04-24 07:27:28,433 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/d126ded0bd5e51d3c29826a335e85340.mpf_cache
+2026-04-24 07:27:28,433 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/43115b802accf167344a214047a50cd4.mpf_cache
+2026-04-24 07:27:28,433 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/fb286bdec51e83b76c44a07e18af10e7.mpf_cache
+2026-04-24 07:27:28,434 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/a4506495691bdf3563a8fd11a9d79f10.mpf_cache
+2026-04-24 07:27:28,434 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/7e62a906c63d3b7efc85393a80e94c06.mpf_cache
+2026-04-24 07:27:28,434 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/ca66b8f571437747b2f2875349d15af7.mpf_cache
+2026-04-24 07:27:28,434 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev4
+2026-04-24 07:27:28,434 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2026-04-24-07-27-28-mpf-Tanners-Laptop.home.local.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'mc_file_name': None, 'no_sound': False, 'full_logfile_path': '/Users/tannerpetch/Documents/GitHub/trashland_3/logs/2026-04-24-07-27-28-mpf-Tanners-Laptop.home.local.log'}
+2026-04-24 07:27:28,434 : INFO : Machine : MPF path: /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf
+2026-04-24 07:27:28,434 : INFO : Machine : Machine path: /Users/tannerpetch/Documents/GitHub/trashland_3
+2026-04-24 07:27:28,434 : INFO : Machine : Platform: darwin
+2026-04-24 07:27:28,434 : INFO : Machine : Python executable location: /Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11
+2026-04-24 07:27:28,434 : INFO : Machine : Python version: 3.11.9 (64-bit)
+2026-04-24 07:27:28,435 : INFO : Machine : Initializing MPF...
+2026-04-24 07:27:28,464 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2026-04-24 07:27:28,469 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2026-04-24 07:27:28,469 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 310, 'prev_value': None, 'change': True}
+2026-04-24 07:27:28,469 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev4', 'prev_value': None, 'change': True}
+2026-04-24 07:27:28,469 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev4, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2026-04-24 07:27:28,469 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.11.9', 'prev_value': None, 'change': True}
+2026-04-24 07:27:28,477 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-14.3-arm64-arm-64bit', 'prev_value': None, 'change': True}
+2026-04-24 07:27:28,478 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2026-04-24 07:27:28,478 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '23.3.0', 'prev_value': None, 'change': True}
+2026-04-24 07:27:28,478 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 23.3.0: Thu Dec 21 02:29:41 PST 2023; root:xnu-10002.81.5~11/RELEASE_ARM64_T8122', 'prev_value': None, 'change': True}
+2026-04-24 07:27:28,478 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'arm64', 'prev_value': None, 'change': True}
+2026-04-24 07:27:28,478 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/Users/tannerpetch/Documents/GitHub/trashland_3/logs/2026-04-24-07-27-28-mpf-Tanners-Laptop.home.local.log', 'prev_value': None, 'change': True}
+2026-04-24 07:27:28,478 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2026-04-24 07:27:28,493 : INFO : EventManager : Event: ======'drop_target_bank_dt_single_up'====== Args={}
+2026-04-24 07:27:28,493 : INFO : EventManager : Event: ======'drop_target_bank_mid_up'====== Args={}
+2026-04-24 07:27:28,494 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2026-04-24 07:27:28,495 : INFO : ball_device.bd_scoop : BCH: Initial count: 0
+2026-04-24 07:27:28,496 : INFO : ball_device.bd_scoop : State: idle
+2026-04-24 07:27:28,496 : INFO : ball_device.bd_trough : BCH: Initial count: 0
+2026-04-24 07:27:28,496 : INFO : ball_device.bd_trough : State: idle
+2026-04-24 07:27:28,496 : INFO : ball_device.bd_autolauncher : BCH: Initial count: 0
+2026-04-24 07:27:28,496 : INFO : ball_device.bd_autolauncher : State: idle
+2026-04-24 07:27:28,496 : INFO : ball_device.bd_kicker_orbit : BCH: Initial count: 0
+2026-04-24 07:27:28,496 : INFO : ball_device.bd_kicker_orbit : State: idle
+2026-04-24 07:27:28,496 : INFO : ball_device.bd_lower_vuk : BCH: Initial count: 0
+2026-04-24 07:27:28,496 : INFO : ball_device.bd_lower_vuk : State: idle
+2026-04-24 07:27:28,497 : INFO : ball_device.bd_vuk_back : BCH: Initial count: 0
+2026-04-24 07:27:28,497 : INFO : ball_device.bd_vuk_back : State: idle
+2026-04-24 07:27:28,497 : INFO : ball_device.bd_vuk_upper : BCH: Initial count: 0
+2026-04-24 07:27:28,497 : INFO : ball_device.bd_vuk_upper : State: idle
+2026-04-24 07:27:28,497 : INFO : ball_device.bd_b_lock : BCH: Initial count: 0
+2026-04-24 07:27:28,497 : INFO : ball_device.bd_b_lock : State: idle
+2026-04-24 07:27:28,500 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2026-04-24 07:27:28,501 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2026-04-24 07:27:28,501 : INFO : BallController : Initial balls found: 0
+2026-04-24 07:27:28,502 : ERROR : asyncio : Exception in callback EventManager._queue_task_done(<Task finishe...upper_pf_t>")>)
+handle: <Handle EventManager._queue_task_done(<Task finishe...upper_pf_t>")>)>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/events.py", line 795, in _queue_task_done
+    future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/devices/light.py", line 136, in _check_duplicate_light_numbers
+    raise ConfigFileError(f"Duplicate number {type(driver)} {driver.number} for light {light}",
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in light: Duplicate number <class 'mpf.platforms.virtual.VirtualLight'> led-pf_back-1-10-r for light <light.l_upper_pf_t> Context: (None, 'led-pf_back-1-10-r', <class 'mpf.platforms.virtual.VirtualLight'>) Error Code: CFE-light-10 (https://missionpinball.org/logs)
+2026-04-24 07:27:28,506 : INFO : Machine : Starting the main run loop.
+2026-04-24 07:27:28,506 : INFO : Machine : Shutting down...
+2026-04-24 07:27:28,506 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-04-24 07:27:29,508 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/machine.py", line 793, in _run_loop
+    raise self._exception['exception']
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/events.py", line 795, in _queue_task_done
+    future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/devices/light.py", line 136, in _check_duplicate_light_numbers
+    raise ConfigFileError(f"Duplicate number {type(driver)} {driver.number} for light {light}",
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in light: Duplicate number <class 'mpf.platforms.virtual.VirtualLight'> led-pf_back-1-10-r for light <light.l_upper_pf_t> Context: (None, 'led-pf_back-1-10-r', <class 'mpf.platforms.virtual.VirtualLight'>) Error Code: CFE-light-10 (https://missionpinball.org/logs)
+2026-04-24 07:27:29,511 : INFO : root : MPF run loop ended.

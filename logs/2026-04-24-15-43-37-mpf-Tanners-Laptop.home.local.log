@@ -1,0 +1,1041 @@
+2026-04-24 15:43:37,866 : INFO : root : Loading config.
+2026-04-24 15:43:37,867 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-04-24 15:43:37,867 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/9d21ea9a81fcfc5941f8ed75c4a080eb.mpf_cache
+2026-04-24 15:43:37,895 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/43115b802accf167344a214047a50cd4.mpf_cache
+2026-04-24 15:43:37,896 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/bd1387dfa7de7ffc5bacad015019c743.mpf_cache
+2026-04-24 15:43:37,896 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/d126ded0bd5e51d3c29826a335e85340.mpf_cache
+2026-04-24 15:43:37,896 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/be96f90f770b10caeac161802eebb966.mpf_cache
+2026-04-24 15:43:37,897 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/43115b802accf167344a214047a50cd4.mpf_cache
+2026-04-24 15:43:37,897 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/fb286bdec51e83b76c44a07e18af10e7.mpf_cache
+2026-04-24 15:43:37,897 : WARNING : ConfigProcessor : Config file in cache changed: /Users/tannerpetch/Documents/GitHub/trashland_3/modes/misc_drop_bank/config/misc_drop_bank.yaml
+2026-04-24 15:43:37,897 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/trashland_3/modes/misc_drop_bank/config/misc_drop_bank.yaml.
+2026-04-24 15:43:37,898 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/trashland_3/modes/misc_drop_bank/config/misc_drop_bank.yaml
+2026-04-24 15:43:37,898 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/4a0392f72066fff3dac8952634b7a9cd.mpf_cache
+2026-04-24 15:43:37,898 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/9740e98676f8796777039fba8e7d5e82.mpf_cache
+2026-04-24 15:43:37,900 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/a181a17d50eb4ab7db55e27ff85926c7.mpf_cache
+2026-04-24 15:43:37,900 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/a4506495691bdf3563a8fd11a9d79f10.mpf_cache
+2026-04-24 15:43:37,900 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/7e62a906c63d3b7efc85393a80e94c06.mpf_cache
+2026-04-24 15:43:37,901 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/ca66b8f571437747b2f2875349d15af7.mpf_cache
+2026-04-24 15:43:37,901 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/eeaf33bcbaf1c79f59b4ab00525b4fda.mpf_cache
+2026-04-24 15:43:37,901 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev14
+2026-04-24 15:43:37,901 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2026-04-24-15-43-37-mpf-Tanners-Laptop.home.local.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'full_logfile_path': '/Users/tannerpetch/Documents/GitHub/trashland_3/logs/2026-04-24-15-43-37-mpf-Tanners-Laptop.home.local.log'}
+2026-04-24 15:43:37,901 : INFO : Machine : MPF path: /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf
+2026-04-24 15:43:37,901 : INFO : Machine : Machine path: /Users/tannerpetch/Documents/GitHub/trashland_3
+2026-04-24 15:43:37,901 : INFO : Machine : Platform: darwin
+2026-04-24 15:43:37,901 : INFO : Machine : Python executable location: /Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11
+2026-04-24 15:43:37,901 : INFO : Machine : Python version: 3.11.9 (64-bit)
+2026-04-24 15:43:37,902 : INFO : Machine : Initializing MPF...
+2026-04-24 15:43:37,924 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,930 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,930 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 310, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,930 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev14', 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,930 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev14, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,930 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.11.9', 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,938 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-14.3-arm64-arm-64bit', 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,938 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,938 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '23.3.0', 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,938 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 23.3.0: Thu Dec 21 02:29:41 PST 2023; root:xnu-10002.81.5~11/RELEASE_ARM64_T8122', 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,938 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'arm64', 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,938 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/Users/tannerpetch/Documents/GitHub/trashland_3/logs/2026-04-24-15-43-37-mpf-Tanners-Laptop.home.local.log', 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,938 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2026-04-24 15:43:37,962 : INFO : EventManager : Event: ======'drop_target_bank_dt_single_up'====== Args={}
+2026-04-24 15:43:37,962 : INFO : EventManager : Event: ======'drop_target_bank_dt_bank_up'====== Args={}
+2026-04-24 15:43:37,962 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2026-04-24 15:43:37,964 : INFO : ball_device.bd_scoop : BCH: Initial count: 0
+2026-04-24 15:43:37,964 : INFO : ball_device.bd_scoop : State: idle
+2026-04-24 15:43:37,964 : INFO : ball_device.bd_trough : BCH: Initial count: 0
+2026-04-24 15:43:37,965 : INFO : ball_device.bd_trough : State: idle
+2026-04-24 15:43:37,965 : INFO : ball_device.bd_autolauncher : BCH: Initial count: 0
+2026-04-24 15:43:37,965 : INFO : ball_device.bd_autolauncher : State: idle
+2026-04-24 15:43:37,965 : INFO : ball_device.bd_kicker_orbit : BCH: Initial count: 0
+2026-04-24 15:43:37,965 : INFO : ball_device.bd_kicker_orbit : State: idle
+2026-04-24 15:43:37,965 : INFO : ball_device.bd_lower_vuk : BCH: Initial count: 0
+2026-04-24 15:43:37,965 : INFO : ball_device.bd_lower_vuk : State: idle
+2026-04-24 15:43:37,965 : INFO : ball_device.bd_vuk_back : BCH: Initial count: 0
+2026-04-24 15:43:37,965 : INFO : ball_device.bd_vuk_back : State: idle
+2026-04-24 15:43:37,965 : INFO : ball_device.bd_vuk_upper : BCH: Initial count: 0
+2026-04-24 15:43:37,965 : INFO : ball_device.bd_vuk_upper : State: idle
+2026-04-24 15:43:37,966 : INFO : ball_device.bd_b_lock : BCH: Initial count: 0
+2026-04-24 15:43:37,966 : INFO : ball_device.bd_b_lock : State: idle
+2026-04-24 15:43:37,969 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2026-04-24 15:43:37,971 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2026-04-24 15:43:37,971 : INFO : BallController : Initial balls found: 0
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 10, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 54, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_autolauncher'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_b_eos'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_b_pop'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_b_rollover_interchange'====== Args={'value': 21, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_b_rollover_loop'====== Args={'value': 20, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_b_rollover_misc'====== Args={'value': 21, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_b_target_left'====== Args={'value': 21, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_b_target_right'====== Args={'value': 21, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_bot'====== Args={'value': 21, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_bot_mid'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_captive_l'====== Args={'value': 21, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_captive_r'====== Args={'value': 21, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_drop_l'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_drop_m'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_drop_r'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_drop_single'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_flipper_but_l_1'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_flipper_but_l_2'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_flipper_but_r_1'====== Args={'value': 10, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_flipper_but_r_2'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_flipper_l'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_flipper_r'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_flipper_upper_l'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_inlane_l'====== Args={'value': 52, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_inlane_r'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_kicker_orbit'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_kicking_target'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_launch'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_lock_1'====== Args={'value': 25, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_lock_2'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_lock_3'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_lower_orbit'====== Args={'value': 21, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_lower_single'====== Args={'value': 21, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_lower_sling'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_lower_transfer'====== Args={'value': 21, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_lower_vuk'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_middle_scoop'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_orbit_small_l'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_orbit_small_r'====== Args={'value': 21, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_outlane_l'====== Args={'value': 54, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_outlane_r'====== Args={'value': 54, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_pop'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_scissor_save'====== Args={'value': 21, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_sling_l'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_start'====== Args={'value': 21, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_stationary_l'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_stationary_m'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_stationary_r'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_subway'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_tilt'====== Args={'value': 21, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_top'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_top_mid'====== Args={'value': 21, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_1'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_2'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_3'====== Args={'value': 13, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,972 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_4'====== Args={'value': 10, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_5'====== Args={'value': 20, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_6'====== Args={'value': 20, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_jam'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_u_lane_l'====== Args={'value': 21, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_u_lane_r'====== Args={'value': 21, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_u_rollover'====== Args={'value': 21, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_u_target'====== Args={'value': 21, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_vuk_back'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_vuk_upper'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 31, 'top': [310, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'total': 10}, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_shots_r_drop_behind_misc'====== Args={'value': 14, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_shots_r_drop_l_misc'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_shots_r_drop_m_misc'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_shots_r_drop_r_misc'====== Args={'value': 21, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_shots_r_orbit_small_l_base'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_shots_r_orbit_small_l_div'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_shots_r_pop'====== Args={'value': 22, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_shots_r_scoop'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_shots_r_sling_l'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_shots_r_sling_r'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_shots_r_stationary_r_div'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_autolauncher'====== Args={'value': 132, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_eos'====== Args={'value': 667, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_pop'====== Args={'value': 133, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_rollover_interchange'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_rollover_loop'====== Args={'value': 8, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_rollover_misc'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_target_left'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_target_right'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bot'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bot_mid'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_captive_l'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_captive_r'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_l'====== Args={'value': 27, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_m'====== Args={'value': 41, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_r'====== Args={'value': 28, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_single'====== Args={'value': 21, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_but_l_1'====== Args={'value': 440, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_but_l_2'====== Args={'value': 416, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_but_r_1'====== Args={'value': 793, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_but_r_2'====== Args={'value': 783, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_l'====== Args={'value': 416, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_r'====== Args={'value': 1731, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_upper_l'====== Args={'value': 393, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlane_l'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlane_r'====== Args={'value': 80, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_kicker_orbit'====== Args={'value': 188, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_kicking_target'====== Args={'value': 538, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch'====== Args={'value': 152, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lock_1'====== Args={'value': 10, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lock_2'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lock_3'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_orbit'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_single'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_sling'====== Args={'value': 8, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,973 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_transfer'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,974 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_vuk'====== Args={'value': 15, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,974 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_middle_scoop'====== Args={'value': 14, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,974 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_orbit_small_l'====== Args={'value': 38, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,974 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_orbit_small_r'====== Args={'value': 195, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,974 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_outlane_l'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,974 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_outlane_r'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,974 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop'====== Args={'value': 99, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,974 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_scissor_save'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,974 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_l'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,974 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,974 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_stationary_l'====== Args={'value': 111, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,974 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_stationary_m'====== Args={'value': 29, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,974 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_stationary_r'====== Args={'value': 35, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,974 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_subway'====== Args={'value': 168, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,974 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_tilt'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,974 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_top'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,974 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_top_mid'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,974 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_1'====== Args={'value': 101, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,974 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_2'====== Args={'value': 60, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,974 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_3'====== Args={'value': 63, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,974 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_4'====== Args={'value': 142, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,974 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_5'====== Args={'value': 48, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,974 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_6'====== Args={'value': 100, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,974 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_jam'====== Args={'value': 73, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,974 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_u_lane_l'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,974 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_u_lane_r'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,974 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_u_rollover'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,974 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_u_target'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,974 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_vuk_back'====== Args={'value': 101, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,974 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_vuk_upper'====== Args={'value': 63, 'prev_value': None, 'change': True}
+2026-04-24 15:43:37,974 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2026-04-24 15:43:37,976 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2026-04-24 15:43:37,977 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2026-04-24 15:43:37,977 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2026-04-24 15:43:37,977 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2026-04-24 15:43:37,977 : INFO : EventManager : Event: ======'diverter_d_middle_diverter_deactivating'====== Args={}
+2026-04-24 15:43:37,977 : INFO : coil.c_diverter : Disabling Driver
+2026-04-24 15:43:37,977 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2026-04-24 15:43:37,977 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2026-04-24 15:43:37,977 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2026-04-24 15:43:37,977 : INFO : Mode.attract : Started. Priority: 10
+2026-04-24 15:43:37,977 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-04-24 15:43:37,977 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2026-04-24 15:43:37,978 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2026-04-24 15:43:37,978 : INFO : Machine : Starting the main run loop with active modes: [<Mode.attract>]
+2026-04-24 15:43:38,294 : INFO : BcpServer : New client connected.
+2026-04-24 15:43:40,494 : INFO : SwitchController : <<<<<<< 's_trough_5' active >>>>>>>
+2026-04-24 15:43:41,110 : INFO : SwitchController : <<<<<<< 's_trough_4' active >>>>>>>
+2026-04-24 15:43:41,611 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 1}
+2026-04-24 15:43:41,612 : INFO : ball_device.bd_trough : Received unexpected ball
+2026-04-24 15:43:41,612 : INFO : EventManager : Event: ======'balldevice_captured_from_playfield'====== Args={'balls': 1}
+2026-04-24 15:43:41,612 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={'balls': 1}
+2026-04-24 15:43:41,612 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2026-04-24 15:43:41,612 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-04-24 15:43:41,612 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': -1, 'change': -1}
+2026-04-24 15:43:41,612 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2026-04-24 15:43:41,612 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 0, 'change': 1}
+2026-04-24 15:43:41,613 : INFO : BallController : Found a new ball which was captured from playfield. Known balls: 1
+2026-04-24 15:43:41,613 : INFO : EventManager : Event: ======'found_new_ball'====== Args={}
+2026-04-24 15:43:41,613 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'new_available_balls': 1, 'device': <ball_device.bd_trough>}
+2026-04-24 15:43:41,613 : INFO : EventManager : Event: ======'ball_drain'====== Args={'device': <ball_device.bd_trough>, 'balls': 1}
+2026-04-24 15:43:41,613 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2026-04-24 15:43:41,613 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_entered'====== Args={'new_balls': 1, 'device': <ball_device.bd_trough>}
+2026-04-24 15:43:42,426 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2026-04-24 15:43:42,526 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2026-04-24 15:43:42,527 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2026-04-24 15:43:42,527 : INFO : EventManager : Event: ======'game_start'====== Args={'buttons': [], 'hold_time': 0.10015424998709932}
+2026-04-24 15:43:42,527 : INFO : EventManager : Event: ======'mode_game_will_start'====== Args={'buttons': [], 'hold_time': 0.10015424998709932}
+2026-04-24 15:43:42,527 : INFO : EventManager : Event: ======'mode_game_starting'====== Args={'buttons': [], 'hold_time': 0.10015424998709932}
+2026-04-24 15:43:42,527 : INFO : EventManager : Event: ======'mode_attract_will_stop'====== Args={}
+2026-04-24 15:43:42,527 : INFO : EventManager : Event: ======'mode_attract_stopping'====== Args={}
+2026-04-24 15:43:42,527 : INFO : Mode.attract : Stopped.
+2026-04-24 15:43:42,527 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-04-24 15:43:42,528 : INFO : EventManager : Event: ======'mode_attract_stopped'====== Args={}
+2026-04-24 15:43:42,528 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'attract'}
+2026-04-24 15:43:42,528 : INFO : Mode.game : Started. Priority: 20
+2026-04-24 15:43:42,528 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-04-24 15:43:42,528 : INFO : EventManager : Event: ======'mode_game_started'====== Args={'buttons': [], 'hold_time': 0.10015424998709932}
+2026-04-24 15:43:42,528 : INFO : EventManager : Event: ======'game_will_start'====== Args={}
+2026-04-24 15:43:42,529 : INFO : EventManager : Event: ======'game_starting'====== Args={'game': <Mode.game>}
+2026-04-24 15:43:42,529 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('5d884271-42c0-4bbb-acb9-a5f903b90e79'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('16ead595-a030-479a-88f6-52401afcc389'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2026-04-24 15:43:42,529 : INFO : EventManager : Event: ======'player_add_request'====== Args={}
+2026-04-24 15:43:42,529 : INFO : EventManager : Event: ======'player_will_add'====== Args={'number': 1}
+2026-04-24 15:43:42,529 : INFO : EventManager : Event: ======'player_adding'====== Args={'player': <Player 1>, 'number': 1}
+2026-04-24 15:43:42,529 : INFO : EventManager : Event: ======'player_added'====== Args={'player': <Player 1>, 'num': 1}
+2026-04-24 15:43:42,529 : INFO : Mode.game : Player added successfully. Total players: 1
+2026-04-24 15:43:42,529 : INFO : EventManager : Event: ======'player_index'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2026-04-24 15:43:42,529 : INFO : EventManager : Event: ======'player_number'====== Args={'value': 1, 'prev_value': 1, 'change': 0, 'player_num': 1}
+2026-04-24 15:43:42,529 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2026-04-24 15:43:42,530 : INFO : EventManager : Event: ======'game_started'====== Args={}
+2026-04-24 15:43:42,530 : INFO : EventManager : Event: ======'player_turn_will_start'====== Args={'player': <Player 1>, 'number': 1}
+2026-04-24 15:43:42,530 : INFO : EventManager : Event: ======'player_turn_starting'====== Args={'player': <Player 1>, 'number': 1}
+2026-04-24 15:43:42,530 : INFO : EventManager : Event: ======'player_ball'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2026-04-24 15:43:42,530 : INFO : EventManager : Event: ======'player_turn_started'====== Args={'player': <Player 1>, 'number': 1}
+2026-04-24 15:43:42,532 : INFO : EventManager : Event: ======'ball_will_start'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2026-04-24 15:43:42,532 : INFO : EventManager : Event: ======'ball_starting'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2026-04-24 15:43:42,532 : INFO : EventManager : Event: ======'mode_misc_launch_shows_will_start'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2026-04-24 15:43:42,533 : INFO : EventManager : Event: ======'mode_misc_launch_shows_starting'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2026-04-24 15:43:42,533 : INFO : EventManager : Event: ======'mode_diverter_activation_will_start'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2026-04-24 15:43:42,533 : INFO : EventManager : Event: ======'player_shot_r_orbit_small_r_div_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2026-04-24 15:43:42,533 : INFO : EventManager : Event: ======'player_shot_r_orbit_small_l_div_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2026-04-24 15:43:42,533 : INFO : EventManager : Event: ======'player_shot_r_captive_l_div_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2026-04-24 15:43:42,533 : INFO : EventManager : Event: ======'player_shot_r_stationary_r_div_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2026-04-24 15:43:42,534 : INFO : EventManager : Event: ======'mode_diverter_activation_starting'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2026-04-24 15:43:42,534 : INFO : EventManager : Event: ======'mode_base_will_start'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2026-04-24 15:43:42,534 : INFO : EventManager : Event: ======'player_shot_r_orbit_small_r_base_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2026-04-24 15:43:42,534 : INFO : EventManager : Event: ======'player_shot_r_orbit_small_l_base_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2026-04-24 15:43:42,534 : INFO : EventManager : Event: ======'player_shot_r_pop_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2026-04-24 15:43:42,534 : INFO : EventManager : Event: ======'player_shot_r_sling_l_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2026-04-24 15:43:42,534 : INFO : EventManager : Event: ======'player_shot_r_sling_r_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2026-04-24 15:43:42,534 : INFO : EventManager : Event: ======'player_shot_r_scoop_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2026-04-24 15:43:42,535 : INFO : EventManager : Event: ======'mode_base_starting'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2026-04-24 15:43:42,535 : INFO : EventManager : Event: ======'mode_misc_drop_bank_will_start'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2026-04-24 15:43:42,535 : INFO : EventManager : Event: ======'player_shot_r_drop_l_misc_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2026-04-24 15:43:42,535 : INFO : EventManager : Event: ======'player_shot_r_drop_m_misc_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2026-04-24 15:43:42,535 : INFO : EventManager : Event: ======'player_shot_r_drop_r_misc_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2026-04-24 15:43:42,535 : INFO : EventManager : Event: ======'sg_drops_misc_complete'====== Args={'state': 'drop_lit'}
+2026-04-24 15:43:42,535 : INFO : EventManager : Event: ======'sg_drops_misc_drop_lit_complete'====== Args={}
+2026-04-24 15:43:42,535 : INFO : EventManager : Event: ======'mode_misc_drop_bank_starting'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2026-04-24 15:43:42,535 : INFO : EventManager : Event: ======'mode_base_gi_control_will_start'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2026-04-24 15:43:42,536 : INFO : EventManager : Unordered handler for class ConfigPlayer.show_player/shows on event ball_started with priority 100. Handlers: [RegisteredHandler(callback=<bound method ConfigPlayer.config_play_callback of ConfigPlayer.show_player/shows>, priority=100, kwargs={'calling_context': 'ball_started', 'mode': <Mode.base>, 'settings': {gi-on-None-None: {'priority': 0, 'action': 'play', 'show': None, 'speed': <NativeTemplate 1.0>, 'block_queue': False, 'start_step': <NativeTemplate 1>, 'start_running': <Template True>, 'loops': -1, 'sync_ms': None, 'manual_advance': False, 'show_queue': None, 'key': None, 'show_tokens': {}, 'events_when_played': [], 'events_when_stopped': [], 'events_when_looped': [], 'events_when_paused': [], 'events_when_resumed': [], 'events_when_advanced': [], 'events_when_stepped_back': [], 'events_when_updated': [], 'events_when_completed': []}}}, key=UUID('22f681a1-25df-4df0-aadf-c96eb046ee1b'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method ConfigPlayer.config_play_callback of ConfigPlayer.show_player/shows>, priority=100, kwargs={'calling_context': 'ball_started', 'mode': <Mode.base_gi_control>, 'settings': {gi_basic-None-None: {'loops': -1, 'show_tokens': {'gi_color_1': <NativeTemplate yellow>, 'gi_color_2': <NativeTemplate white>}, 'priority': 0, 'action': 'play', 'show': None, 'speed': <NativeTemplate 1.0>, 'block_queue': False, 'start_step': <NativeTemplate 1>, 'start_running': <Template True>, 'sync_ms': None, 'manual_advance': False, 'show_queue': None, 'key': None, 'events_when_played': [], 'events_when_stopped': [], 'events_when_looped': [], 'events_when_paused': [], 'events_when_resumed': [], 'events_when_advanced': [], 'events_when_stepped_back': [], 'events_when_updated': [], 'events_when_completed': []}}}, key=UUID('9e7d0139-985b-47ca-97a4-491bc3d3ff46'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2026-04-24 15:43:42,536 : INFO : EventManager : Event: ======'mode_base_gi_control_starting'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2026-04-24 15:43:42,536 : INFO : Mode.base_gi_control : Started. Priority: 100
+2026-04-24 15:43:42,536 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-04-24 15:43:42,536 : INFO : EventManager : Event: ======'mode_base_gi_control_started'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2026-04-24 15:43:42,536 : INFO : Mode.misc_drop_bank : Started. Priority: 100
+2026-04-24 15:43:42,536 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-04-24 15:43:42,536 : INFO : EventManager : Event: ======'mode_misc_drop_bank_started'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2026-04-24 15:43:42,536 : INFO : Mode.base : Started. Priority: 100
+2026-04-24 15:43:42,536 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-04-24 15:43:42,536 : INFO : EventManager : Event: ======'mode_base_started'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2026-04-24 15:43:42,536 : INFO : Mode.diverter_activation : Started. Priority: 101
+2026-04-24 15:43:42,536 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-04-24 15:43:42,536 : INFO : EventManager : Event: ======'mode_diverter_activation_started'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2026-04-24 15:43:42,536 : INFO : EventManager : Event: ======'player_v_right_ramp'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1, 'source': 'diverter_activation'}
+2026-04-24 15:43:42,536 : INFO : Mode.misc_launch_shows : Started. Priority: 1000
+2026-04-24 15:43:42,536 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-04-24 15:43:42,536 : INFO : EventManager : Event: ======'mode_misc_launch_shows_started'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2026-04-24 15:43:42,537 : INFO : EventManager : Event: ======'balls_in_play'====== Args={'balls': 1}
+2026-04-24 15:43:42,537 : INFO : EventManager : Event: ======'ball_started'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2026-04-24 15:43:42,537 : INFO : EventManager : Event: ======'diverter_d_middle_diverter_enabling'====== Args={'auto': False}
+2026-04-24 15:43:42,537 : INFO : drop_target_bank.dt_bank : All targets are already up. Will not reset bank.
+2026-04-24 15:43:42,540 : INFO : EventManager : Event: ======'single_player_ball_started'====== Args={}
+2026-04-24 15:43:42,540 : INFO : EventManager : Event: ======'ball_start_target'====== Args={'target': 'playfield'}
+2026-04-24 15:43:42,540 : INFO : ball_device.bd_autolauncher : Setting up player-controlled eject. Balls: 1, Target: <playfield.playfield>, player_controlled_eject_event: sw_launch
+2026-04-24 15:43:42,540 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2026-04-24 15:43:42,543 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:43:42,543 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 0}
+2026-04-24 15:43:42,543 : INFO : ball_device.bd_autolauncher : State: waiting_for_ball
+2026-04-24 15:43:42,543 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:43:42,543 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:43:42,543 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 0}
+2026-04-24 15:43:42,543 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:43:42,543 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:43:43,544 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 1}
+2026-04-24 15:43:43,546 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:43:43,546 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 1}
+2026-04-24 15:43:43,547 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:43:43,547 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:43:43,547 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 1}
+2026-04-24 15:43:43,548 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:43:43,549 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:43:44,550 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 2}
+2026-04-24 15:43:44,550 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:43:44,550 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 2}
+2026-04-24 15:43:44,551 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:43:44,551 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:43:44,551 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 2}
+2026-04-24 15:43:44,551 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:43:44,552 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:43:45,553 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 3}
+2026-04-24 15:43:45,553 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:43:45,554 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 3}
+2026-04-24 15:43:45,554 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:43:45,554 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:43:45,554 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 3}
+2026-04-24 15:43:45,554 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:43:45,555 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:43:46,555 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 4}
+2026-04-24 15:43:46,556 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:43:46,556 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 4}
+2026-04-24 15:43:46,556 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:43:46,556 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:43:46,556 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 4}
+2026-04-24 15:43:46,557 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:43:46,557 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:43:47,563 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 5}
+2026-04-24 15:43:47,567 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:43:47,568 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 5}
+2026-04-24 15:43:47,568 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:43:47,569 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:43:47,569 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 5}
+2026-04-24 15:43:47,570 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:43:47,573 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:43:48,573 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 6}
+2026-04-24 15:43:48,574 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:43:48,574 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 6}
+2026-04-24 15:43:48,575 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:43:48,575 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:43:48,575 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 6}
+2026-04-24 15:43:48,576 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:43:48,577 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:43:49,579 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 7}
+2026-04-24 15:43:49,580 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:43:49,580 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 7}
+2026-04-24 15:43:49,580 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:43:49,581 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:43:49,581 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 7}
+2026-04-24 15:43:49,581 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:43:49,581 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:43:50,582 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 8}
+2026-04-24 15:43:50,583 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:43:50,584 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 8}
+2026-04-24 15:43:50,584 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:43:50,585 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:43:50,585 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 8}
+2026-04-24 15:43:50,585 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:43:50,585 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:43:51,586 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 9}
+2026-04-24 15:43:51,588 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:43:51,589 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 9}
+2026-04-24 15:43:51,590 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:43:51,590 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:43:51,590 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 9}
+2026-04-24 15:43:51,593 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:43:51,593 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:43:52,595 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 10}
+2026-04-24 15:43:52,596 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:43:52,596 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 10}
+2026-04-24 15:43:52,597 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:43:52,597 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:43:52,597 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 10}
+2026-04-24 15:43:52,598 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:43:52,599 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:43:53,601 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 11}
+2026-04-24 15:43:53,602 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:43:53,602 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 11}
+2026-04-24 15:43:53,603 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:43:53,603 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:43:53,603 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 11}
+2026-04-24 15:43:53,604 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:43:53,604 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:43:54,605 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 12}
+2026-04-24 15:43:54,606 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:43:54,606 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 12}
+2026-04-24 15:43:54,607 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:43:54,607 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:43:54,607 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 12}
+2026-04-24 15:43:54,608 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:43:54,608 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:43:55,609 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 13}
+2026-04-24 15:43:55,611 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:43:55,612 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 13}
+2026-04-24 15:43:55,612 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:43:55,612 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:43:55,612 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 13}
+2026-04-24 15:43:55,614 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:43:55,614 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:43:56,615 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 14}
+2026-04-24 15:43:56,617 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:43:56,617 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 14}
+2026-04-24 15:43:56,618 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:43:56,618 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:43:56,618 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 14}
+2026-04-24 15:43:56,619 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:43:56,619 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:43:57,620 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 15}
+2026-04-24 15:43:57,621 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:43:57,622 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 15}
+2026-04-24 15:43:57,622 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:43:57,623 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:43:57,623 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 15}
+2026-04-24 15:43:57,623 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:43:57,624 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:43:58,625 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 16}
+2026-04-24 15:43:58,626 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:43:58,627 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 16}
+2026-04-24 15:43:58,627 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:43:58,627 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:43:58,627 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 16}
+2026-04-24 15:43:58,628 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:43:58,628 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:43:59,630 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 17}
+2026-04-24 15:43:59,631 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:43:59,631 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 17}
+2026-04-24 15:43:59,632 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:43:59,632 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:43:59,632 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 17}
+2026-04-24 15:43:59,633 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:43:59,633 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:00,633 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 18}
+2026-04-24 15:44:00,635 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:00,636 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 18}
+2026-04-24 15:44:00,636 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:00,637 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:00,637 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 18}
+2026-04-24 15:44:00,639 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:00,639 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:01,641 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 19}
+2026-04-24 15:44:01,645 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:01,645 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 19}
+2026-04-24 15:44:01,646 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:01,646 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:01,646 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 19}
+2026-04-24 15:44:01,647 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:01,648 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:02,649 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 20}
+2026-04-24 15:44:02,650 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:02,651 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 20}
+2026-04-24 15:44:02,651 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:02,651 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:02,651 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 20}
+2026-04-24 15:44:02,652 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:02,653 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:03,653 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 21}
+2026-04-24 15:44:03,655 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:03,656 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 21}
+2026-04-24 15:44:03,657 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:03,657 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:03,657 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 21}
+2026-04-24 15:44:03,658 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:03,659 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:04,660 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 22}
+2026-04-24 15:44:04,661 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:04,661 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 22}
+2026-04-24 15:44:04,662 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:04,662 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:04,662 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 22}
+2026-04-24 15:44:04,663 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:04,663 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:05,664 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 23}
+2026-04-24 15:44:05,666 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:05,666 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 23}
+2026-04-24 15:44:05,667 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:05,668 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:05,668 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 23}
+2026-04-24 15:44:05,668 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:05,669 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:06,669 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 24}
+2026-04-24 15:44:06,671 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:06,671 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 24}
+2026-04-24 15:44:06,672 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:06,672 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:06,672 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 24}
+2026-04-24 15:44:06,673 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:06,674 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:07,674 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 25}
+2026-04-24 15:44:07,675 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:07,676 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 25}
+2026-04-24 15:44:07,676 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:07,676 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:07,676 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 25}
+2026-04-24 15:44:07,677 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:07,678 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:08,679 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 26}
+2026-04-24 15:44:08,680 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:08,681 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 26}
+2026-04-24 15:44:08,681 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:08,682 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:08,682 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 26}
+2026-04-24 15:44:08,683 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:08,683 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:09,685 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 27}
+2026-04-24 15:44:09,686 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:09,686 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 27}
+2026-04-24 15:44:09,687 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:09,687 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:09,688 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 27}
+2026-04-24 15:44:09,688 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:09,689 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:10,690 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 28}
+2026-04-24 15:44:10,692 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:10,692 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 28}
+2026-04-24 15:44:10,693 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:10,693 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:10,693 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 28}
+2026-04-24 15:44:10,694 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:10,695 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:11,695 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 29}
+2026-04-24 15:44:11,697 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:11,697 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 29}
+2026-04-24 15:44:11,698 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:11,699 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:11,699 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 29}
+2026-04-24 15:44:11,700 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:11,700 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:12,701 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 30}
+2026-04-24 15:44:12,703 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:12,704 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 30}
+2026-04-24 15:44:12,705 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:12,705 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:12,705 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 30}
+2026-04-24 15:44:12,707 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:12,707 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:13,708 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 31}
+2026-04-24 15:44:13,710 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:13,710 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 31}
+2026-04-24 15:44:13,711 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:13,711 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:13,712 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 31}
+2026-04-24 15:44:13,714 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:13,714 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:14,715 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 32}
+2026-04-24 15:44:14,716 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:14,717 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 32}
+2026-04-24 15:44:14,718 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:14,718 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:14,718 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 32}
+2026-04-24 15:44:14,719 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:14,719 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:15,720 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 33}
+2026-04-24 15:44:15,721 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:15,721 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 33}
+2026-04-24 15:44:15,722 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:15,722 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:15,722 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 33}
+2026-04-24 15:44:15,722 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:15,723 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:16,724 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 34}
+2026-04-24 15:44:16,725 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:16,726 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 34}
+2026-04-24 15:44:16,727 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:16,727 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:16,727 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 34}
+2026-04-24 15:44:16,728 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:16,728 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:17,730 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 35}
+2026-04-24 15:44:17,732 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:17,733 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 35}
+2026-04-24 15:44:17,733 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:17,734 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:17,734 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 35}
+2026-04-24 15:44:17,735 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:17,735 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:18,736 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 36}
+2026-04-24 15:44:18,737 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:18,738 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 36}
+2026-04-24 15:44:18,738 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:18,738 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:18,738 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 36}
+2026-04-24 15:44:18,739 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:18,739 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:19,739 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 37}
+2026-04-24 15:44:19,740 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:19,740 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 37}
+2026-04-24 15:44:19,741 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:19,741 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:19,741 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 37}
+2026-04-24 15:44:19,741 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:19,742 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:20,743 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 38}
+2026-04-24 15:44:20,744 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:20,745 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 38}
+2026-04-24 15:44:20,745 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:20,746 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:20,746 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 38}
+2026-04-24 15:44:20,746 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:20,747 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:21,747 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 39}
+2026-04-24 15:44:21,749 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:21,749 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 39}
+2026-04-24 15:44:21,749 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:21,750 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:21,750 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 39}
+2026-04-24 15:44:21,751 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:21,751 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:22,753 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 40}
+2026-04-24 15:44:22,763 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:22,763 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 40}
+2026-04-24 15:44:22,764 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:22,764 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:22,764 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 40}
+2026-04-24 15:44:22,764 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:22,765 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:23,767 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 41}
+2026-04-24 15:44:23,768 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:23,768 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 41}
+2026-04-24 15:44:23,769 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:23,770 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:23,770 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 41}
+2026-04-24 15:44:23,770 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:23,771 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:24,772 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 42}
+2026-04-24 15:44:24,773 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:24,774 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 42}
+2026-04-24 15:44:24,774 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:24,774 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:24,775 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 42}
+2026-04-24 15:44:24,776 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:24,776 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:25,778 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 43}
+2026-04-24 15:44:25,780 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:25,780 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 43}
+2026-04-24 15:44:25,780 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:25,780 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:25,780 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 43}
+2026-04-24 15:44:25,781 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:25,781 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:26,782 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 44}
+2026-04-24 15:44:26,785 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:26,785 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 44}
+2026-04-24 15:44:26,785 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:26,785 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:26,786 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 44}
+2026-04-24 15:44:26,786 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:26,787 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:27,788 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 45}
+2026-04-24 15:44:27,790 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:27,790 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 45}
+2026-04-24 15:44:27,791 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:27,791 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:27,791 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 45}
+2026-04-24 15:44:27,792 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:27,792 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:28,794 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 46}
+2026-04-24 15:44:28,795 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:28,795 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 46}
+2026-04-24 15:44:28,796 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:28,796 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:28,796 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 46}
+2026-04-24 15:44:28,797 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:28,797 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:29,799 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 47}
+2026-04-24 15:44:29,801 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:29,801 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 47}
+2026-04-24 15:44:29,802 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:29,802 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:29,803 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 47}
+2026-04-24 15:44:29,804 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:29,805 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:30,806 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 48}
+2026-04-24 15:44:30,808 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:30,808 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 48}
+2026-04-24 15:44:30,809 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:30,809 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:30,809 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 48}
+2026-04-24 15:44:30,810 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:30,811 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:31,812 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 49}
+2026-04-24 15:44:31,814 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:31,814 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 49}
+2026-04-24 15:44:31,815 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:31,815 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:31,815 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 49}
+2026-04-24 15:44:31,816 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:31,817 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:32,818 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 50}
+2026-04-24 15:44:32,820 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:32,821 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 50}
+2026-04-24 15:44:32,821 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:32,822 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:32,822 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 50}
+2026-04-24 15:44:32,822 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:32,823 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:33,824 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 51}
+2026-04-24 15:44:33,826 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:33,827 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 51}
+2026-04-24 15:44:33,827 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:33,827 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:33,827 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 51}
+2026-04-24 15:44:33,828 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:33,829 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:34,830 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 52}
+2026-04-24 15:44:34,831 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:34,831 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 52}
+2026-04-24 15:44:34,832 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:34,832 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:34,832 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 52}
+2026-04-24 15:44:34,833 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:34,834 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:35,836 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 53}
+2026-04-24 15:44:35,837 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:35,837 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 53}
+2026-04-24 15:44:35,837 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:35,837 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:35,837 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 53}
+2026-04-24 15:44:35,839 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:35,839 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:36,842 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 54}
+2026-04-24 15:44:36,843 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:36,843 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 54}
+2026-04-24 15:44:36,844 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:36,844 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:36,844 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 54}
+2026-04-24 15:44:36,845 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:36,845 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:37,848 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 55}
+2026-04-24 15:44:37,854 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:37,855 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 55}
+2026-04-24 15:44:37,859 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:37,860 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:37,860 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 55}
+2026-04-24 15:44:37,861 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:37,861 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:38,862 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 56}
+2026-04-24 15:44:38,864 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:38,864 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 56}
+2026-04-24 15:44:38,865 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:38,865 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:38,865 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 56}
+2026-04-24 15:44:38,866 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:38,866 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:39,868 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 57}
+2026-04-24 15:44:39,869 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:39,869 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 57}
+2026-04-24 15:44:39,870 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:39,870 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:39,870 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 57}
+2026-04-24 15:44:39,871 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:39,871 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:40,873 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 58}
+2026-04-24 15:44:40,876 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:40,877 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 58}
+2026-04-24 15:44:40,877 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:40,878 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:40,878 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 58}
+2026-04-24 15:44:40,879 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:40,879 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:41,880 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 59}
+2026-04-24 15:44:41,881 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:41,882 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 59}
+2026-04-24 15:44:41,883 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:41,883 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:41,883 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 59}
+2026-04-24 15:44:41,884 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:41,884 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:42,885 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 60}
+2026-04-24 15:44:42,886 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:42,887 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 60}
+2026-04-24 15:44:42,888 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:42,888 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:42,888 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 60}
+2026-04-24 15:44:42,889 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:42,890 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:43,891 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 61}
+2026-04-24 15:44:43,894 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:43,894 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 61}
+2026-04-24 15:44:43,895 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:43,895 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:43,896 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 61}
+2026-04-24 15:44:43,898 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:43,898 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:44,899 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 62}
+2026-04-24 15:44:44,901 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:44,901 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 62}
+2026-04-24 15:44:44,902 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:44,903 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:44,903 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 62}
+2026-04-24 15:44:44,904 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:44,904 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:45,905 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 63}
+2026-04-24 15:44:45,908 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:45,908 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 63}
+2026-04-24 15:44:45,909 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:45,909 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:45,909 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 63}
+2026-04-24 15:44:45,910 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:45,910 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:46,912 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 64}
+2026-04-24 15:44:46,913 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:46,914 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 64}
+2026-04-24 15:44:46,914 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:46,915 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:46,915 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 64}
+2026-04-24 15:44:46,916 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:46,917 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:47,919 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 65}
+2026-04-24 15:44:47,921 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:47,921 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 65}
+2026-04-24 15:44:47,923 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:47,924 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:47,924 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 65}
+2026-04-24 15:44:47,925 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:47,925 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:48,926 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 66}
+2026-04-24 15:44:48,929 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:48,929 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 66}
+2026-04-24 15:44:48,940 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:48,941 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:48,941 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 66}
+2026-04-24 15:44:48,942 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:48,943 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:49,943 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 67}
+2026-04-24 15:44:49,945 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:49,946 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 67}
+2026-04-24 15:44:49,946 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:49,947 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:49,947 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 67}
+2026-04-24 15:44:49,947 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:49,948 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:50,948 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 68}
+2026-04-24 15:44:50,950 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:50,950 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 68}
+2026-04-24 15:44:50,950 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:50,950 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:50,950 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 68}
+2026-04-24 15:44:50,951 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:50,951 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:51,953 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 69}
+2026-04-24 15:44:51,956 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:51,957 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 69}
+2026-04-24 15:44:51,957 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:51,957 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:51,957 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 69}
+2026-04-24 15:44:51,958 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:51,958 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:52,960 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 70}
+2026-04-24 15:44:52,962 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:52,964 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 70}
+2026-04-24 15:44:52,965 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:52,965 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:52,965 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 70}
+2026-04-24 15:44:52,965 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:52,966 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:53,966 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 71}
+2026-04-24 15:44:53,968 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:53,968 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 71}
+2026-04-24 15:44:53,969 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:53,969 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:53,969 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 71}
+2026-04-24 15:44:53,971 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:53,971 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:54,972 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 72}
+2026-04-24 15:44:54,975 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:54,975 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 72}
+2026-04-24 15:44:54,976 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:54,976 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:54,976 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 72}
+2026-04-24 15:44:54,977 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:54,978 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:55,979 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 73}
+2026-04-24 15:44:55,980 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:55,981 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 73}
+2026-04-24 15:44:55,982 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:55,982 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:55,982 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 73}
+2026-04-24 15:44:55,983 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:55,984 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:56,985 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 74}
+2026-04-24 15:44:56,987 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:56,987 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 74}
+2026-04-24 15:44:56,988 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:56,988 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:56,988 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 74}
+2026-04-24 15:44:56,989 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:56,990 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:57,991 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 75}
+2026-04-24 15:44:57,993 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:57,994 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 75}
+2026-04-24 15:44:57,994 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:57,994 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:57,994 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 75}
+2026-04-24 15:44:57,995 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:57,995 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:44:58,997 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 76}
+2026-04-24 15:44:58,998 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:44:58,998 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 76}
+2026-04-24 15:44:59,000 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:44:59,000 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:44:59,000 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 76}
+2026-04-24 15:44:59,001 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:44:59,002 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:45:00,003 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 77}
+2026-04-24 15:45:00,011 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:45:00,013 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 77}
+2026-04-24 15:45:00,013 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:45:00,014 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:45:00,014 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 77}
+2026-04-24 15:45:00,015 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:45:00,015 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:45:01,017 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 78}
+2026-04-24 15:45:01,018 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:45:01,018 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 78}
+2026-04-24 15:45:01,019 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:45:01,019 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:45:01,019 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 78}
+2026-04-24 15:45:01,020 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:45:01,021 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:45:02,022 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 79}
+2026-04-24 15:45:02,024 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:45:02,025 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 79}
+2026-04-24 15:45:02,026 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:45:02,026 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:45:02,026 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 79}
+2026-04-24 15:45:02,027 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:45:02,028 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:45:03,029 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 80}
+2026-04-24 15:45:03,030 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:45:03,031 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 80}
+2026-04-24 15:45:03,031 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:45:03,031 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:45:03,031 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 80}
+2026-04-24 15:45:03,032 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:45:03,032 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:45:04,033 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 81}
+2026-04-24 15:45:04,035 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:45:04,035 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 81}
+2026-04-24 15:45:04,035 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:45:04,036 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:45:04,036 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 81}
+2026-04-24 15:45:04,036 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:45:04,036 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:45:05,038 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 82}
+2026-04-24 15:45:05,040 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:45:05,041 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 82}
+2026-04-24 15:45:05,041 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:45:05,041 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:45:05,042 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 82}
+2026-04-24 15:45:05,042 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:45:05,042 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:45:06,044 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 83}
+2026-04-24 15:45:06,045 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:45:06,046 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 83}
+2026-04-24 15:45:06,047 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:45:06,047 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:45:06,047 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 83}
+2026-04-24 15:45:06,049 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:45:06,049 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:45:07,051 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_autolauncher>, 'balls': 1, 'retry': True, 'num_attempts': 84}
+2026-04-24 15:45:07,053 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-24 15:45:07,053 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 84}
+2026-04-24 15:45:07,055 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-24 15:45:07,055 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_autolauncher>
+2026-04-24 15:45:07,055 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_autolauncher>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 84}
+2026-04-24 15:45:07,057 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-24 15:45:07,058 : INFO : coil.c_trough : Pulsing Driver for 12ms (1.0 pulse_power)
+2026-04-24 15:45:07,982 : INFO : Machine : Shutting down...
+2026-04-24 15:45:07,982 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-04-24 15:45:07,986 : INFO : EventManager : Event: ======'mode_game_will_stop'====== Args={}
+2026-04-24 15:45:07,986 : INFO : EventManager : Event: ======'mode_game_stopping'====== Args={}
+2026-04-24 15:45:07,986 : INFO : EventManager : Event: ======'mode_base_will_stop'====== Args={}
+2026-04-24 15:45:07,986 : INFO : EventManager : Event: ======'mode_base_stopping'====== Args={}
+2026-04-24 15:45:07,986 : INFO : EventManager : Event: ======'mode_misc_launch_shows_will_stop'====== Args={}
+2026-04-24 15:45:07,986 : INFO : EventManager : Event: ======'mode_misc_launch_shows_stopping'====== Args={}
+2026-04-24 15:45:07,986 : INFO : EventManager : Event: ======'mode_misc_drop_bank_will_stop'====== Args={}
+2026-04-24 15:45:07,986 : INFO : EventManager : Event: ======'mode_misc_drop_bank_stopping'====== Args={}
+2026-04-24 15:45:07,986 : INFO : EventManager : Event: ======'mode_base_gi_control_will_stop'====== Args={}
+2026-04-24 15:45:07,986 : INFO : EventManager : Event: ======'mode_base_gi_control_stopping'====== Args={}
+2026-04-24 15:45:07,986 : INFO : EventManager : Event: ======'mode_diverter_activation_will_stop'====== Args={}
+2026-04-24 15:45:07,987 : INFO : EventManager : Event: ======'mode_diverter_activation_stopping'====== Args={}
+2026-04-24 15:45:07,987 : INFO : Mode.diverter_activation : Stopped.
+2026-04-24 15:45:07,987 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-04-24 15:45:07,987 : INFO : EventManager : Event: ======'mode_diverter_activation_stopped'====== Args={}
+2026-04-24 15:45:07,987 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'diverter_activation'}
+2026-04-24 15:45:07,988 : INFO : Mode.base_gi_control : Stopped.
+2026-04-24 15:45:07,988 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-04-24 15:45:07,988 : INFO : EventManager : Event: ======'mode_base_gi_control_stopped'====== Args={}
+2026-04-24 15:45:07,988 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'base_gi_control'}
+2026-04-24 15:45:07,988 : INFO : Mode.misc_drop_bank : Stopped.
+2026-04-24 15:45:07,988 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-04-24 15:45:07,988 : INFO : EventManager : Event: ======'mode_misc_drop_bank_stopped'====== Args={}
+2026-04-24 15:45:07,988 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'misc_drop_bank'}
+2026-04-24 15:45:07,989 : INFO : Mode.misc_launch_shows : Stopped.
+2026-04-24 15:45:07,989 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-04-24 15:45:07,989 : INFO : EventManager : Event: ======'mode_misc_launch_shows_stopped'====== Args={}
+2026-04-24 15:45:07,989 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'misc_launch_shows'}
+2026-04-24 15:45:07,989 : INFO : Mode.base : Stopped.
+2026-04-24 15:45:07,989 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-04-24 15:45:07,989 : INFO : EventManager : Event: ======'mode_base_stopped'====== Args={}
+2026-04-24 15:45:07,989 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'base'}
+2026-04-24 15:45:07,990 : INFO : Mode.game : Stopped.
+2026-04-24 15:45:07,990 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-04-24 15:45:07,990 : INFO : EventManager : Event: ======'mode_game_stopped'====== Args={}
+2026-04-24 15:45:07,990 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'game'}
+2026-04-24 15:45:07,995 : INFO : root : MPF run loop ended.

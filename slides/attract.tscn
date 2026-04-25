@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://bfenhsw486vo1"]
 
 [ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_bu23p"]
-[ext_resource type="Texture2D" uid="uid://jw1sd31k3i14" path="res://images/attract_trashland.png" id="3_y57m5"]
+[ext_resource type="Texture2D" uid="uid://cikvl5lucrscx" path="res://images/tpetch-01.png" id="2_kvomo"]
 
 [node name="Attract" type="Control"]
 layout_mode = 3
@@ -10,7 +10,13 @@ script = ExtResource("1_bu23p")
 
 [node name="Node" type="Node" parent="."]
 
-[node name="Sprite2D2" type="Sprite2D" parent="."]
-position = Vector2(648, 182)
-scale = Vector2(0.244289, 0.244289)
-texture = ExtResource("3_y57m5")
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = -27.0
+offset_top = -29.0
+offset_right = 1965.0
+offset_bottom = 1113.0
+
+[node name="Sprite2D" type="Sprite2D" parent="ColorRect"]
+position = Vector2(986, 575)
+texture = ExtResource("2_kvomo")

@@ -1,0 +1,48 @@
+2026-04-23 12:34:04,125 : INFO : root : Loading config.
+2026-04-23 12:34:04,135 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-04-23 12:34:04,136 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/9d21ea9a81fcfc5941f8ed75c4a080eb.mpf_cache
+2026-04-23 12:34:04,235 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/43115b802accf167344a214047a50cd4.mpf_cache
+2026-04-23 12:34:04,235 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/bd1387dfa7de7ffc5bacad015019c743.mpf_cache
+2026-04-23 12:34:04,236 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/d126ded0bd5e51d3c29826a335e85340.mpf_cache
+2026-04-23 12:34:04,236 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/43115b802accf167344a214047a50cd4.mpf_cache
+2026-04-23 12:34:04,237 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/fb286bdec51e83b76c44a07e18af10e7.mpf_cache
+2026-04-23 12:34:04,238 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/a4506495691bdf3563a8fd11a9d79f10.mpf_cache
+2026-04-23 12:34:04,238 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/7e62a906c63d3b7efc85393a80e94c06.mpf_cache
+2026-04-23 12:34:04,239 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/ca66b8f571437747b2f2875349d15af7.mpf_cache
+2026-04-23 12:34:04,239 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev4
+2026-04-23 12:34:04,239 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2026-04-23-12-34-04-mpf-Tanners-Laptop.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False, 'full_logfile_path': '/Users/tannerpetch/Documents/GitHub/trashland_3/logs/2026-04-23-12-34-04-mpf-Tanners-Laptop.log'}
+2026-04-23 12:34:04,239 : INFO : Machine : MPF path: /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf
+2026-04-23 12:34:04,239 : INFO : Machine : Machine path: /Users/tannerpetch/Documents/GitHub/trashland_3
+2026-04-23 12:34:04,239 : INFO : Machine : Platform: darwin
+2026-04-23 12:34:04,239 : INFO : Machine : Python executable location: /Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11
+2026-04-23 12:34:04,239 : INFO : Machine : Python version: 3.11.9 (64-bit)
+2026-04-23 12:34:04,239 : INFO : Machine : Initializing MPF...
+2026-04-23 12:34:04,374 : INFO : FAST : Auto-detecting ports for the following connections: ['net', 'exp']
+2026-04-23 12:34:04,476 : ERROR : FAST [NET] : Failed to connect to any of the specified ports.
+2026-04-23 12:34:04,477 : INFO : Machine : Shutting down...
+2026-04-23 12:34:04,477 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-04-23 12:34:04,585 : ERROR : Machine : Failed to initialize MPF
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 277, in _connect_to_hardware
+    await communicator.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/platforms/fast/communicators/base.py", line 114, in connect
+    raise SerialException(f"{self} could not connect to a serial port. Is it open in CoolTerm? ;)")
+serial.serialutil.SerialException: [FAST NET] could not connect to a serial port. Is it open in CoolTerm? ;)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/machine.py", line 675, in initialize_mpf
+    raise init.exception()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/machine.py", line 247, in initialize
+    await self.initialize_core_and_hardware()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/machine.py", line 243, in initialize_core_and_hardware
+    await self._initialize_platforms()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/machine.py", line 333, in _initialize_platforms
+    result.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 123, in initialize
+    await self._connect_to_hardware()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 284, in _connect_to_hardware
+    raise MpfRuntimeError(f"Could not open serial port {port}. Is something else connected to the port? "
+mpf.exceptions.runtime_error.MpfRuntimeError: Runtime Error in FAST: Could not open serial port net. Is something else connected to the port? Did the port number or your computer change? Do you have permissions to access the port? Error Code: RE-FAST-1 (https://missionpinball.org/logs)
+2026-04-23 12:34:04,588 : INFO : root : MPF run loop ended.

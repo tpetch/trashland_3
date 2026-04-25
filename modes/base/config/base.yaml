@@ -12,14 +12,18 @@ slide_player:
       action: remove
     base:
       action: play
+  mode_misc_launch_shows_ending:
+    launch_slide:
+      action: remove
   mode_base_ending:
     base:
       action: remove
       
-show_player:
-  ball_started: gi-on
     
-
+show_player:
+  sg_drops_misc_drop_hit_complete: 
+    drop_misc_blink_comp:
+      loops: 0
   
 
 

@@ -1,0 +1,40 @@
+#config_version=6
+
+hardware:
+  platform: fast
+
+playfields:
+  playfield:
+    default_source_device: bd_autolauncher
+    tags: default 
+
+
+fast:
+  net:
+    port: auto
+    controller: neuron
+    io_loop:
+      b_cabinet:
+        model: FP-I/O-0804
+        order: 1
+      b_lower_mini:
+        model: FP-I/O-0804
+        order: 2
+      b_main:
+        model: FP-I/O-3208
+        order: 3
+      b_middle:
+        model: FP-I/O-1616
+        order: 4
+      b_back:
+        model: FP-I/O-3208
+        order: 5
+  exp:
+    port: auto
+    boards: 
+      pf:
+        model: FP-EXP-0081
+        address: 84
+      pf_back:
+        model: FP-EXP-0071
+        address: b4

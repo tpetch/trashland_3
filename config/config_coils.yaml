@@ -1,0 +1,185 @@
+#config_version=6
+
+coils:
+
+# Board 1 - Cabinet
+
+  c_shaker:
+    number: b_cabinet-0
+    default_pulse_ms: 1
+    default_hold_power: 0.125
+    
+# Board 2 - Lower Mini
+
+
+  c_flipper_lower_l:
+    number: b_lower_mini-1
+    default_pulse_ms: 20
+    allow_enable: true
+    default_hold_power: 1
+    
+  c_flipper_lower_r:
+    number: b_lower_mini-2
+    default_pulse_ms: 20
+    allow_enable: true
+    default_hold_power: 1
+    
+  c_sling_lower:
+    number: b_lower_mini-3
+    default_pulse_ms: 10
+
+  c_lower_vuk:
+    number: b_lower_mini-0
+    default_pulse_ms: 30
+
+
+# Board 3 - Main
+
+  c_trough:
+    number: b_main-0
+    default_pulse_ms: 12
+    default_pulse_power: 1
+    
+  c_autolauncher:
+    number: b_main-1
+    default_pulse_ms: 20
+    default_pulse_power: 1
+    allow_enable: true
+    default_hold_power: 1
+
+    
+  c_flipper_l_main:
+    number: b_main-2
+    default_pulse_ms: 30
+    default_hold_power: 1
+  c_flipper_l_hold:
+    number: b_main-3
+    default_pulse_ms: 20
+    allow_enable: true
+    default_hold_power: 1
+    
+  c_flipper_r_main:
+    number: b_main-4
+    default_pulse_ms: 60
+    allow_enable: true
+    default_hold_power: 1 
+  c_flipper_r_hold:
+    number: b_main-5
+    default_pulse_ms: 20
+    allow_enable: true
+    default_hold_power: 1
+    
+
+
+  c_kicking_target:
+    number: b_middle-7
+    default_pulse_ms: 30
+    default_pulse_power: 1
+  c_pop:
+    number: b_main-7
+    default_pulse_ms: 8
+    
+
+    
+# Board 4 - Middle
+
+  c_flipper_l_upper_main:
+    number: b_middle-9
+    allow_enable: true
+    default_hold_power: 1
+    default_pulse_power: 1
+    default_pulse_ms: 30
+
+  c_flipper_l_upper_hold:
+    number: b_middle-8
+    default_pulse_ms: 20
+    allow_enable: true
+    default_hold_power: 1
+    default_pulse_power: 1
+    
+  c_inlane_post:
+    number: b_middle-10
+    allow_enable: true
+    default_hold_power: 0.25
+    default_pulse_power: 1
+    default_pulse_ms: 10
+    
+  c_sling_l:
+    number: b_middle-11
+    default_pulse_power: 1
+    default_pulse_ms: 15
+    
+  c_drop_reset:
+    number: b_middle-14
+    default_pulse_power: 1
+    default_pulse_ms: 20
+  c_drop_release:
+    number: b_middle-12
+    default_pulse_power: 0.75
+    default_pulse_ms: 10
+    
+  c_kicker_orbit:
+    number: b_middle-15
+    default_pulse_power: 1
+    default_pulse_ms: 20
+    
+  c_diverter:
+    number: b_middle-13
+    allow_enable: true
+    default_hold_power: 0.5
+    default_pulse_power: 1
+    default_pulse_ms: 20
+    
+    
+    
+  c_scoop:
+    number: b_middle-2
+    default_pulse_power: 1
+    default_pulse_ms: 20
+    
+
+  c_drop_single:
+    number: b_middle-1
+    default_pulse_power: 1
+    default_pulse_ms: 60
+  c_drop_single_release:
+    number: b_middle-0
+    default_pulse_power: 0.75
+    default_pulse_ms: 20
+    
+# Board 5 - Back + Upper
+
+  c_vuk_back:
+   number: b_back-1
+   default_pulse_ms: 30
+   default_pulse_power: 1
+
+
+  c_b_flipper_main:
+    number: b_back-3
+    default_pulse_power: 1
+    default_pulse_ms: 20
+  c_b_flipper_hold:
+    number: b_back-4
+    allow_enable: true
+    default_hold_power: 1
+    
+  c_b_lock:
+    number: b_back-5
+    allow_enable: true
+    default_pulse_power: 0.7
+    default_pulse_ms: 100
+    
+  c_b_pop:
+    number: b_back-6
+    default_pulse_ms: 20
+    
+  c_u_flipper:
+    number: b_back-0
+    allow_enable: true
+    default_hold_power: 0.5
+    
+  c_vuk_upper:
+    number: b_back-7
+    default_pulse_power: 1
+    default_pulse_ms: 30
