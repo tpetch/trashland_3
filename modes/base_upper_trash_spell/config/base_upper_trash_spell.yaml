@@ -78,7 +78,7 @@ shows:
         (led): yellow
       duration: 600ms
     - lights:
-        (led): GreenYellow-f200ms
+        (led): GreenYellow
       duration: 200ms
 
   trash-t:
@@ -86,13 +86,13 @@ shows:
         l_upper_pf_t: green
       duration: 600ms
     - lights:
-        l_upper_pf_t: GreenYellow-f200ms
+        l_upper_pf_t: GreenYellow
       duration: 200ms
     - lights:
-        l_upper_pf_t: YellowGreen-f200ms
+        l_upper_pf_t: YellowGreen
       duration: 400ms
     - lights:
-        l_upper_pf_t: green-f100ms
+        l_upper_pf_t: green
       duration: 100ms
 
   trash-r:
@@ -101,16 +101,16 @@ shows:
         l_upper_pf_r: GreenYellow
       duration: 600ms
     - lights:
-        l_upper_pf_t: GreenYellow-f200ms
-        l_upper_pf_r: YellowGreen-f200ms
+        l_upper_pf_t: GreenYellow
+        l_upper_pf_r: YellowGreen
       duration: 200ms
     - lights:
-        l_upper_pf_t: YellowGreen-f200ms
-        l_upper_pf_r: green-f200ms
+        l_upper_pf_t: YellowGreen
+        l_upper_pf_r: green
       duration: 400ms
     - lights:
-        l_upper_pf_t: green-f100ms
-        l_upper_pf_r: GreenYellow-f100ms
+        l_upper_pf_t: green
+        l_upper_pf_r: GreenYellow
       duration: 100ms
 
   trash-a:
@@ -120,19 +120,19 @@ shows:
         l_upper_pf_a: YellowGreen
       duration: 600ms
     - lights:
-        l_upper_pf_t: GreenYellow-f200ms
-        l_upper_pf_r: YellowGreen-f200ms
-        l_upper_pf_a: green-f200ms
+        l_upper_pf_t: GreenYellow
+        l_upper_pf_r: YellowGreen
+        l_upper_pf_a: green
       duration: 200ms
     - lights:
-        l_upper_pf_t: YellowGreen-f200ms
-        l_upper_pf_r: green-f200ms
-        l_upper_pf_a: GreenYellow-f200ms
+        l_upper_pf_t: YellowGreen
+        l_upper_pf_r: green
+        l_upper_pf_a: GreenYellow
       duration: 400ms
     - lights:
-        l_upper_pf_t: green-f100ms
-        l_upper_pf_r: GreenYellow-f100ms
-        l_upper_pf_a: YellowGreen-f100ms
+        l_upper_pf_t: green
+        l_upper_pf_r: GreenYellow
+        l_upper_pf_a: YellowGreen
       duration: 100ms
 
   trash-s:
@@ -143,22 +143,22 @@ shows:
         l_upper_pf_s: green
       duration: 600ms
     - lights:
-        l_upper_pf_t: GreenYellow-f200ms
-        l_upper_pf_r: YellowGreen-f200ms
-        l_upper_pf_a: green-f200ms
-        l_upper_pf_s: GreenYellow-f200ms
+        l_upper_pf_t: GreenYellow
+        l_upper_pf_r: YellowGreen
+        l_upper_pf_a: green
+        l_upper_pf_s: GreenYellow
       duration: 200ms
     - lights:
-        l_upper_pf_t: YellowGreen-f200ms
-        l_upper_pf_r: green-f200ms
-        l_upper_pf_a: GreenYellow-f200ms
-        l_upper_pf_s: YellowGreen-f200ms
+        l_upper_pf_t: YellowGreen
+        l_upper_pf_r: green
+        l_upper_pf_a: GreenYellow
+        l_upper_pf_s: YellowGreen
       duration: 400ms
     - lights:
-        l_upper_pf_t: green-f100ms
-        l_upper_pf_r: GreenYellow-f100ms
-        l_upper_pf_a: YellowGreen-f100ms
-        l_upper_pf_s: green-f100ms
+        l_upper_pf_t: green
+        l_upper_pf_r: GreenYellow
+        l_upper_pf_a: YellowGreen
+        l_upper_pf_s: green
       duration: 100ms
 
   trash-h:
@@ -170,23 +170,23 @@ shows:
         l_upper_pf_h: GreenYellow
       duration: 600ms
     - lights:
-        l_upper_pf_t: GreenYellow-f200ms
-        l_upper_pf_r: YellowGreen-f200ms
-        l_upper_pf_a: green-f200ms
-        l_upper_pf_s: GreenYellow-f200ms
-        l_upper_pf_h: YellowGreen-f200ms
+        l_upper_pf_t: GreenYellow
+        l_upper_pf_r: YellowGreen
+        l_upper_pf_a: green
+        l_upper_pf_s: GreenYellow
+        l_upper_pf_h: YellowGreen
       duration: 200ms
     - lights:
-        l_upper_pf_t: YellowGreen-f200ms
-        l_upper_pf_r: green-f200ms
-        l_upper_pf_a: GreenYellow-f200ms
-        l_upper_pf_s: YellowGreen-f200ms
-        l_upper_pf_h: green-f200ms
+        l_upper_pf_t: YellowGreen
+        l_upper_pf_r: green
+        l_upper_pf_a: GreenYellow
+        l_upper_pf_s: YellowGreen
+        l_upper_pf_h: green
       duration: 400ms
     - lights:
-        l_upper_pf_t: green-f100ms
-        l_upper_pf_r: GreenYellow-f100ms
-        l_upper_pf_a: YellowGreen-f100ms
-        l_upper_pf_s: green-f100ms
-        l_upper_pf_h: GreenYellow-f100ms
+        l_upper_pf_t: green
+        l_upper_pf_r: GreenYellow
+        l_upper_pf_a: YellowGreen
+        l_upper_pf_s: green
+        l_upper_pf_h: GreenYellow
       duration: 100ms
