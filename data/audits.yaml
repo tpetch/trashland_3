@@ -1,49 +1,75 @@
 events:
   game_ended: 11
-  game_started: 96
+  game_started: 98
 missing_switches:
-  s_b_rollover_interchange: 63
-  s_b_rollover_loop: 62
-  s_b_rollover_misc: 63
-  s_b_target_left: 63
-  s_b_target_right: 63
-  s_bot: 63
-  s_bot_mid: 61
-  s_captive_l: 63
-  s_captive_r: 63
-  s_drop_l: 4
-  s_drop_m: 4
-  s_drop_single: 61
-  s_inlane_l: 94
-  s_kicker_orbit: 4
-  s_kicking_target: 61
-  s_lower_orbit: 63
-  s_lower_single: 63
-  s_lower_sling: 61
-  s_lower_transfer: 63
-  s_lower_vuk: 61
-  s_orbit_small_r: 63
-  s_outlane_l: 96
-  s_outlane_r: 96
-  s_scissor_save: 63
-  s_sling_l: 61
-  s_start: 63
-  s_stationary_m: 61
-  s_stationary_r: 61
-  s_subway: 61
-  s_tilt: 63
-  s_top: 61
-  s_top_mid: 63
-  s_trough_5: 2
-  s_trough_6: 62
-  s_u_bot_escape: 16
-  s_u_exit: 16
+  s_autolauncher: 2
+  s_b_eos: 2
+  s_b_pop: 2
+  s_b_rollover_interchange: 65
+  s_b_rollover_loop: 64
+  s_b_rollover_misc: 65
+  s_b_target_left: 65
+  s_b_target_right: 65
+  s_bot: 65
+  s_bot_mid: 63
+  s_captive_r: 65
+  s_drop_l: 6
+  s_drop_m: 6
+  s_drop_r: 2
+  s_drop_single: 63
+  s_flipper_but_l_1: 2
+  s_flipper_but_l_2: 2
+  s_flipper_but_r_1: 2
+  s_flipper_but_r_2: 2
+  s_flipper_l: 2
+  s_flipper_r: 2
+  s_flipper_upper_l: 2
+  s_inlane_l: 96
+  s_inlane_r: 2
+  s_kicker_orbit: 6
+  s_kicking_target: 63
+  s_launch: 2
+  s_lock_1: 2
+  s_lock_2: 2
+  s_lock_3: 2
+  s_lower_orbit: 65
+  s_lower_single: 65
+  s_lower_sling: 63
+  s_lower_transfer: 65
+  s_lower_vuk: 63
+  s_middle_scoop: 2
+  s_orbit_small_l: 2
+  s_orbit_small_r: 65
+  s_outlane_l: 98
+  s_outlane_r: 98
+  s_pop: 2
+  s_scissor_save: 65
+  s_sling_l: 63
+  s_start: 65
+  s_stationary_l: 2
+  s_stationary_m: 63
+  s_stationary_r: 63
+  s_subway: 63
+  s_tilt: 65
+  s_top: 63
+  s_top_mid: 65
+  s_trough_1: 2
+  s_trough_2: 2
+  s_trough_3: 2
+  s_trough_4: 2
+  s_trough_5: 4
+  s_trough_6: 64
+  s_trough_jam: 2
+  s_u_bot_escape: 18
+  s_u_exit: 18
   s_u_lane_l: 47
   s_u_lane_r: 47
-  s_u_ramp: 16
-  s_u_rollover: 1
+  s_u_ramp: 18
+  s_u_rollover: 3
   s_u_target: 47
-  s_u_top_escape: 3
+  s_u_top_escape: 5
+  s_vuk_back: 2
+  s_vuk_upper: 2
 player:
   score:
     average: 33
@@ -60,6 +86,7 @@ player:
     - 0
     total: 11
 shots:
+  r_captive_l_div: 2
   r_drop_behind_misc: 41
   r_drop_l_misc: 51
   r_drop_m_misc: 51
@@ -85,7 +112,7 @@ switches:
   s_b_target_right: 1
   s_bot: 1
   s_bot_mid: 6
-  s_captive_l: 1
+  s_captive_l: 3
   s_captive_r: 1
   s_drop_l: 63
   s_drop_m: 77

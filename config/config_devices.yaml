@@ -133,6 +133,9 @@ autofire_coils:
   ac_kicking_target:
     coil: c_kicking_target
     switch: s_kicking_target
+    timeout_disable_time: 500ms
+    timeout_max_hits: 2
+    timeout_watch_time: 800ms
   
   ac_sling_l:
     coil: c_sling_l
@@ -153,5 +156,5 @@ diverters:
     type: hold
     activation_time: 6s
     activate_events: diverter_activate
-    enable_events: ball_started
-    disable_events: ball_ended
+    enable_events: ball_started, timer_t_diverter_reactivate_complete
+    disable_events: diverter_d_middle_diverter_deactivating
