@@ -76,7 +76,7 @@ lights:
     tags: gi, main_gi, main
   l_scissor_save:
     number: pf-1-25
-    tags: 
+    tags: playfield
   l_achieve_circle_bot_l:
     number: pf-1-26
     tags: playfield
@@ -124,35 +124,38 @@ lights:
   l_lower_d:
     number: pf-2-8
     tags: playfield, lower_playfield, lower
-  l_lower_n:
+  l_lower_sling:
     number: pf-2-9
     tags: playfield, lower_playfield, lower
-  l_lower_a:
+  l_lower_n:
     number: pf-2-10
     tags: playfield, lower_playfield, lower
-  l_lower_l:
+  l_lower_a:
     number: pf-2-11
     tags: playfield, lower_playfield, lower
-  l_gi_2_1:
+  l_lower_l:
     number: pf-2-12
+    tags: playfield, lower_playfield, lower
+  l_gi_2_1:
+    number: pf-2-13
     tags: gi, lower_gi, lower
   l_lower_stadium_1:
-    number: pf-2-13
-    tags: gi, lower_gi, lower_stadium, lower
-  l_lower_stadium_2:
     number: pf-2-14
     tags: gi, lower_gi, lower_stadium, lower
-  l_lower_stadium_3:
+  l_lower_stadium_2:
     number: pf-2-15
     tags: gi, lower_gi, lower_stadium, lower
-  l_lower_stadium_4:
+  l_lower_stadium_3:
     number: pf-2-16
     tags: gi, lower_gi, lower_stadium, lower
-  l_lower_stadium_5:
+  l_lower_stadium_4:
     number: pf-2-17
     tags: gi, lower_gi, lower_stadium, lower
-  l_lower_stadium_6:
+  l_lower_stadium_5:
     number: pf-2-18
+    tags: gi, lower_gi, lower_stadium, lower
+  l_lower_stadium_6:
+    number: pf-2-19
     tags: gi, lower_gi, lower_stadium, lower
     
   l_character_3_mode_2-5:
@@ -260,6 +263,7 @@ lights:
     tags: gi, main_gi, main
   l_gi_6_2:
     number: pf-6-2
+    type: grb
     tags: gi, main_gi, main
   l_rollover_r_1:
     number: pf-6-3
@@ -275,6 +279,7 @@ lights:
     tags: playfield, rollover, main, main_playfield
   l_gi_6_3:
     number: pf-6-7
+    type: grb
     tags: gi, main_gi, main
   l_gi_6_4:
     number: pf-6-8
@@ -327,16 +332,16 @@ lights:
   l_inlane_r:
     number: pf-6-24
     tags: playfield, rectangle, oval, main, main_playfield, inlane, lane
-  l_gi_6_12:
+  l_sling_r_1:
     number: pf-6-25
-    tags: gi, main_gi, main
-  l_gi_6_13:
+    tags: playfield
+  l_sling_r_2:
     number: pf-6-26
-    tags: gi, main_gi, main
-  l_gi_6_14:
+    tags: playfield
+  l_gi_6_12:
     number: pf-6-27
     tags: gi, main_gi, main
-  l_gi_6_15:
+  l_gi_6_13:
     number: pf-6-28
     tags: gi, main_gi, main
   l_name:
@@ -461,6 +466,7 @@ lights:
   l_gi_8_1:
     number: pf-8-5
     tags: gi, main_gi, main
+    type: grb
   l_gi_8_2:
     number: pf-8-6
     tags: gi, main_gi, main
