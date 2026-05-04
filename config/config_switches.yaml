@@ -173,14 +173,14 @@ switches:
     type: 'NC'
     
   s_u_rollover:
-    number: b_back-8
+    number: b_back-16
   s_u_bot_escape:
-    number: b_back-9
+    number: b_back-17
   s_u_top_escape:
-    number: b_back-10
+    number: b_back-18
   s_u_exit:
-    number: b_back-11
+    number: b_back-19
   s_u_ramp:
-    number: b_back-12
+    number: b_back-20
 
 
