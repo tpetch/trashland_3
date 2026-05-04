@@ -511,6 +511,7 @@ lights:
     tags: gi, main_gi, main
   l_gi_8_5:
     number: pf-8-20
+    type: grb
     tags: gi, main_gi, main
   l_rollover_l_1:
     number: pf-8-21
