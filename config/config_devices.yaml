@@ -14,7 +14,7 @@ ball_devices:
     eject_timeouts: 1s
     tags: trough, home, drain
     jam_switch: s_trough_jam
-    eject_coil_jam_pulse: 15ms
+    eject_coil_jam_pulse: 10ms
     eject_targets: bd_autolauncher
     
   bd_autolauncher:
@@ -48,7 +48,7 @@ ball_devices:
   bd_b_lock:
     ball_switches: s_lock_1, s_lock_1, s_lock_1
     eject_coil: c_b_lock
-    eject_timeouts: 2s
+    eject_timeouts: 500ms
     
 flippers:
 
