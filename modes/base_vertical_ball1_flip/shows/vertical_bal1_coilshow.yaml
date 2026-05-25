@@ -49,8 +49,8 @@
       l_top_ring_5: off
       l_top_ring_8: off
 - duration: 100ms
-  coils:
-      c_b_flipper_main: pulse
+  events:
+      flip_upper_flipper:
   lights:
       l_top_ring_2: green
       l_top_ring_5: green
@@ -69,8 +69,8 @@
       l_bot_ring_1: off
       l_bot_ring_4: off
       l_bot_ring_7: off
-  coils:
-      c_b_flipper_main: pulse
+  events:
+      flip_upper_flipper:
 
 
 
