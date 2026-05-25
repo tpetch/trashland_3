@@ -1,17 +1,58 @@
 #show_version=6 
  
-    - lights:
-        l_drop_r: yellow
-        l_drop_m: yellow
-        l_drop_l: yellow
-      duration: 500ms
-    - lights:
-        l_drop_r: white
-        l_drop_m: yellow
-        l_drop_l: yellow
-      duration: 200ms
-    - lights:
-        l_drop_r: green
-        l_drop_m: green
-        l_drop_l: green
-      duration: 500ms
+- duration: 100ms
+  lights:
+      l_top_ring_1: green
+      l_top_ring_4: green
+      l_top_ring_7: green
+
+      l_bot_ring_1: off
+      l_bot_ring_4: off
+      l_bot_ring_7: off
+- duration: 100ms
+  lights:
+      l_top_ring_1: off
+      l_top_ring_4: off
+      l_top_ring_7: off
+- duration: 100ms
+  lights:
+      l_top_ring_2: green
+      l_top_ring_5: green
+      l_top_ring_8: green
+- duration: 100ms
+  lights:
+      l_top_ring_2: off
+      l_top_ring_5: off
+      l_top_ring_8: off
+- duration: 100ms
+  lights:
+      l_top_ring_1: off
+      l_top_ring_4: off
+      l_top_ring_7: off
+
+      l_bot_ring_1: yellow
+      l_bot_ring_4: yellow
+      l_bot_ring_7: yellow
+- duration: 100ms
+  lights:
+      l_bot_ring_1: off
+      l_bot_ring_4: off
+      l_bot_ring_7: off
+- duration: 100ms
+  lights:
+      l_bot_ring_2: yellow
+      l_bot_ring_5: yellow
+      l_bot_ring_8: yellow
+- duration: 100ms
+  lights:
+      l_top_ring_2: off
+      l_top_ring_5: off
+      l_top_ring_8: off
+- duration: 100ms
+  coils:
+      c_b_flipper_main: pulse
+- duration: 100ms
+  coils:
+      c_b_flipper_main: pulse
+
+

@@ -1,75 +1,73 @@
 events:
   game_ended: 11
-  game_started: 98
+  game_started: 100
 missing_switches:
-  s_autolauncher: 2
-  s_b_eos: 2
-  s_b_pop: 2
-  s_b_rollover_interchange: 65
-  s_b_rollover_loop: 64
-  s_b_rollover_misc: 65
-  s_b_target_left: 65
-  s_b_target_right: 65
-  s_bot: 65
-  s_bot_mid: 63
-  s_captive_r: 65
-  s_drop_l: 6
-  s_drop_m: 6
-  s_drop_r: 2
-  s_drop_single: 63
-  s_flipper_but_l_1: 2
-  s_flipper_but_l_2: 2
-  s_flipper_but_r_1: 2
-  s_flipper_but_r_2: 2
-  s_flipper_l: 2
-  s_flipper_r: 2
-  s_flipper_upper_l: 2
-  s_inlane_l: 96
-  s_inlane_r: 2
-  s_kicker_orbit: 6
-  s_kicking_target: 63
-  s_launch: 2
-  s_lock_1: 2
-  s_lock_2: 2
-  s_lock_3: 2
-  s_lower_orbit: 65
-  s_lower_single: 65
-  s_lower_sling: 63
-  s_lower_transfer: 65
-  s_lower_vuk: 63
-  s_middle_scoop: 2
-  s_orbit_small_l: 2
-  s_orbit_small_r: 65
-  s_outlane_l: 98
-  s_outlane_r: 98
-  s_pop: 2
-  s_scissor_save: 65
-  s_sling_l: 63
-  s_start: 65
-  s_stationary_l: 2
-  s_stationary_m: 63
-  s_stationary_r: 63
-  s_subway: 63
-  s_tilt: 65
-  s_top: 63
-  s_top_mid: 65
-  s_trough_1: 2
-  s_trough_2: 2
-  s_trough_3: 2
-  s_trough_4: 2
-  s_trough_5: 4
-  s_trough_6: 64
-  s_trough_jam: 2
-  s_u_bot_escape: 18
-  s_u_exit: 18
+  s_b_eos: 4
+  s_b_pop: 4
+  s_b_rollover_interchange: 67
+  s_b_rollover_loop: 66
+  s_b_rollover_misc: 67
+  s_b_target_left: 67
+  s_b_target_right: 67
+  s_bot: 67
+  s_bot_mid: 65
+  s_captive_l: 2
+  s_captive_r: 67
+  s_drop_l: 8
+  s_drop_m: 8
+  s_drop_r: 4
+  s_drop_single: 65
+  s_flipper_but_l_1: 4
+  s_flipper_but_l_2: 4
+  s_flipper_but_r_1: 4
+  s_flipper_but_r_2: 4
+  s_flipper_l: 4
+  s_flipper_r: 4
+  s_flipper_upper_l: 4
+  s_inlane_l: 98
+  s_inlane_r: 4
+  s_kicker_orbit: 8
+  s_kicking_target: 65
+  s_lock_1: 4
+  s_lock_2: 4
+  s_lock_3: 4
+  s_lower_orbit: 67
+  s_lower_single: 67
+  s_lower_sling: 65
+  s_lower_transfer: 67
+  s_lower_vuk: 65
+  s_middle_scoop: 4
+  s_orbit_small_l: 4
+  s_orbit_small_r: 67
+  s_outlane_l: 100
+  s_outlane_r: 100
+  s_pop: 4
+  s_scissor_save: 67
+  s_sling_l: 65
+  s_start: 67
+  s_stationary_l: 4
+  s_stationary_m: 65
+  s_stationary_r: 65
+  s_subway: 65
+  s_tilt: 67
+  s_top: 65
+  s_top_mid: 67
+  s_trough_1: 4
+  s_trough_2: 4
+  s_trough_3: 4
+  s_trough_4: 4
+  s_trough_5: 6
+  s_trough_6: 66
+  s_trough_jam: 4
+  s_u_bot_escape: 20
+  s_u_exit: 20
   s_u_lane_l: 47
   s_u_lane_r: 47
-  s_u_ramp: 18
-  s_u_rollover: 3
+  s_u_ramp: 20
+  s_u_rollover: 5
   s_u_target: 47
-  s_u_top_escape: 5
-  s_vuk_back: 2
-  s_vuk_upper: 2
+  s_u_top_escape: 7
+  s_vuk_upper: 4
 player:
   score:
     average: 33
@@ -102,7 +100,7 @@ shots:
   r_top_escape_trash: 39
   r_trash_spell: 18
 switches:
-  s_autolauncher: 138
+  s_autolauncher: 140
   s_b_eos: 688
   s_b_pop: 134
   s_b_rollover_interchange: 1
@@ -129,7 +127,7 @@ switches:
   s_inlane_r: 86
   s_kicker_orbit: 222
   s_kicking_target: 538
-  s_launch: 161
+  s_launch: 163
   s_lock_1: 12
   s_lock_2: 6
   s_lock_3: 6
@@ -169,5 +167,5 @@ switches:
   s_u_rollover: 15
   s_u_target: 1
   s_u_top_escape: 39
-  s_vuk_back: 108
+  s_vuk_back: 110
   s_vuk_upper: 65
