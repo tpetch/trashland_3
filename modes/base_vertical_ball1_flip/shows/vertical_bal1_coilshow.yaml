@@ -30,9 +30,9 @@
       l_top_ring_4: off
       l_top_ring_7: off
 
-      l_bot_ring_1: yellow
-      l_bot_ring_4: yellow
-      l_bot_ring_7: yellow
+      l_bot_ring_1: green
+      l_bot_ring_4: green
+      l_bot_ring_7: green
 - duration: 100ms
   lights:
       l_bot_ring_1: off
@@ -40,9 +40,9 @@
       l_bot_ring_7: off
 - duration: 100ms
   lights:
-      l_bot_ring_2: yellow
-      l_bot_ring_5: yellow
-      l_bot_ring_8: yellow
+      l_bot_ring_2: green
+      l_bot_ring_5: green
+      l_bot_ring_8: green
 - duration: 100ms
   lights:
       l_top_ring_2: off
@@ -50,13 +50,27 @@
       l_top_ring_8: off
 - duration: 100ms
   coils:
-      c_b_flipper_main: 
-        action: pulse
-        pulse_ms: 20
+      c_b_flipper_main: pulse
+  lights:
+      l_top_ring_2: green
+      l_top_ring_5: green
+      l_top_ring_8: green
+
+      l_bot_ring_1: green
+      l_bot_ring_4: green
+      l_bot_ring_7: green
+
 - duration: 100ms
+  lights:
+      l_top_ring_2: off
+      l_top_ring_5: off
+      l_top_ring_8: off
+
+      l_bot_ring_1: off
+      l_bot_ring_4: off
+      l_bot_ring_7: off
   coils:
-      c_b_flipper_main:
-        action: pulse
-        pulse_ms: 20
+      c_b_flipper_main: pulse
+
 
 
