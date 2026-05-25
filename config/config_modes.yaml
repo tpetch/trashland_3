@@ -9,6 +9,9 @@ modes:
   - attract
   - diverter_activation
 
+  - multiball_vertical_locks
+  - multiball_vertical
+
   - misc_drop_bank
   - misc_drop_bank_lit
   - misc_launch_shows

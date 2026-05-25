@@ -46,9 +46,11 @@ ball_devices:
     eject_timeouts: 2s
     
   bd_b_lock:
-    ball_switches: s_lock_1, s_lock_1, s_lock_1
+    ball_switches: s_lock_1, s_lock_2, s_lock_3
     eject_coil: c_b_lock
-    eject_timeouts: 500ms
+    entrance_count_delay: 100ms
+    exit_count_delay: 100ms
+    eject_timeouts: 300ms
     
 flippers:
 

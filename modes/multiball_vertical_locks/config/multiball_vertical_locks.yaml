@@ -1,0 +1,16 @@
+#config_version=6
+mode:
+  start_events: ball_starting
+  stop_events: ball_ending, start_multiball_vertical
+  priority: 900
+
+
+multiball_locks:
+  vertical_mb_lock:
+    enable_events: ball_started{ball==1}
+    balls_to_lock: 3
+    lock_devices: bd_b_lock
+    balls_to_replace: 2
+
+event_player:
+  multiball_lock_vertical_mb_lock_full: start_multiball_vertical
