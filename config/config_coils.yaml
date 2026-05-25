@@ -168,7 +168,7 @@ coils:
     number: b_back-5
     allow_enable: true
     default_pulse_power: 0.7
-    default_pulse_ms: 50
+    default_pulse_ms: 100
     
   c_b_pop:
     number: b_back-6

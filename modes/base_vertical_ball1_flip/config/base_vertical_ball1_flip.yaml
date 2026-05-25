@@ -1,0 +1,15 @@
+#config_version=6
+mode:
+  start_events: ball_starting{ball==1}
+  stop_events: ball_ending
+
+ball_holds:
+  hold_vert_ball1_flip:
+    balls_to_hold: 1
+    hold_devices: bd_vuk_back
+    enable_events: ball_starting{ball==1}
+    disable_events: end_vert_ball1_flip
+    release_one_events: end_vert_ball1_flip
+
+show_player:
+  events_when_completed: end_vert_ball1_flip
