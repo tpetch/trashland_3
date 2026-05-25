@@ -66,7 +66,9 @@ flippers:
     eos_switch: s_flipper_l
     enable_events: ball_started, end_vert_ball1_flip
     disable_events: disable_upper_flip
+    sw_flip_enable: true
     sw_flip_events: flip_upper_flipper
+    sw_release_events: unflip_upper_flipper
     
   f_r:
     main_coil: c_flipper_r_main

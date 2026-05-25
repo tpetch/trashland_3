@@ -1,6 +1,8 @@
 #show_version=6 
  
 - duration: 100ms
+  events:
+    disable_upper_flip:
   lights:
       l_top_ring_1: green
       l_top_ring_4: green
@@ -51,6 +53,7 @@
 - duration: 100ms
   events:
       flip_upper_flipper:
+      unflip_upper_flipper:
   lights:
       l_top_ring_2: green
       l_top_ring_5: green
@@ -71,6 +74,7 @@
       l_bot_ring_7: off
   events:
       flip_upper_flipper:
+      unflip_upper_flipper:
 
 
 
