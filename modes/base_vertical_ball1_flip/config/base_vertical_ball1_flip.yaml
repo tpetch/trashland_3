@@ -7,7 +7,7 @@ ball_holds:
   hold_vert_ball1_flip:
     balls_to_hold: 1
     hold_devices: bd_vuk_back
-    enable_events: ball_starting{ball==1}
+    enable_events: ball_starting
     disable_events: end_vert_ball1_flip
     release_one_events: end_vert_ball1_flip
 
