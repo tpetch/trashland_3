@@ -14,3 +14,18 @@ multiball_locks:
 
 event_player:
   multiball_lock_vertical_mb_lock_full: start_multiball_vertical
+
+
+show_player:
+  ball_started:
+    vertical_multiball_blink:
+      loops: -1
+
+shows:
+  vertical_multiball_blink:
+    - lights:
+        l_vert_lock_circle: purple
+      duration: 300ms
+    - lights:
+        l_vert_lock_circle: off
+      duration: 200ms

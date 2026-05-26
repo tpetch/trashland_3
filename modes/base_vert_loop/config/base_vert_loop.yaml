@@ -1,0 +1,134 @@
+#config_version=6
+mode:
+  start_events: ball_starting
+
+
+
+shots:
+
+  r_vert_loop_base:
+    switch: s_b_rollover_loop
+    profile: sp_vert_loop_base
+
+
+shot_profiles:
+  sp_vert_loop_base:
+    states:
+      - name: loop_1
+        show: "loop_1"
+      - name: loop_2
+        show: "loop_2"
+      - name: loop_3
+        show: "loop_3"
+      - name: loop_4
+        show: "loop_4"
+      - name: loop_5
+        show: "loop_5"
+      - name: loop_finished
+        show: "loop_finished"
+
+
+show_player:
+  r_vert_loop_base_hit: 
+    vert_loop_hit_show:
+      loops: 0
+
+
+
+
+shows:
+  vert_loop_hit_show:
+    - lights:
+        l_vert_count_1: yellow
+      duration: 100ms
+    - lights:
+        l_vert_count_1: off
+        l_vert_count_2: yellow
+      duration: 100ms
+    - lights:
+        l_vert_count_2: off
+        l_vert_count_3: yellow
+      duration: 100ms
+    - lights:
+        l_vert_count_3: off
+        l_vert_count_4: yellow
+      duration: 100ms
+    - lights:
+        l_vert_count_4: off
+        l_vert_count_5: yellow
+      duration: 100ms
+    - lights:
+        l_vert_count_5: off
+      duration: 100ms
+
+  loop_1:
+    - lights:
+        l_vert_count_1: yellow
+      duration: 500ms
+    - lights:
+        l_vert_count_1: yellow%30
+      duration: 300ms
+
+  loop_2:
+    - lights:
+        l_vert_count_1: yellow
+        l_vert_count_2: yellow
+      duration: 500ms
+    - lights:
+        l_vert_count_1: yellow%30
+        l_vert_count_2: yellow%30
+      duration: 300ms
+
+  loop_3:
+    - lights:
+        l_vert_count_1: yellow
+        l_vert_count_2: yellow
+        l_vert_count_3: yellow
+      duration: 500ms
+    - lights:
+        l_vert_count_1: yellow%30
+        l_vert_count_2: yellow%30
+        l_vert_count_3: yellow%30
+      duration: 300ms
+
+  loop_4:
+    - lights:
+        l_vert_count_1: yellow
+        l_vert_count_2: yellow
+        l_vert_count_3: yellow
+        l_vert_count_4: yellow
+      duration: 500ms
+    - lights:
+        l_vert_count_1: yellow%30
+        l_vert_count_2: yellow%30
+        l_vert_count_3: yellow%30
+        l_vert_count_4: yellow%30
+      duration: 300ms
+
+  loop_5:
+    - lights:
+        l_vert_count_1: yellow
+        l_vert_count_2: yellow
+        l_vert_count_3: yellow
+        l_vert_count_4: yellow
+        l_vert_count_5: yellow
+      duration: 500ms
+    - lights:
+        l_vert_count_1: yellow%30
+        l_vert_count_2: yellow%30
+        l_vert_count_3: yellow%30
+        l_vert_count_4: yellow%30
+        l_vert_count_5: yellow%30
+      duration: 300ms
+
+  loop_finished:
+    - lights:
+        l_vert_count_1: yellow
+        l_vert_count_2: yellow
+        l_vert_count_3: yellow
+        l_vert_count_4: yellow
+        l_vert_count_5: yellow
+      duration: 500ms
+
+
+

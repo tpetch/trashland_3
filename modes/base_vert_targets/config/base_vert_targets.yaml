@@ -1,0 +1,66 @@
+#config_version=6
+mode:
+  start_events: ball_starting
+
+
+
+shots:
+
+  r_vert_right_stationary_base:
+    switch: s_b_target_right
+    profile: sp_vert_stationary_base
+    show_tokens:
+      led: l_vert_target_r
+  r_vert_left_stationary_base:
+    switch: s_b_target_left
+    profile: sp_vert_stationary_base
+    show_tokens:
+      led: l_vert_target_l
+
+
+shot_profiles:
+  sp_vert_stationary_base:
+    states:
+      - name: blinky
+        show: "vert_stationary_blink"
+      - name: solid
+        show: "vert_stationary_on"
+
+show_player:
+  r_vert_right_stationary_base_hit: 
+    vert_stationary_hit_show:
+      show_tokens:
+        led: l_vert_target_r
+      loops: 2
+
+  r_vert_left_stationary_base_hit: 
+    vert_stationary_hit_show:
+      show_tokens:
+        led: l_vert_target_l
+      loops: 2
+
+
+
+shows:
+  vert_stationary_blink:
+    - lights:
+        (led): blue
+      duration: 200ms
+    - lights:
+        (led): off
+      duration: 300ms
+
+  vert_stationary_on:
+    - lights:
+        (led): blue
+      duration: 1000ms
+
+  vert_stationary_hit_show:
+    - lights:
+        (led): blue
+      duration: 100ms
+    - lights:
+        (led): off
+      duration: 70ms
+
+
